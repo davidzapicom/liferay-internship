@@ -1,0 +1,19 @@
+javax.portlet.title.es_capgemini_proyecto_pedidoform_portlet_PedidoFormPortlet=PedidoForm
+pedidoform.encabezado=Hacer pedido del producto
+
+pedidoform.campo-obligatorio=Campo obligatorio
+
+pedidoform.input.nombre=Nombre
+pedidoform.input.email=Email
+pedidoform.input.direccion=Dirección
+pedidoform.input.codigoPostal=Código Postal
+pedidoform.input.cantidad=Cantidad
+pedidoform.input.tramitarPedido=Tramitar Pedido
+
+pedidoform.select.tipoDeVia=Tipo De Via
+pedidoform.select.pais=Pais
+pedidoform.select.provincia=Provincia
+pedidoform.select.ciudad=Ciudad
+
+pedidoform.alerta.success=Pedido tramitado!
+pedidoform.alerta.error=Ya has realizado un pedido.

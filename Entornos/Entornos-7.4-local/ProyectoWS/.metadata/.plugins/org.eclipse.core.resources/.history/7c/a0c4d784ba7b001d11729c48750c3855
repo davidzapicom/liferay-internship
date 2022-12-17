@@ -1,0 +1,8 @@
+Bundle-Name: ConsultaPedidosPortlet-portlet
+Bundle-SymbolicName: es.capgemini.proyecto.consultapedidos.portlet
+Bundle-Version: 1.0.0
+Export-Package: es.capgemini.proyecto.consultapedidos.portlet.constants
+-includeresource: \
+	@com.liferay.util.bridges-2.0.0.jar!/com/liferay/util/bridges/freemarker/FreeMarkerPortlet.class,\
+	@com.liferay.util.taglib-2.0.0.jar!/META-INF/*.tld
+-sources: true

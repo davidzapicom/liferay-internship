@@ -1,0 +1,29 @@
+<%@ include file="/init.jsp" %>
+
+<%!private static Log _log = LogFactoryUtil.getLog("PedidoFormPortlet/view.jsp");%>
+
+<%
+/* String id = ParamUtil.getString(request,"selectVia","");
+String idTest = ParamUtil.getString(request,"address",""); */
+
+%>
+
+<h3><b>Página detalle pedido realizado correctamente!!</b></h3>
+
+<%
+List<Pedidos> listaPedido = (List<Pedidos>)renderRequest.getAttribute("listaPedido");
+
+for (Pedidos p: listaPedido){
+%>
+<%=p.getId()%>
+<%=p.getIdUsuario()%>
+<%=p.getEmail()%>
+<%=p.getNombre()%>
+<p><%=p.getVia()%>/<%=p.getDireccion()%>, <%=p.getCiudad()%>. <br /> <%=p.getProvincia()%>, <%=p.getPais()%>.</p>
+<%=p.getIdProducto()%>
+<%=p.getPrecio()%>
+<%=p.getCantidad()%>
+
+<%
+}
+%>

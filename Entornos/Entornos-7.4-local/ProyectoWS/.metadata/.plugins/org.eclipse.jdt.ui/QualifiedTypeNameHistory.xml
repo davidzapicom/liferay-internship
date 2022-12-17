@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.liferay.adaptive.media.exception.AMRuntimeException.IOException"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.log.LogFactoryUtil"/>
+<fullyQualifiedTypeName name="es.capgemini.proyecto.procesopedidos.sb.model.Pedidos"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Reference"/>
+<fullyQualifiedTypeName name="es.capgemini.proyecto.procesopedidos.sb.service.PedidosLocalService"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.log.Log"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="javax.portlet.PortletException"/>
+<fullyQualifiedTypeName name="java.io.StringReader"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.servlet.SessionErrors"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.util.WebKeys"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.theme.ThemeDisplay"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.model.User"/>
+</qualifiedTypeNameHistroy>

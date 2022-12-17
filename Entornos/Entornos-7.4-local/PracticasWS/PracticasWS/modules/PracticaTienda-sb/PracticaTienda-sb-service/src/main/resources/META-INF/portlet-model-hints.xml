@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="es.capgemini.practicas.sb.tienda.model.Tienda">
+		<field name="uuid" type="String" />
+		<field name="id" type="long" />
+		<field name="nombre" type="String" />
+		<field name="direccion" type="String" />
+		<field name="pais" type="String" />
+		<field name="provincia" type="String" />
+		<field name="ciudad" type="String" />
+		<field name="codipoPostal" type="String" />
+		<field name="gerente" type="String" />
+	</model>
+</model-hints>

@@ -1,0 +1,53 @@
+<%@ include file="/init.jsp" %>
+
+<%!private static Log _log = LogFactoryUtil.getLog("PedpFormPortlet/view.jsp");%>
+
+<%
+/* String id = ParamUtil.getString(request,"selectVia","");
+String idTest = ParamUtil.getString(request,"address",""); */
+
+%>
+
+<h3><b>Página detalle pedp realizado correctamente!!</b></h3>
+
+<%
+List<Pedidos> listaPedidos = (List<Pedidos>)renderRequest.getAttribute("listaPedidos");
+
+for (Pedidos p: listaPedidos){
+	double precio = objPedido.getPrecio();
+	String precioStr = String.valueOf(precio);
+	precioStr = precioStr.replaceAll("\\.", ",");
+%>
+<div class="container py-4">
+			<div class="p-5 mb-4 bg-light rounded-3">
+				<div class="container-fluid py-5">
+					<h1 class="display-5 fw-bold"><liferay-ui:message key="detallePedp.encabezado" /> #<%=p.getId()%></h1>
+					<p class="col-md-8 fs-4"><b><liferay-ui:message key="detallePedp.descripcion" /></b></p>
+					<p class="col-md-8 fs-4"><b><liferay-ui:message key="detallePedp.id" /></b>: <%=p.getId()%></p>
+				</div>
+			</div>
+			<div class="row align-items-md-stretch">
+				<div class="col-md-6">
+					<div class="h-100 pt-3 pl-3 text-white bg-dark rounded-3">
+						<h2><b><liferay-ui:message key="detallePedp.encabezado.direccion" /></b></h2>
+						<p><%=p.getNombre()%></p>
+						<p><%=p.getDireccion()%>, <%=p.getCiudad()%>. <%=p.getCodipoPostal()%><br /> <%=p.getProvincia()%>, <%=p.getPais()%>.</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="h-80 pt-3 pl-3 bg-light border rounded-3">
+						<h2><b><liferay-ui:message key="detallePedp.encabezado.producto" /></b></h2>
+						<p><liferay-ui:message key="detallePedp.precio" />: <%precioStr%>&euro;</p>
+						<p><liferay-ui:message key="detallePedp.cantidad" />: <%=p.getCantidad()%></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<%
+}
+%>
+<%-- <%=idUsuario%>
+<%=name%>
+<%=email%>
+<%=amount%> --%>

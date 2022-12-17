@@ -1,0 +1,12 @@
+#
+#Thu Dec 15 17:12:02 CET 2022
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=ListadoTiendasPortlet-portlet;MiPrimerPortlet-portlet;MiPrimerVideoPortlet-portlet;PracticaTienda-sb;SelecMunicipiosPortlet-portlet;TiendasPortlet-portlet;TiendasRest-rest;VisualizacionContenidoPortlet-portlet;PracticaTienda-sb/PracticaTienda-sb-api;PracticaTienda-sb/PracticaTienda-sb-service
+managedNatures=
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle;build;ListadoTiendasPortlet-portlet/build;MiPrimerPortlet-portlet/build;MiPrimerVideoPortlet-portlet/build;PracticaTienda-sb/build;SelecMunicipiosPortlet-portlet/build;TiendasPortlet-portlet/build;TiendasRest-rest/build;VisualizacionContenidoPortlet-portlet/build;PracticaTienda-sb/PracticaTienda-sb-api/build;PracticaTienda-sb/PracticaTienda-sb-service/build

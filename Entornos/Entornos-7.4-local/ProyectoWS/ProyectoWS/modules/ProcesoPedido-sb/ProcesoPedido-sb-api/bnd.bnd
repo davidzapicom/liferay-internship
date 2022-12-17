@@ -1,0 +1,10 @@
+Bundle-Name: ProcesoPedido-sb-api
+Bundle-SymbolicName: es.capgemini.proyecto.procesopedido.sb.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	es.capgemini.proyecto.procesopedido.sb.exception,\
+	es.capgemini.proyecto.procesopedido.sb.model,\
+	es.capgemini.proyecto.procesopedido.sb.service,\
+	es.capgemini.proyecto.procesopedido.sb.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../ProcesoPedido-sb-service/service.xml

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="es.capgemini.proyecto.procesopedido.sb.model.Pedidos">
+		<field name="uuid" type="String" />
+		<field name="id" type="long" />
+		<field name="idUsuario" type="long" />
+		<field name="email" type="String" />
+		<field name="nombre" type="String" />
+		<field name="via" type="String" />
+		<field name="direccion" type="String" />
+		<field name="pais" type="String" />
+		<field name="provincia" type="String" />
+		<field name="ciudad" type="String" />
+		<field name="codipoPostal" type="String" />
+		<field name="idProducto" type="long" />
+		<field name="precio" type="double" />
+		<field name="cantidad" type="int" />
+	</model>
+</model-hints>

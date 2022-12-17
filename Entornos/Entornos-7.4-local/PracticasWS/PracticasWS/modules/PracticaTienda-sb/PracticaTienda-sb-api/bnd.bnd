@@ -1,0 +1,10 @@
+Bundle-Name: PracticaTienda-sb-api
+Bundle-SymbolicName: es.capgemini.practicas.sb.tienda.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	es.capgemini.practicas.sb.tienda.exception,\
+	es.capgemini.practicas.sb.tienda.model,\
+	es.capgemini.practicas.sb.tienda.service,\
+	es.capgemini.practicas.sb.tienda.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../PracticaTienda-sb-service/service.xml

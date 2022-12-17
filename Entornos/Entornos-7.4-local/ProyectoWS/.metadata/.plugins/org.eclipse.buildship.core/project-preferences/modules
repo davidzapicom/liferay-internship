@@ -1,0 +1,12 @@
+#
+#Fri Dec 16 12:54:39 CET 2022
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=ConsultaPedidosPortlet-portlet;ContactFormPortlet-portlet;HomeCarouselPortlet-portlet;HomePubIGPortlet-portlet;PedidoFormPortlet-portlet;ProcesoPedido-sb;ProcesoPedido-sb/ProcesoPedido-sb-api;ProcesoPedido-sb/ProcesoPedido-sb-service
+managedNatures=
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle;build;ConsultaPedidosPortlet-portlet/build;ContactFormPortlet-portlet/build;HomeCarouselPortlet-portlet/build;HomePubIGPortlet-portlet/build;PedidoFormPortlet-portlet/build;ProcesoPedido-sb/build;ProcesoPedido-sb/ProcesoPedido-sb-api/build;ProcesoPedido-sb/ProcesoPedido-sb-service/build

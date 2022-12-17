@@ -1,0 +1,12 @@
+#
+#Thu Dec 15 17:12:02 CET 2022
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n<classpathentry kind\="lib" path\="C\:/Users/dzapicom/.gradle/caches/modules-2/files-2.1/com.liferay.portal/release.portal.api/7.4.3.44-ga44/425c12fa8871016a8c4e22960a4c4490db4f34d4/release.portal.api-7.4.3.44-ga44.jar">\r\n\t<attributes>\r\n\t\t<attribute name\="gradle_used_by_scope" value\=""/>\r\n\t</attributes>\r\n</classpathentry>\r\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=
+managedNatures=
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle;build

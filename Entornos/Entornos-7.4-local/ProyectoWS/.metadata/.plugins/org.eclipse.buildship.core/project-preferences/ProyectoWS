@@ -1,0 +1,12 @@
+#
+#Fri Dec 16 12:54:39 CET 2022
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=modules;themes;modules/ConsultaPedidosPortlet-portlet;modules/ContactFormPortlet-portlet;modules/HomeCarouselPortlet-portlet;modules/HomePubIGPortlet-portlet;modules/PedidoFormPortlet-portlet;modules/ProcesoPedido-sb;themes/wecanbs-theme;modules/ProcesoPedido-sb/ProcesoPedido-sb-api;modules/ProcesoPedido-sb/ProcesoPedido-sb-service
+managedNatures=org.eclipse.jdt.core.javanature
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle;build;modules/build;themes/build;modules/ConsultaPedidosPortlet-portlet/build;modules/ContactFormPortlet-portlet/build;modules/HomeCarouselPortlet-portlet/build;modules/HomePubIGPortlet-portlet/build;modules/PedidoFormPortlet-portlet/build;modules/ProcesoPedido-sb/build;themes/wecanbs-theme/build_gradle;modules/ProcesoPedido-sb/ProcesoPedido-sb-api/build;modules/ProcesoPedido-sb/ProcesoPedido-sb-service/build

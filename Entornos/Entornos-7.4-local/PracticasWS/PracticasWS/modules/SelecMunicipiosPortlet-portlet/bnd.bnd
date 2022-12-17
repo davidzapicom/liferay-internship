@@ -1,0 +1,5 @@
+Bundle-Name: SelecMunicipiosPortlet-portlet
+Bundle-SymbolicName: es.capgemini.practicas.selecmunicipios.portlet
+Bundle-Version: 1.0.0
+Export-Package: es.capgemini.practicas.selecmunicipios.portlet.constants
+-sources: true

@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:ProcesoPedidos-sb:ProcesoPedidos-sb-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../ProcesoPedidos-sb-api/src/main/java"
+}
+
+group = "es.capgemini.proyecto.procesopedidos.sb"

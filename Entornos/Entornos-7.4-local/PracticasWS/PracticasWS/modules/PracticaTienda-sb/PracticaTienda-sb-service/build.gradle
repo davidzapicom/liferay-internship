@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:PracticaTienda-sb:PracticaTienda-sb-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../PracticaTienda-sb-api/src/main/java"
+}
+
+group = "es.capgemini.practicas.sb.tienda"

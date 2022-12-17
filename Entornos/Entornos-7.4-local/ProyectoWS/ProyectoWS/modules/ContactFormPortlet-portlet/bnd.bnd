@@ -1,0 +1,4 @@
+Bundle-Name: ContactFormPortlet-portlet
+Bundle-SymbolicName: es.capgemini.proyecto.contactform.portlet
+Bundle-Version: 1.0.0
+Export-Package: es.capgemini.proyecto.contactform.portlet.constants

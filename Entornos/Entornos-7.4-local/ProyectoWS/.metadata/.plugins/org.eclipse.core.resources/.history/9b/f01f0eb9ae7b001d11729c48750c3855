@@ -1,0 +1,15 @@
+<%@ include file="/init.jsp" %>
+
+<%!private static Log _log = LogFactoryUtil.getLog("PedidoFormPortlet/view.jsp");%>
+
+<%
+String idUsuario = (String)renderRequest.getAttribute("idUsuario");
+
+_log.info("ID Usuario: " +idUsuario);
+%>
+
+<h3><b>Página detalle pedido realizado correctamente!!</b></h3>
+<%-- <%=idUsuario%>
+<%=name%>
+<%=email%>
+<%=amount%> --%>

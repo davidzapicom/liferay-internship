@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.4.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_4_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="es.capgemini.proyecto.procesopedido.sb">
+	<namespace>PROYECTO_Pedidos</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	<entity local-service="true" table="PROYECTO_Pedidos" name="Pedidos" remote-service="true" uuid="true">
+
+		<!-- PK fields -->
+		<column name="id" primary="true" type="long" />
+
+		<!-- Fields -->
+		<column name="idUsuario" type="long" />
+		<column name="email" type="String" />
+		<column name="nombre" type="String" />
+		<column name="via" type="String" />
+		<column name="direccion" type="String" />
+		<column name="pais" type="String" />
+		<column name="provincia" type="String" />
+		<column name="ciudad" type="String" />
+		<column name="codipoPostal" type="String" />
+		<column name="idProducto" type="long" />
+		<column name="precio" type="double" />
+		<column name="cantidad" type="int" />
+
+		<!-- Order -->
+		<order by="asc">
+			<order-column name="nombre" />
+		</order>
+		
+		<!-- Finder methods -->
+		<finder name="Order" return-type="Collection">
+			<finder-column name="idUsuario"/>
+			<finder-column name="idProducto"/>
+		</finder>
+	</entity>
+</service-builder>

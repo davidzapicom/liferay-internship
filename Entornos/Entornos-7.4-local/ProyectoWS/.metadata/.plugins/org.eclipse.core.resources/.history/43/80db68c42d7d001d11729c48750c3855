@@ -1,0 +1,5 @@
+javax.portlet.title.es_capgemini_proyecto_consultapedidos_portlet_ConsultaPedidosPortlet=ConsultaPedidos
+listadoPedido.encabezado=Pedido
+listadoPedidos.encabezado=s
+
+detallePedido.encabezado= Pedido

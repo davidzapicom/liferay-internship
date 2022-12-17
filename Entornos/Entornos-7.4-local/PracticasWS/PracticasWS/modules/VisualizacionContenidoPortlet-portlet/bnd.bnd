@@ -1,0 +1,5 @@
+Bundle-Name: VisualizacionContenidoPortlet-portlet
+Bundle-SymbolicName: es.capgemini.practicas.visualizacioncontenido.portlet
+Bundle-Version: 1.0.0
+Export-Package: es.capgemini.practicas.visualizacioncontenido.portlet.constants
+-sources: true
