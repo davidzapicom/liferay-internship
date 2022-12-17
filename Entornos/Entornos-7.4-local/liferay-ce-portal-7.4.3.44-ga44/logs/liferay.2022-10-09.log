@@ -1,0 +1,43 @@
+2022-10-09 07:02:49.149 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -Djava.util.logging.config.file=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56 -Dcatalina.home=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56 -Djava.io.tmpdir=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp
+2022-10-09 07:02:56.973 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-10-09 07:03:00.322 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-10-09 07:03:00.884 INFO  [ModuleFramework-Static-Bundles-4][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-10-09 07:03:03.479 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-10-09 07:03:03.480 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-10-09 07:03:20.638 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-10-09 07:03:20.639 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-10-09 07:03:23.556 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-10-09 07:03:23.558 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-10-09 07:03:23.572 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-10-09 07:03:23.574 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-10-09 07:03:23.576 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-10-09 07:03:23.596 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 20 ms
+2022-10-09 07:03:23.597 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-10-09 07:03:23.600 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 3 ms
+2022-10-09 07:03:24.135 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-10-09 07:03:24.214 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 78 ms
+2022-10-09 07:03:27.231 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-10-09 07:04:02.984 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-10-09 07:04:08.610 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-10-09 07:04:08.629 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-10-09 07:04:08.659 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 31 ms
+2022-10-09 07:04:09.523 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-10-09 07:04:36.144 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-10-09 07:04:36.312 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-10-09 07:04:36.490 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-10-09 07:04:36.677 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-10-09 07:04:36.854 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-10-09 07:04:43.696 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-10-09 07:04:43.701 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-10-09 07:04:43.703 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-10-09 07:04:43.704 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-10-09 07:04:45.628 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-10-09 07:04:45.630 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-10-09 07:05:11.314 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-10-09 07:05:11.315 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-10-09 07:05:11.320 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-10-09 07:06:30.501 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-10-09 07:06:30.531 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-10-09 07:06:30.558 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-10-09 07:06:30.587 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-10-09 07:06:30.614 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered

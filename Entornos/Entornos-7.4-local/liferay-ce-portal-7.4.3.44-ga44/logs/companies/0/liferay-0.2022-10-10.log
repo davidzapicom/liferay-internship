@@ -1,0 +1,65 @@
+2022-10-10 06:26:19.920 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -Djava.util.logging.config.file=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56 -Dcatalina.home=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56 -Djava.io.tmpdir=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp
+2022-10-10 06:26:23.851 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-10-10 06:26:25.839 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-10-10 06:26:26.216 INFO  [ModuleFramework-Static-Bundles-4][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-10-10 06:26:27.832 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-10-10 06:26:27.833 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-10-10 06:26:38.991 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-10-10 06:26:38.992 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-10-10 06:26:40.937 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-10-10 06:26:40.937 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-10-10 06:26:40.946 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-10-10 06:26:40.947 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 1 ms
+2022-10-10 06:26:40.949 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-10-10 06:26:40.959 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 10 ms
+2022-10-10 06:26:40.960 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-10-10 06:26:40.961 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-10-10 06:26:41.293 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-10-10 06:26:41.335 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 42 ms
+2022-10-10 06:26:43.406 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-10-10 06:27:18.408 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-10-10 06:27:23.450 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-10-10 06:27:23.468 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-10-10 06:27:23.511 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 43 ms
+2022-10-10 06:27:24.327 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-10-10 06:27:44.510 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-10-10 06:27:44.657 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-10-10 06:27:44.773 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-10-10 06:27:44.891 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-10-10 06:27:45.004 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-10-10 16:22:21.452 WARN  [HikariPool-2 housekeeper][HikariPool:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=58m14s764ms208µs100ns).
+2022-10-10 16:22:21.452 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m14s764ms193µs600ns).
+2022-10-10 19:20:04.836 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -Djava.util.logging.config.file=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56 -Dcatalina.home=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56 -Djava.io.tmpdir=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp
+2022-10-10 19:20:11.052 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-10-10 19:20:14.245 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-10-10 19:20:14.947 INFO  [ModuleFramework-Static-Bundles-3][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-10-10 19:20:17.447 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-10-10 19:20:17.447 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-10-10 19:20:34.806 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-10-10 19:20:34.806 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-10-10 19:20:37.690 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-10-10 19:20:37.691 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-10-10 19:20:37.712 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-10-10 19:20:37.715 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-10-10 19:20:37.716 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-10-10 19:20:37.733 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 17 ms
+2022-10-10 19:20:37.734 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-10-10 19:20:37.735 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-10-10 19:20:38.274 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-10-10 19:20:38.356 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 81 ms
+2022-10-10 19:20:41.347 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-10-10 19:21:13.328 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-10-10 19:21:19.248 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-10-10 19:21:19.264 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-10-10 19:21:19.308 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 44 ms
+2022-10-10 19:21:19.986 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-10-10 19:21:29.640 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-10-10 19:21:29.925 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-10-10 19:21:30.171 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-10-10 19:21:30.388 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-10-10 19:21:33.721 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-10-10 19:26:37.488 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-10-10 19:26:37.521 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-10-10 19:26:37.549 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-10-10 19:26:37.575 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-10-10 19:26:37.601 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered

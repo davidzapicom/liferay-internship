@@ -1,0 +1,903 @@
+2022-11-09 07:57:23.536 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-09 07:57:23.539 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-09 07:57:23.540 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-09 07:57:23.540 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-09 07:57:24.766 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-09 07:57:24.766 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-09 07:57:48.328 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-09 07:57:48.329 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-09 07:57:48.331 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-11-09 07:59:14.980 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:57] null
+2022-11-09 07:59:14.980 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 07:59:14.980 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:56] null
+2022-11-09 07:59:14.982 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:187] null
+2022-11-09 07:59:14.982 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:106] null
+2022-11-09 07:59:14.982 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 07:59:14.983 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 08:17:11.282 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 08:17:11.284 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 08:17:11.286 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 08:17:14.077 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:57] Bearne
+2022-11-09 08:17:14.079 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:187] Bearne
+2022-11-09 08:17:14.081 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:217] [{"value":"Navarrenx","option":"Navarrenx"},{"value":"Orthez","option":"Orthez"},{"value":"Nay","option":"Nay"}]
+2022-11-09 08:17:22.019 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] null
+2022-11-09 08:17:22.019 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 08:17:22.021 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] null
+2022-11-09 08:17:22.023 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 08:17:22.024 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 08:17:22.046 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:57] null
+2022-11-09 08:17:22.048 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:187] null
+2022-11-09 08:17:33.364 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 08:17:33.366 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 08:17:33.367 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 08:17:34.478 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:57] Lemosin
+2022-11-09 08:17:34.480 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:187] Lemosin
+2022-11-09 08:17:34.482 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:213] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-09 08:17:36.621 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:68] Llama
+2022-11-09 08:17:36.623 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:72] david
+2022-11-09 08:17:36.625 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:76] davidzapico
+2022-11-09 08:17:36.627 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:80] asc
+2022-11-09 08:17:36.628 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:84] ac
+2022-11-09 08:17:36.629 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:88] FR
+2022-11-09 08:17:36.630 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:92] Lemosin
+2022-11-09 08:17:36.632 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:96] Curemonte
+2022-11-09 08:17:37.728 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 08:17:37.730 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 08:17:37.731 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 08:17:37.734 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 08:17:37.735 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 08:17:37.737 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 08:17:37.743 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:57] Lemosin
+2022-11-09 08:17:37.745 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:187] Lemosin
+2022-11-09 08:17:37.746 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:213] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-09 08:17:54.413 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 08:17:54.414 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 08:17:54.416 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 08:17:54.427 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:56] null
+2022-11-09 08:17:54.429 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:106] null
+2022-11-09 08:17:54.432 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:57] null
+2022-11-09 08:17:54.434 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:187] null
+2022-11-09 08:27:01.558 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 08:27:01.561 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] null
+2022-11-09 08:27:01.561 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 08:27:01.563 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:57] null
+2022-11-09 08:27:01.564 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] null
+2022-11-09 08:27:01.564 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 08:27:01.565 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:187] null
+2022-11-09 08:41:22.433 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 08:41:22.435 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 08:41:22.436 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 08:41:23.610 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:57] Lemosin
+2022-11-09 08:41:23.611 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:187] Lemosin
+2022-11-09 08:41:23.612 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:213] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-09 08:41:25.532 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:68] Llama
+2022-11-09 08:41:25.534 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:72] david
+2022-11-09 08:41:25.534 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:76] davidzapico
+2022-11-09 08:41:25.535 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:80] asc
+2022-11-09 08:41:25.536 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:84] ac
+2022-11-09 08:41:25.536 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:88] FR
+2022-11-09 08:41:25.537 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:92] Lemosin
+2022-11-09 08:41:25.538 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:96] Curemonte
+2022-11-09 08:41:26.440 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 08:41:26.441 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 08:41:26.442 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 08:41:26.443 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 08:41:26.444 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 08:41:26.445 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 08:41:26.466 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:57] Lemosin
+2022-11-09 08:41:26.467 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:187] Lemosin
+2022-11-09 08:41:26.471 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:213] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-09 08:41:29.792 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 08:41:29.793 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 08:41:29.794 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 08:41:29.796 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:56] null
+2022-11-09 08:41:29.797 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:57] null
+2022-11-09 08:41:29.798 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:106] null
+2022-11-09 08:41:29.798 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:187] null
+2022-11-09 09:12:38.947 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 09:12:38.949 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:57] null
+2022-11-09 09:12:38.951 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] null
+2022-11-09 09:12:38.951 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 09:12:38.951 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 09:12:38.952 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:187] null
+2022-11-09 09:12:38.952 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] null
+2022-11-09 09:12:45.061 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 09:12:45.062 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 09:12:45.062 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 09:12:45.904 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:57] Lemosin
+2022-11-09 09:12:45.905 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:187] Lemosin
+2022-11-09 09:12:45.906 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:213] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-09 09:12:47.604 INFO  [http-nio-8080-exec-3][TiendasAltaActionCommand:54] Llama
+2022-11-09 09:12:47.604 INFO  [http-nio-8080-exec-3][TiendasAltaActionCommand:59] david
+2022-11-09 09:12:47.605 INFO  [http-nio-8080-exec-3][TiendasAltaActionCommand:63] davidzapico
+2022-11-09 09:12:47.605 INFO  [http-nio-8080-exec-3][TiendasAltaActionCommand:67] asc
+2022-11-09 09:12:47.606 INFO  [http-nio-8080-exec-3][TiendasAltaActionCommand:71] ac
+2022-11-09 09:12:47.606 INFO  [http-nio-8080-exec-3][TiendasAltaActionCommand:75] FR
+2022-11-09 09:12:47.606 INFO  [http-nio-8080-exec-3][TiendasAltaActionCommand:79] Lemosin
+2022-11-09 09:12:47.607 INFO  [http-nio-8080-exec-3][TiendasAltaActionCommand:83] Curemonte
+2022-11-09 09:12:48.112 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 09:12:48.112 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 09:12:48.113 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 09:12:48.121 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:57] Lemosin
+2022-11-09 09:12:48.121 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 09:12:48.121 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:187] Lemosin
+2022-11-09 09:12:48.121 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 09:12:48.122 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:213] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-09 09:12:48.122 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 09:19:38.031 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:57] null
+2022-11-09 09:19:38.031 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 09:19:38.031 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:56] null
+2022-11-09 09:19:38.032 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 09:19:38.032 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:187] null
+2022-11-09 09:19:38.033 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 09:19:38.034 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:106] null
+2022-11-09 09:19:58.715 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 09:19:58.716 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 09:19:58.717 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 09:19:59.768 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:57] Lemosin
+2022-11-09 09:19:59.769 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:187] Lemosin
+2022-11-09 09:19:59.770 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:213] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-09 09:20:01.467 INFO  [http-nio-8080-exec-7][TiendasAltaActionCommand:54] Llama
+2022-11-09 09:20:01.468 INFO  [http-nio-8080-exec-7][TiendasAltaActionCommand:59] zara
+2022-11-09 09:20:01.468 INFO  [http-nio-8080-exec-7][TiendasAltaActionCommand:63] davidzapico
+2022-11-09 09:20:01.469 INFO  [http-nio-8080-exec-7][TiendasAltaActionCommand:67] gonzalez abarca
+2022-11-09 09:20:01.469 INFO  [http-nio-8080-exec-7][TiendasAltaActionCommand:71] 33401
+2022-11-09 09:20:01.470 INFO  [http-nio-8080-exec-7][TiendasAltaActionCommand:75] FR
+2022-11-09 09:20:01.471 INFO  [http-nio-8080-exec-7][TiendasAltaActionCommand:79] Lemosin
+2022-11-09 09:20:01.471 INFO  [http-nio-8080-exec-7][TiendasAltaActionCommand:83] Curemonte
+2022-11-09 09:20:02.005 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 09:20:02.005 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 09:20:02.006 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 09:20:02.026 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 09:20:02.028 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 09:20:02.029 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 09:20:02.050 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:57] Lemosin
+2022-11-09 09:20:02.051 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:187] Lemosin
+2022-11-09 09:20:02.051 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:213] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-09 09:24:18.094 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] null
+2022-11-09 09:24:18.094 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 09:24:18.095 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] null
+2022-11-09 09:24:18.095 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 09:24:18.096 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:57] null
+2022-11-09 09:24:18.097 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 09:24:18.097 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:187] null
+2022-11-09 09:32:10.422 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 09:32:10.423 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 09:32:10.424 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 09:32:11.363 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:56] ES
+2022-11-09 09:32:11.363 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:106] ES
+2022-11-09 09:32:11.364 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-09 09:32:14.374 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:57] Cantabria
+2022-11-09 09:32:14.375 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:187] Cantabria
+2022-11-09 09:32:14.375 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:205] [{"value":"Santander","option":"Santander"},{"value":"Torrelavega","option":"Torrelavega"},{"value":"Luena","option":"Luena"}]
+2022-11-09 09:32:16.653 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:54] Llama
+2022-11-09 09:32:16.654 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:59] Porsche
+2022-11-09 09:32:16.655 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:63] Carlos Martinez
+2022-11-09 09:32:16.655 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:67] c/García de marcos
+2022-11-09 09:32:16.655 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:71] 33401
+2022-11-09 09:32:16.656 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:75] ES
+2022-11-09 09:32:16.656 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:79] Cantabria
+2022-11-09 09:32:16.656 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:83] Torrelavega
+2022-11-09 09:32:17.173 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:56] ES
+2022-11-09 09:32:17.174 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:106] ES
+2022-11-09 09:32:17.175 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-09 09:32:17.179 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 09:32:17.180 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 09:32:17.180 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 09:32:17.195 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:57] Cantabria
+2022-11-09 09:32:17.195 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:187] Cantabria
+2022-11-09 09:32:17.196 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:205] [{"value":"Santander","option":"Santander"},{"value":"Torrelavega","option":"Torrelavega"},{"value":"Luena","option":"Luena"}]
+2022-11-09 09:32:30.450 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:56] null
+2022-11-09 09:32:30.451 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:57] null
+2022-11-09 09:32:30.451 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:187] null
+2022-11-09 09:32:30.452 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:106] null
+2022-11-09 09:32:30.458 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 09:32:30.458 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 09:32:30.459 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 10:51:01.694 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:56] null
+2022-11-09 10:51:01.694 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 10:51:01.696 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 10:51:01.696 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:106] null
+2022-11-09 10:51:01.697 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 10:51:01.707 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:57] null
+2022-11-09 10:51:01.708 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:187] null
+2022-11-09 11:20:04.682 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:56] null
+2022-11-09 11:20:04.682 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 11:20:04.683 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:57] null
+2022-11-09 11:20:04.683 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 11:20:04.683 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:106] null
+2022-11-09 11:20:04.684 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:187] null
+2022-11-09 11:20:04.684 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 14:45:03.906 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 14:45:03.906 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:56] null
+2022-11-09 14:45:03.909 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 14:45:03.909 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:106] null
+2022-11-09 14:45:03.910 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 14:45:03.920 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:57] null
+2022-11-09 14:45:03.921 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:187] null
+2022-11-09 14:46:12.395 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 14:46:12.396 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 14:46:12.396 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 14:46:13.320 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:56] ES
+2022-11-09 14:46:13.322 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:106] ES
+2022-11-09 14:46:13.323 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-09 14:46:14.715 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-09 14:46:14.716 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-09 14:46:14.716 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-09 14:46:16.975 INFO  [http-nio-8080-exec-5][TiendasAltaActionCommand:56] Llama
+2022-11-09 14:46:16.976 INFO  [http-nio-8080-exec-5][TiendasAltaActionCommand:61] zara
+2022-11-09 14:46:16.976 INFO  [http-nio-8080-exec-5][TiendasAltaActionCommand:65] Julio Iglesias
+2022-11-09 14:46:16.977 INFO  [http-nio-8080-exec-5][TiendasAltaActionCommand:69] c/Gonzalez Abarca
+2022-11-09 14:46:16.977 INFO  [http-nio-8080-exec-5][TiendasAltaActionCommand:73] 33401
+2022-11-09 14:46:16.977 INFO  [http-nio-8080-exec-5][TiendasAltaActionCommand:77] ES
+2022-11-09 14:46:16.978 INFO  [http-nio-8080-exec-5][TiendasAltaActionCommand:81] Asturias
+2022-11-09 14:46:16.978 INFO  [http-nio-8080-exec-5][TiendasAltaActionCommand:85] Aviles
+2022-11-09 14:46:16.986 ERROR [liferay/monitoring-4][ParallelDestination:59] Unable to process message {destinationName=liferay/monitoring, response=null, responseDestinationName=null, responseId=null, payload=[{displayName=Tiendas, portletId=es_capgemini_practicas_tiendas_portlet_TiendasPortlet_INSTANCE_jyuy, requestType=ACTION, {attributes=null, companyId=20097, groupId=20121, description=null, duration=0, name=es_capgemini_practicas_tiendas_portlet_TiendasPortlet, namespace=com.liferay.monitoring.Portlet, requestStatus=null, stopWatch=0:00:00.019, timeout=0, user=42104}}, {referer=http://localhost:8080/client, remoteAddr=127.0.0.1, requestURL=, statusCode=0, userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, {attributes=null, companyId=20097, groupId=20121, description=null, duration=17, name=/c/portal/layout, namespace=com.liferay.monitoring.Portal, requestStatus=ERROR, stopWatch=0:00:00.017, timeout=-1, user=42104}}, {referer=http://localhost:8080/client, remoteAddr=127.0.0.1, requestURL=, statusCode=0, userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, {attributes=null, companyId=20097, groupId=0, description=null, duration=20, name=/web/guest/alta-tienda, namespace=com.liferay.monitoring.Portal, requestStatus=ERROR, stopWatch=0:00:00.020, timeout=-1, user=null}}], values={defaultLocale=es_ES, companyId=20097, groupId=0, principalName=42104, permissionChecker=com.liferay.portal.kernel.util.TransientValue@7b674a71, siteDefaultLocale=es_ES, themeDisplayLocale=es_ES}}
+com.liferay.portal.kernel.messaging.MessageListenerException: java.lang.NullPointerException
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:41) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74) ~[portal-kernel.jar:?]
+	at com.liferay.portal.messaging.internal.ParallelDestination$1.run(ParallelDestination.java:56) [bundleFile:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_341]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_341]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at com.liferay.portal.monitoring.internal.statistics.portlet.PortletStatistics.processDataSample(PortletStatistics.java:112) ~[?:?]
+	at com.liferay.portal.monitoring.internal.statistics.portlet.CompanyStatistics.processDataSample(CompanyStatistics.java:209) ~[?:?]
+	at com.liferay.portal.monitoring.internal.statistics.portlet.ServerStatistics.processDataSample(ServerStatistics.java:119) ~[?:?]
+	at com.liferay.portal.monitoring.internal.statistics.portlet.ServerStatistics.processDataSample(ServerStatistics.java:36) ~[?:?]
+	at com.liferay.portal.monitoring.internal.messaging.MonitoringMessageListener.processDataSample(MonitoringMessageListener.java:93) ~[?:?]
+	at com.liferay.portal.monitoring.internal.messaging.MonitoringMessageListener.doReceive(MonitoringMessageListener.java:121) ~[?:?]
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.doReceive(BaseMessageListener.java:48) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:34) ~[portal-kernel.jar:?]
+	... 5 more
+2022-11-09 14:46:16.981 ERROR [http-nio-8080-exec-5][VirtualHostFilter:381] null
+javax.servlet.ServletException: La ejecución del Servlet lanzó una excepción
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:234) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-websocket.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:124) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:66) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.upload.servlet.request.filter.internal.UploadServletRequestFilter.processFilter(UploadServletRequestFilter.java:118) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.remote.cors.internal.servlet.filter.PortalCORSServletFilter.processFilter(PortalCORSServletFilter.java:237) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:62) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:58) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:339) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:139) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389) ~[?:?]
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104) ~[portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79) ~[com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313) ~[catalina.jar:9.0.56]
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:537) ~[?:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:98) ~[portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:113) ~[com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-websocket.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:124) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:66) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.upload.servlet.request.filter.internal.UploadServletRequestFilter.processFilter(UploadServletRequestFilter.java:118) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.remote.cors.internal.servlet.filter.PortalCORSServletFilter.processFilter(PortalCORSServletFilter.java:237) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:364) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:62) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:58) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:339) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:262) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:139) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389) ~[?:?]
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104) ~[portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79) ~[com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313) ~[catalina.jar:9.0.56]
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:378) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99) [portal-kernel.jar:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:175) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:175) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104) [portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [catalina.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-coyote.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-coyote.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) [tomcat-coyote.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.56]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_341]
+Caused by: java.lang.NoSuchMethodError: es.capgemini.practicas.sb.tienda.service.TiendaLocalService.findByName(Ljava/lang/String;)Ljava/util/List;
+	at es.capgemini.practicas.portlet.action.TiendasAltaActionCommand.processAction(TiendasAltaActionCommand.java:88) ~[?:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.callActionMethod(MVCPortlet.java:402) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.processAction(LiferayPortlet.java:82) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.processAction(MVCPortlet.java:256) ~[portal-kernel.jar:?]
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:77) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:50) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:113) ~[portal-kernel.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[servlet-api.jar:4.0.FR]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) ~[?:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.invoke(InvokerPortletImpl.java:576) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.invokeAction(InvokerPortletImpl.java:616) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.processAction(InvokerPortletImpl.java:293) ~[portal-impl.jar:?]
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.processAction(MonitoringInvokerPortlet.java:195) ~[?:?]
+	at com.liferay.portlet.internal.PortletContainerImpl._processAction(PortletContainerImpl.java:514) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl.lambda$processAction$0(PortletContainerImpl.java:148) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl._preserveGroupIds(PortletContainerImpl.java:421) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl.processAction(PortletContainerImpl.java:141) ~[portal-impl.jar:?]
+	at com.liferay.portlet.SecurityPortletContainerWrapper.processAction(SecurityPortletContainerWrapper.java:82) ~[portal-impl.jar:?]
+	at com.liferay.portlet.RestrictPortletContainerWrapper.processAction(RestrictPortletContainerWrapper.java:72) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.processAction(PortletContainerUtil.java:117) ~[portal-kernel.jar:?]
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:368) ~[portal-impl.jar:?]
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:174) ~[portal-impl.jar:?]
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:395) ~[portal-impl.jar:?]
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:151) ~[portal-impl.jar:?]
+	at com.liferay.portal.internal.servlet.MainServlet.doPost(MainServlet.java:210) ~[portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.internal.servlet.MainServlet.service(MainServlet.java:600) ~[portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:113) ~[com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[catalina.jar:9.0.56]
+	... 164 more
+2022-11-09 14:47:00.875 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 14:47:00.876 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 14:47:00.877 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:56] null
+2022-11-09 14:47:00.877 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 14:47:00.878 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:106] null
+2022-11-09 14:47:00.886 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:57] null
+2022-11-09 14:47:00.887 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:187] null
+2022-11-09 14:49:20.336 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:56] null
+2022-11-09 14:49:20.336 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:57] null
+2022-11-09 14:49:20.336 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:106] null
+2022-11-09 14:49:20.336 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:187] null
+2022-11-09 14:49:20.339 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 14:49:20.340 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 14:49:20.340 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 14:49:44.008 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 14:49:44.009 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:57] null
+2022-11-09 14:49:44.009 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:56] null
+2022-11-09 14:49:44.009 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 14:49:44.010 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:187] null
+2022-11-09 14:49:44.011 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 14:49:44.010 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:106] null
+2022-11-09 14:50:07.364 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 14:50:07.365 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 14:50:07.365 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 14:50:08.774 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:56] ES
+2022-11-09 14:50:08.776 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:106] ES
+2022-11-09 14:50:08.777 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-09 14:50:10.282 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-09 14:50:10.283 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-09 14:50:10.284 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-09 14:50:17.513 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:56] Llama
+2022-11-09 14:50:17.513 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:61] zara
+2022-11-09 14:50:17.514 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:65] Gerente zara
+2022-11-09 14:50:17.514 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:69] c/Gonzalez Abarca
+2022-11-09 14:50:17.515 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:73] 33401
+2022-11-09 14:50:17.515 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:77] ES
+2022-11-09 14:50:17.515 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:81] Asturias
+2022-11-09 14:50:17.516 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:85] Gijon
+2022-11-09 14:50:17.519 ERROR [liferay/monitoring-20][ParallelDestination:59] Unable to process message {destinationName=liferay/monitoring, response=null, responseDestinationName=null, responseId=null, payload=[{displayName=Tiendas, portletId=es_capgemini_practicas_tiendas_portlet_TiendasPortlet_INSTANCE_jyuy, requestType=ACTION, {attributes=null, companyId=20097, groupId=20121, description=null, duration=0, name=es_capgemini_practicas_tiendas_portlet_TiendasPortlet, namespace=com.liferay.monitoring.Portlet, requestStatus=null, stopWatch=0:00:00.006, timeout=0, user=42104}}, {referer=http://localhost:8080/client, remoteAddr=127.0.0.1, requestURL=, statusCode=0, userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, {attributes=null, companyId=20097, groupId=20121, description=null, duration=6, name=/c/portal/layout, namespace=com.liferay.monitoring.Portal, requestStatus=ERROR, stopWatch=0:00:00.006, timeout=-1, user=42104}}, {referer=http://localhost:8080/client, remoteAddr=127.0.0.1, requestURL=, statusCode=0, userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, {attributes=null, companyId=20097, groupId=0, description=null, duration=10, name=/web/guest/alta-tienda, namespace=com.liferay.monitoring.Portal, requestStatus=ERROR, stopWatch=0:00:00.010, timeout=-1, user=null}}], values={defaultLocale=es_ES, companyId=20097, groupId=0, principalName=42104, permissionChecker=com.liferay.portal.kernel.util.TransientValue@682d8b60, siteDefaultLocale=es_ES, themeDisplayLocale=es_ES}}
+com.liferay.portal.kernel.messaging.MessageListenerException: java.lang.NullPointerException
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:41) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74) ~[portal-kernel.jar:?]
+	at com.liferay.portal.messaging.internal.ParallelDestination$1.run(ParallelDestination.java:56) [bundleFile:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_341]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_341]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at com.liferay.portal.monitoring.internal.statistics.portlet.PortletStatistics.processDataSample(PortletStatistics.java:112) ~[?:?]
+	at com.liferay.portal.monitoring.internal.statistics.portlet.CompanyStatistics.processDataSample(CompanyStatistics.java:209) ~[?:?]
+	at com.liferay.portal.monitoring.internal.statistics.portlet.ServerStatistics.processDataSample(ServerStatistics.java:119) ~[?:?]
+	at com.liferay.portal.monitoring.internal.statistics.portlet.ServerStatistics.processDataSample(ServerStatistics.java:36) ~[?:?]
+	at com.liferay.portal.monitoring.internal.messaging.MonitoringMessageListener.processDataSample(MonitoringMessageListener.java:93) ~[?:?]
+	at com.liferay.portal.monitoring.internal.messaging.MonitoringMessageListener.doReceive(MonitoringMessageListener.java:121) ~[?:?]
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.doReceive(BaseMessageListener.java:48) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.messaging.BaseMessageListener.receive(BaseMessageListener.java:34) ~[portal-kernel.jar:?]
+	... 5 more
+2022-11-09 14:50:17.519 ERROR [http-nio-8080-exec-10][VirtualHostFilter:381] null
+javax.servlet.ServletException: La ejecución del Servlet lanzó una excepción
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:234) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-websocket.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:124) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:66) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.upload.servlet.request.filter.internal.UploadServletRequestFilter.processFilter(UploadServletRequestFilter.java:118) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.remote.cors.internal.servlet.filter.PortalCORSServletFilter.processFilter(PortalCORSServletFilter.java:237) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:62) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:58) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:339) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:139) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389) ~[?:?]
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104) ~[portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79) ~[com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313) ~[catalina.jar:9.0.56]
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:537) ~[?:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:98) ~[portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:113) ~[com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-websocket.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:124) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:66) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.upload.servlet.request.filter.internal.UploadServletRequestFilter.processFilter(UploadServletRequestFilter.java:118) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.remote.cors.internal.servlet.filter.PortalCORSServletFilter.processFilter(PortalCORSServletFilter.java:237) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:364) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:62) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:58) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:339) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:262) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147) ~[portal-kernel.jar:?]
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:139) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) ~[?:?]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389) ~[?:?]
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104) ~[portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79) ~[com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385) ~[catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313) ~[catalina.jar:9.0.56]
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:378) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99) [portal-kernel.jar:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:99) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:175) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:175) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104) [portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:79) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [catalina.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-coyote.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-coyote.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) [tomcat-coyote.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.56]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_341]
+Caused by: java.lang.NoSuchMethodError: es.capgemini.practicas.sb.tienda.service.TiendaLocalService.findByName(Ljava/lang/String;)Ljava/util/List;
+	at es.capgemini.practicas.portlet.action.TiendasAltaActionCommand.processAction(TiendasAltaActionCommand.java:88) ~[?:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.callActionMethod(MVCPortlet.java:402) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.processAction(LiferayPortlet.java:82) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.processAction(MVCPortlet.java:256) ~[portal-kernel.jar:?]
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:77) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:50) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:113) ~[portal-kernel.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[servlet-api.jar:4.0.FR]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) ~[?:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.invoke(InvokerPortletImpl.java:576) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.invokeAction(InvokerPortletImpl.java:616) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.processAction(InvokerPortletImpl.java:293) ~[portal-impl.jar:?]
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.processAction(MonitoringInvokerPortlet.java:195) ~[?:?]
+	at com.liferay.portlet.internal.PortletContainerImpl._processAction(PortletContainerImpl.java:514) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl.lambda$processAction$0(PortletContainerImpl.java:148) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl._preserveGroupIds(PortletContainerImpl.java:421) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl.processAction(PortletContainerImpl.java:141) ~[portal-impl.jar:?]
+	at com.liferay.portlet.SecurityPortletContainerWrapper.processAction(SecurityPortletContainerWrapper.java:82) ~[portal-impl.jar:?]
+	at com.liferay.portlet.RestrictPortletContainerWrapper.processAction(RestrictPortletContainerWrapper.java:72) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.processAction(PortletContainerUtil.java:117) ~[portal-kernel.jar:?]
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:368) ~[portal-impl.jar:?]
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:174) ~[portal-impl.jar:?]
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:395) ~[portal-impl.jar:?]
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:151) ~[portal-impl.jar:?]
+	at com.liferay.portal.internal.servlet.MainServlet.doPost(MainServlet.java:210) ~[portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.internal.servlet.MainServlet.service(MainServlet.java:600) ~[portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:113) ~[com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[catalina.jar:9.0.56]
+	... 164 more
+2022-11-09 14:50:32.799 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 14:50:32.800 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 14:50:32.801 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 14:50:32.802 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:56] null
+2022-11-09 14:50:32.803 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:106] null
+2022-11-09 14:50:32.807 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:57] null
+2022-11-09 14:50:32.808 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:187] null
+2022-11-09 14:53:44.364 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 14:53:44.366 INFO  [http-nio-8080-exec-5][TiendasProvinciasResourceCommand:56] null
+2022-11-09 14:53:44.366 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 14:53:44.367 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 14:53:44.367 INFO  [http-nio-8080-exec-5][TiendasProvinciasResourceCommand:106] null
+2022-11-09 14:53:44.369 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:57] null
+2022-11-09 14:53:44.370 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:187] null
+2022-11-09 14:53:59.816 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 14:53:59.817 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 14:53:59.817 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 14:54:01.709 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:56] ES
+2022-11-09 14:54:01.710 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:106] ES
+2022-11-09 14:54:01.712 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-09 14:54:04.889 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:57] Pais Vasco
+2022-11-09 14:54:04.890 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:187] Pais Vasco
+2022-11-09 14:54:04.890 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:201] [{"value":"Bilbao","option":"Bilbao"},{"value":"San Sebastian","option":"San Sebastian"},{"value":"Getxo","option":"Getxo"}]
+2022-11-09 14:54:06.345 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-09 14:54:06.346 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-09 14:54:06.346 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-09 14:54:30.446 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:56] Llama
+2022-11-09 14:54:30.447 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:61] zara
+2022-11-09 14:54:30.448 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:65] davidzapico
+2022-11-09 14:54:30.449 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:69] c/Gonzalez Abarca
+2022-11-09 14:54:30.449 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:73] 33401
+2022-11-09 14:54:30.450 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:77] ES
+2022-11-09 14:54:30.451 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:81] Asturias
+2022-11-09 14:54:30.451 INFO  [http-nio-8080-exec-1][TiendasAltaActionCommand:85] Oviedo
+2022-11-09 14:54:31.002 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 14:54:31.003 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 14:54:31.004 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 14:54:31.006 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:56] ES
+2022-11-09 14:54:31.007 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:106] ES
+2022-11-09 14:54:31.007 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-09 14:54:31.020 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-09 14:54:31.020 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-09 14:54:31.021 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-09 15:30:31.448 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:30:31.448 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:30:31.449 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:30:31.449 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:30:31.450 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:30:31.458 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:30:31.459 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:30:37.917 INFO  [http-nio-8080-exec-5][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 15:30:37.917 INFO  [http-nio-8080-exec-5][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 15:30:37.918 INFO  [http-nio-8080-exec-5][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 15:30:39.011 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] ES
+2022-11-09 15:30:39.011 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] ES
+2022-11-09 15:30:39.012 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-09 15:31:58.096 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-09 15:31:58.097 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-09 15:31:58.098 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-09 15:39:06.366 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:56] FR
+2022-11-09 15:39:06.367 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:106] FR
+2022-11-09 15:39:06.368 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-09 15:39:10.133 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:57] Bearne
+2022-11-09 15:39:10.134 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:187] Bearne
+2022-11-09 15:39:10.134 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:217] [{"value":"Navarrenx","option":"Navarrenx"},{"value":"Orthez","option":"Orthez"},{"value":"Nay","option":"Nay"}]
+2022-11-09 15:48:43.878 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:48:43.880 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:48:43.881 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:48:43.890 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:48:43.891 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:48:43.892 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:48:43.894 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:48:47.692 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:48:47.695 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:48:47.696 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:48:47.697 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:48:47.698 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:48:47.698 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:48:47.699 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:48:49.346 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:48:49.347 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:48:49.347 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:48:49.348 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:48:49.348 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:48:49.352 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:48:49.353 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:48:52.801 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:48:52.801 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:48:52.801 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:48:52.801 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:48:52.802 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:48:52.802 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:48:52.802 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:49:40.858 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:49:40.859 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:49:40.860 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:49:40.862 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:49:40.863 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:49:40.863 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:49:40.863 INFO  [http-nio-8080-exec-3][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:49:58.913 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:49:58.914 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:49:58.915 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:49:58.915 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:49:58.916 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:49:58.916 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:49:58.918 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:50:01.696 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:50:01.697 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:50:01.698 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:50:01.698 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:50:01.699 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:50:01.700 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:50:01.701 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:50:04.547 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:50:04.548 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:50:04.548 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:50:04.549 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:50:04.549 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:50:04.552 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:50:04.553 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:50:07.188 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:50:07.190 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:50:07.191 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:50:07.191 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:50:07.192 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:50:07.188 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:50:07.195 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:51:00.626 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:51:00.629 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:51:00.630 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:51:00.630 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:51:00.631 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:51:00.634 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:51:00.635 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:51:06.229 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:51:06.230 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:51:06.231 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:51:06.231 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:51:06.232 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:51:06.232 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:51:06.233 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:51:08.973 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:51:08.975 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:51:08.976 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:51:08.976 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:51:08.976 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:51:08.977 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:51:08.977 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:52:26.344 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:52:26.345 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:52:26.345 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:52:26.348 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:52:26.349 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:52:26.353 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:52:26.354 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:187] null
+2022-11-09 15:52:30.136 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 15:52:30.137 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 15:52:30.138 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 15:52:30.139 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:56] null
+2022-11-09 15:52:30.140 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:106] null
+2022-11-09 15:52:30.140 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:57] null
+2022-11-09 15:52:30.143 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:187] null
+2022-11-09 16:00:08.905 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 16:00:08.907 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:57] null
+2022-11-09 16:00:08.907 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:56] null
+2022-11-09 16:00:08.908 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 16:00:08.908 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 16:00:08.908 INFO  [http-nio-8080-exec-2][TiendasCiudadesResourceCommand:187] null
+2022-11-09 16:00:08.909 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:106] null
+2022-11-09 16:00:43.139 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 16:00:43.142 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 16:00:43.145 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] null
+2022-11-09 16:00:43.146 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] null
+2022-11-09 16:00:43.146 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 16:00:43.151 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:57] null
+2022-11-09 16:00:43.151 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:187] null
+2022-11-09 16:00:47.740 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 16:00:47.741 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 16:00:47.741 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:56] null
+2022-11-09 16:00:47.742 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-09 16:00:47.742 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:106] null
+2022-11-09 16:00:47.745 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:57] null
+2022-11-09 16:00:47.746 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:187] null
+2022-11-09 16:09:00.136 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-09 16:09:00.136 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:56] null
+2022-11-09 16:09:00.137 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:106] null
+2022-11-09 16:09:00.141 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:57] null
+2022-11-09 16:09:00.142 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:187] null
+2022-11-09 16:09:00.143 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-09 16:09:00.145 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises

@@ -1,0 +1,9 @@
+2022-10-09 07:04:43.696 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-10-09 07:04:43.701 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-10-09 07:04:43.703 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-10-09 07:04:43.704 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-10-09 07:04:45.628 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-10-09 07:04:45.630 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-10-09 07:05:11.314 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-10-09 07:05:11.315 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-10-09 07:05:11.320 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.

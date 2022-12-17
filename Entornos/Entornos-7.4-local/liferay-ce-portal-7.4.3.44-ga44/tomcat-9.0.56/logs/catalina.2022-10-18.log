@@ -1,0 +1,7 @@
+18-Oct-2022 07:34:51.517 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1009] milliseconds
+18-Oct-2022 07:36:21.592 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [542] milliseconds
+18-Oct-2022 07:38:24.127 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [122533] milliseconds
+18-Oct-2022 08:20:32.836 ADVERTENCIA [main] org.apache.tomcat.util.net.Acceptor.stop The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+18-Oct-2022 08:21:03.299 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [468] milliseconds
+18-Oct-2022 08:22:35.278 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [91971] milliseconds
+18-Oct-2022 15:10:10.332 ADVERTENCIA [main] org.apache.tomcat.util.net.Acceptor.stop The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly

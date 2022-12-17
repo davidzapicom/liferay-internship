@@ -1,0 +1,125 @@
+2022-11-16 07:24:50.557 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-16 07:25:04.248 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-16 07:25:09.547 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-16 07:25:10.161 INFO  [ModuleFramework-Static-Bundles-6][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-16 07:25:14.883 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-16 07:25:14.884 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-16 07:25:37.761 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-16 07:25:37.762 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-16 07:25:40.901 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-16 07:25:40.902 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-16 07:25:40.914 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-16 07:25:40.916 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 2 ms
+2022-11-16 07:25:40.916 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-16 07:25:40.931 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 14 ms
+2022-11-16 07:25:40.931 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-16 07:25:40.932 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 1 ms
+2022-11-16 07:25:41.506 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-16 07:25:41.586 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 80 ms
+2022-11-16 07:25:44.842 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-16 07:26:40.382 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-16 07:26:49.741 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-16 07:26:49.773 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-16 07:26:49.838 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 65 ms
+2022-11-16 07:26:50.864 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-16 07:27:03.946 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-16 07:27:04.122 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-16 07:27:04.307 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-16 07:27:04.486 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-16 07:27:04.831 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-16 07:35:12.333 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 07:35:12.712 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:05:45.577 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:05:45.750 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:08:47.993 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:08:48.095 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:10:49.296 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:10:49.415 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:11:24.821 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:11:24.915 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:14:52.041 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:14:52.136 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:16:33.244 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:16:33.337 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:19:10.114 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:19:10.215 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:21:56.947 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:21:57.047 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:23:43.097 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:23:43.189 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:24:54.009 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:24:54.105 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:56:27.860 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 09:56:28.002 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 11:18:53.438 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 11:18:53.531 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 11:33:27.325 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 11:33:27.419 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 11:34:12.980 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 11:34:13.071 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 11:39:26.715 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 11:39:26.811 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 11:57:17.290 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 11:57:17.383 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:11:15.874 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:11:15.967 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:14:22.820 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:14:22.920 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:20:26.717 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:20:26.811 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:25:09.826 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:25:09.918 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:30:28.228 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:30:28.324 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:35:41.478 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:35:41.570 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:43:21.123 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 12:43:21.215 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 13:06:35.781 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 13:06:35.899 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-16 15:31:36.509 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-16 15:31:43.429 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116153143356PJKDNEHO\practicas-theme.war
+2022-11-16 15:31:50.968 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116153143356PJKDNEHO\practicas-theme.war copied successfully
+2022-11-16 15:31:57.019 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-16 15:31:57.088 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-16 15:38:42.599 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-16 15:38:50.899 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-16 15:38:50.962 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-16 15:38:50.982 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116153850963SWZFGNBJ\practicas-theme.war
+2022-11-16 15:38:58.933 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116153850963SWZFGNBJ\practicas-theme.war copied successfully
+2022-11-16 15:39:04.274 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-16 15:39:04.318 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-16 15:42:27.827 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-16 15:42:36.516 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-16 15:42:36.540 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-16 15:42:36.566 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116154236541ISKAYACQ\practicas-theme.war
+2022-11-16 15:42:46.754 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116154236541ISKAYACQ\practicas-theme.war copied successfully
+2022-11-16 15:42:53.597 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-16 15:42:53.625 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-16 15:56:43.427 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-16 15:56:52.141 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-16 15:56:52.164 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-16 15:56:52.182 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116155652164XIDNUWNO\practicas-theme.war
+2022-11-16 15:56:59.250 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116155652164XIDNUWNO\practicas-theme.war copied successfully
+2022-11-16 15:57:03.947 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-16 15:57:03.973 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-16 15:58:43.456 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-16 15:58:50.001 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-16 15:58:50.019 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-16 15:58:50.037 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116155850020HMHYGWYC\practicas-theme.war
+2022-11-16 15:58:57.071 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116155850020HMHYGWYC\practicas-theme.war copied successfully
+2022-11-16 15:59:01.797 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-16 15:59:01.821 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-16 16:01:22.601 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-16 16:01:28.323 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-16 16:01:28.354 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-16 16:01:28.370 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116160128354OUGXJMYK\practicas-theme.war
+2022-11-16 16:01:35.243 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221116160128354OUGXJMYK\practicas-theme.war copied successfully
+2022-11-16 16:01:39.856 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-16 16:01:39.881 INFO  [Refresh Thread: Equinox Container: f4ef6706-a8ab-4426-8152-6b86313aae59][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-16 16:02:59.600 INFO  [main][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-16 16:02:59.608 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-11-16 16:02:59.617 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-11-16 16:02:59.627 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-11-16 16:02:59.637 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-11-16 16:02:59.647 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered

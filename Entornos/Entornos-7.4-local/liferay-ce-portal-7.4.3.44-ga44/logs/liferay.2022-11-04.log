@@ -1,0 +1,547 @@
+2022-11-04 07:07:05.052 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-04 07:07:11.971 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-04 07:07:17.207 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-04 07:07:18.179 INFO  [ModuleFramework-Static-Bundles-4][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-04 07:07:21.431 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-04 07:07:21.433 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-04 07:07:51.632 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-04 07:07:51.632 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-04 07:07:55.696 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-04 07:07:55.697 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-04 07:07:55.713 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-04 07:07:55.713 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-11-04 07:07:55.720 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-04 07:07:55.734 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 14 ms
+2022-11-04 07:07:55.736 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-04 07:07:55.737 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-11-04 07:07:56.336 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-04 07:07:56.406 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 70 ms
+2022-11-04 07:08:03.178 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-04 07:08:40.226 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-04 07:08:46.274 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-04 07:08:46.296 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-04 07:08:46.341 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 45 ms
+2022-11-04 07:08:47.044 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-04 07:08:54.878 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-04 07:08:55.084 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-04 07:08:55.238 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-04 07:08:55.533 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-04 07:08:55.668 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-04 07:09:20.298 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-04 07:09:20.303 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-04 07:09:20.304 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-04 07:09:20.305 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-04 07:09:21.917 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-04 07:09:21.918 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-04 07:09:45.680 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-04 07:09:45.680 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-04 07:09:45.683 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-11-04 07:11:40.352 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 07:11:40.360 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 07:11:40.365 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 08:46:45.920 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.practicas.sb.tienda.service_1.0.0 [1582]
+2022-11-04 08:46:45.922 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.practicas.sb.tienda.api_1.0.0 [1581]
+2022-11-04 09:00:39.315 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.sb.tienda.api_1.0.0 [1581]
+2022-11-04 09:00:39.340 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.sb.tienda.service_1.0.0 [1582]
+2022-11-04 09:00:39.455 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.sb.tienda.api_1.0.0 [1581]
+2022-11-04 09:00:39.914 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.sb.tienda.service_1.0.0 [1582]
+2022-11-04 09:48:22.725 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.sb.tienda.service_1.0.0 [1582]
+2022-11-04 09:48:23.124 ERROR [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][LogService:56] [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92] Invocation of 'start' failed.
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659) ~[?:1.8.0_341]
+	at java.util.ArrayList.get(ArrayList.java:435) ~[?:1.8.0_341]
+	at java.util.Collections$UnmodifiableList.get(Collections.java:1311) ~[?:1.8.0_341]
+	at com.liferay.portal.service.impl.ServiceComponentLocalServiceImpl.initServiceComponent(ServiceComponentLocalServiceImpl.java:153) ~[portal-impl.jar:?]
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_341]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:50) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:69) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:57) ~[portal-impl.jar:?]
+	at com.liferay.change.tracking.internal.aop.CTTransactionAdvice.invoke(CTTransactionAdvice.java:79) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:57) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:49) ~[portal-impl.jar:?]
+	at com.sun.proxy.$Proxy253.initServiceComponent(Unknown Source) ~[?:?]
+	at com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer._initServiceComponent(ServiceConfigurationInitializer.java:99) ~[?:?]
+	at com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer.start(ServiceConfigurationInitializer.java:61) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor131.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_341]
+	at org.apache.felix.dm.impl.InvocationUtil.invokeMethod(InvocationUtil.java:157) ~[bundleFile:?]
+	at org.apache.felix.dm.impl.InvocationUtil.invokeCallbackMethod(InvocationUtil.java:112) ~[bundleFile:?]
+	at org.apache.felix.dm.impl.ComponentImpl.invokeCallbackMethod(ComponentImpl.java:638) ~[bundleFile:?]
+	at org.apache.felix.dm.impl.ComponentImpl.invoke(ComponentImpl.java:1783) ~[bundleFile:?]
+	at org.apache.felix.dm.impl.ComponentImpl.invokeStart(ComponentImpl.java:1281) ~[bundleFile:?]
+	at org.apache.felix.dm.impl.ComponentImpl.performTransition(ComponentImpl.java:1232) ~[bundleFile:?]
+	at org.apache.felix.dm.impl.ComponentImpl.handleChange(ComponentImpl.java:1166) ~[bundleFile:?]
+	at org.apache.felix.dm.impl.ComponentImpl.lambda$start$2(ComponentImpl.java:502) ~[bundleFile:?]
+	at org.apache.felix.dm.impl.SerialExecutor.runTask(SerialExecutor.java:138) [bundleFile:?]
+	at org.apache.felix.dm.impl.SerialExecutor.runTasks(SerialExecutor.java:120) [bundleFile:?]
+	at org.apache.felix.dm.impl.SerialExecutor.execute(SerialExecutor.java:86) [bundleFile:?]
+	at org.apache.felix.dm.impl.SerialExecutor.execute(SerialExecutor.java:105) [bundleFile:?]
+	at org.apache.felix.dm.impl.ComponentImpl.start(ComponentImpl.java:500) [bundleFile:?]
+	at org.apache.felix.dm.impl.ComponentScheduler.add(ComponentScheduler.java:69) [bundleFile:?]
+	at org.apache.felix.dm.DependencyManager.add(DependencyManager.java:141) [bundleFile:?]
+	at com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationExtender$ServiceConfigurationExtension.start(ServiceConfigurationExtender.java:111) [bundleFile:?]
+	at com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationExtender.addingBundle(ServiceConfigurationExtender.java:85) [bundleFile:?]
+	at com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationExtender.addingBundle(ServiceConfigurationExtender.java:46) [bundleFile:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerAdding(BundleTracker.java:475) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerAdding(BundleTracker.java:1) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.bundleChanged(BundleTracker.java:450) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:908) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:230) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:137) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:129) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:191) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:476) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.Module.doStart(Module.java:578) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.Module.start(Module.java:449) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.ModuleContainer.start(ModuleContainer.java:777) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:768) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:538) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:484) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.ModuleContainer.refresh(ModuleContainer.java:1028) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerWiring.dispatchEvent(ModuleContainer.java:1409) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerWiring.dispatchEvent(ModuleContainer.java:1) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340) [org.eclipse.osgi.jar:?]
+2022-11-04 09:48:23.199 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.sb.tienda.service_1.0.0 [1582]
+2022-11-04 10:28:40.406 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 10:28:40.570 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 10:28:44.723 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 10:28:44.726 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 10:28:44.727 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 10:28:47.975 INFO  [http-nio-8080-exec-5][SelecProvinciaResourceCommand:57] FR
+2022-11-04 10:28:47.976 INFO  [http-nio-8080-exec-5][SelecProvinciaResourceCommand:108] FR
+2022-11-04 10:28:48.027 INFO  [http-nio-8080-exec-5][SelecProvinciaResourceCommand:114] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-04 10:28:49.669 INFO  [http-nio-8080-exec-9][SelecProvinciaResourceCommand:57] 
+2022-11-04 10:28:49.670 INFO  [http-nio-8080-exec-9][SelecProvinciaResourceCommand:108] 
+2022-11-04 10:28:54.433 INFO  [http-nio-8080-exec-6][SelecProvinciaResourceCommand:57] 
+2022-11-04 10:28:54.433 INFO  [http-nio-8080-exec-6][SelecProvinciaResourceCommand:108] 
+2022-11-04 10:30:45.013 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 10:30:45.014 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 10:30:45.016 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 10:30:46.933 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 10:30:47.063 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 10:30:49.702 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 10:30:49.704 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 10:30:49.705 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 10:30:52.714 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:57] FR
+2022-11-04 10:30:52.715 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:108] FR
+2022-11-04 10:30:52.716 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:114] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-04 10:36:35.843 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 10:36:35.843 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 10:36:35.844 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 10:36:40.028 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 10:36:40.029 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 10:36:40.030 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 10:36:40.430 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 10:36:40.704 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 10:36:44.594 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 10:36:44.597 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 10:36:44.598 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 10:36:49.257 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:57] FR
+2022-11-04 10:36:49.259 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:108] FR
+2022-11-04 10:36:49.260 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:114] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-04 10:36:50.402 INFO  [http-nio-8080-exec-3][SelecCiudadResourceCommand:55] Bearne
+2022-11-04 10:36:50.404 INFO  [http-nio-8080-exec-3][SelecCiudadResourceCommand:185] Bearne
+2022-11-04 10:36:54.408 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:55] Lemosin
+2022-11-04 10:36:54.409 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:185] Lemosin
+2022-11-04 10:36:54.410 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-04 10:36:58.670 INFO  [http-nio-8080-exec-4][SelecProvinciaResourceCommand:57] ES
+2022-11-04 10:36:58.671 INFO  [http-nio-8080-exec-4][SelecProvinciaResourceCommand:108] ES
+2022-11-04 10:36:58.671 INFO  [http-nio-8080-exec-4][SelecProvinciaResourceCommand:111] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-04 10:37:00.239 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:55] Asturias
+2022-11-04 10:37:00.241 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:185] Asturias
+2022-11-04 10:37:00.242 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:195] [{},{},{}]
+2022-11-04 10:37:34.608 INFO  [http-nio-8080-exec-3][SelecCiudadResourceCommand:55] Lugo
+2022-11-04 10:37:34.608 INFO  [http-nio-8080-exec-3][SelecCiudadResourceCommand:185] Lugo
+2022-11-04 10:37:34.609 INFO  [http-nio-8080-exec-3][SelecCiudadResourceCommand:191] [{"value":"Santander","option":"Santander"},{"value":"Torrelavega","option":"Torrelavega"},{"value":"Luena","option":"Luena"}]
+2022-11-04 10:37:37.893 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:55] Pais Vasco
+2022-11-04 10:37:37.893 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:185] Pais Vasco
+2022-11-04 10:37:37.894 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:199] [{},{},{}]
+2022-11-04 10:37:55.830 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:55] Cantabria
+2022-11-04 10:37:55.831 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:185] Cantabria
+2022-11-04 10:37:55.831 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:203] [{},{},{}]
+2022-11-04 10:38:19.705 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:57] FR
+2022-11-04 10:38:19.706 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:108] FR
+2022-11-04 10:38:19.706 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:114] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-04 10:38:23.425 INFO  [http-nio-8080-exec-9][SelecCiudadResourceCommand:55] Lemosin
+2022-11-04 10:38:23.426 INFO  [http-nio-8080-exec-9][SelecCiudadResourceCommand:185] Lemosin
+2022-11-04 10:38:23.427 INFO  [http-nio-8080-exec-9][SelecCiudadResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-04 10:38:25.067 INFO  [http-nio-8080-exec-2][SelecCiudadResourceCommand:55] Berry
+2022-11-04 10:38:25.068 INFO  [http-nio-8080-exec-2][SelecCiudadResourceCommand:185] Berry
+2022-11-04 10:38:25.069 INFO  [http-nio-8080-exec-2][SelecCiudadResourceCommand:207] [{"value":"Bourges","option":"Bourges"},{"value":"Sancerre","option":"Sancerre"},{"value":"Vierzon","option":"Vierzon"}]
+2022-11-04 10:38:28.039 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:55] Lemosin
+2022-11-04 10:38:28.040 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:185] Lemosin
+2022-11-04 10:38:28.041 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-04 10:38:30.011 INFO  [http-nio-8080-exec-8][SelecCiudadResourceCommand:55] Bearne
+2022-11-04 10:38:30.014 INFO  [http-nio-8080-exec-8][SelecCiudadResourceCommand:185] Bearne
+2022-11-04 10:38:53.218 INFO  [http-nio-8080-exec-4][SelecCiudadResourceCommand:55] Normandia
+2022-11-04 10:38:53.218 INFO  [http-nio-8080-exec-4][SelecCiudadResourceCommand:185] Normandia
+2022-11-04 10:38:53.219 INFO  [http-nio-8080-exec-4][SelecCiudadResourceCommand:219] [{"value":"Caen","option":"Caen"},{"value":"Bayeux","option":"Bayeux"},{"value":"Ruan","option":"Ruan"}]
+2022-11-04 10:39:12.234 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 10:39:12.376 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 10:39:17.489 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 10:39:17.491 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 10:39:17.492 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 10:39:21.931 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 10:39:21.933 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 10:39:21.934 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 10:39:23.918 INFO  [http-nio-8080-exec-4][SelecProvinciaResourceCommand:57] FR
+2022-11-04 10:39:23.921 INFO  [http-nio-8080-exec-4][SelecProvinciaResourceCommand:108] FR
+2022-11-04 10:39:23.923 INFO  [http-nio-8080-exec-4][SelecProvinciaResourceCommand:114] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-04 10:39:26.704 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:55] Lemosin
+2022-11-04 10:39:26.705 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:185] Lemosin
+2022-11-04 10:39:26.706 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-04 10:39:27.724 INFO  [http-nio-8080-exec-2][SelecCiudadResourceCommand:55] Berry
+2022-11-04 10:39:27.726 INFO  [http-nio-8080-exec-2][SelecCiudadResourceCommand:185] Berry
+2022-11-04 10:39:27.728 INFO  [http-nio-8080-exec-2][SelecCiudadResourceCommand:207] [{"value":"Bourges","option":"Bourges"},{"value":"Sancerre","option":"Sancerre"},{"value":"Vierzon","option":"Vierzon"}]
+2022-11-04 10:39:29.649 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:55] Lemosin
+2022-11-04 10:39:29.650 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:185] Lemosin
+2022-11-04 10:39:29.651 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-04 10:39:31.224 INFO  [http-nio-8080-exec-5][SelecCiudadResourceCommand:55] Bearne
+2022-11-04 10:39:31.225 INFO  [http-nio-8080-exec-5][SelecCiudadResourceCommand:185] Bearne
+2022-11-04 10:40:53.604 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:55] Normandia
+2022-11-04 10:40:53.604 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:185] Normandia
+2022-11-04 10:40:53.605 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:219] [{"value":"Caen","option":"Caen"},{"value":"Bayeux","option":"Bayeux"},{"value":"Ruan","option":"Ruan"}]
+2022-11-04 10:40:55.489 INFO  [http-nio-8080-exec-2][SelecProvinciaResourceCommand:57] ES
+2022-11-04 10:40:55.490 INFO  [http-nio-8080-exec-2][SelecProvinciaResourceCommand:108] ES
+2022-11-04 10:40:55.490 INFO  [http-nio-8080-exec-2][SelecProvinciaResourceCommand:111] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-04 10:40:58.795 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:55] Asturias
+2022-11-04 10:40:58.796 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:185] Asturias
+2022-11-04 10:40:58.797 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:195] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-04 10:40:59.809 INFO  [http-nio-8080-exec-5][SelecCiudadResourceCommand:55] Lugo
+2022-11-04 10:40:59.810 INFO  [http-nio-8080-exec-5][SelecCiudadResourceCommand:185] Lugo
+2022-11-04 10:40:59.811 INFO  [http-nio-8080-exec-5][SelecCiudadResourceCommand:191] [{"value":"Foz","option":"Foz"},{"value":"Foz","option":"Foz"},{"value":"Foz","option":"Foz"}]
+2022-11-04 10:41:02.187 INFO  [http-nio-8080-exec-3][SelecCiudadResourceCommand:55] Asturias
+2022-11-04 10:41:02.188 INFO  [http-nio-8080-exec-3][SelecCiudadResourceCommand:185] Asturias
+2022-11-04 10:41:02.189 INFO  [http-nio-8080-exec-3][SelecCiudadResourceCommand:195] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-04 10:41:04.593 INFO  [http-nio-8080-exec-10][SelecCiudadResourceCommand:55] Pais Vasco
+2022-11-04 10:41:04.594 INFO  [http-nio-8080-exec-10][SelecCiudadResourceCommand:185] Pais Vasco
+2022-11-04 10:41:04.595 INFO  [http-nio-8080-exec-10][SelecCiudadResourceCommand:199] [{"value":"Bilbao","option":"Bilbao"},{"value":"San Sebastian","option":"San Sebastian"},{"value":"Getxo","option":"Getxo"}]
+2022-11-04 10:41:07.152 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:55] Cantabria
+2022-11-04 10:41:07.153 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:185] Cantabria
+2022-11-04 10:41:07.154 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:203] [{"value":"Santander","option":"Santander"},{"value":"Torrelavega","option":"Torrelavega"},{"value":"Luena","option":"Luena"}]
+2022-11-04 10:41:23.809 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 10:41:23.938 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 11:09:56.971 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:09:56.973 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:09:56.975 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:28:49.789 WARN  [http-nio-8080-exec-3][SecurityPortletContainerWrapper:470] User 0 is not allowed to serve resource for http://localhost:8080/home on com_liferay_product_navigation_applications_menu_web_internal_portlet_ProductNavigationApplicationsMenuPortlet: User 0 must have ACCESS permission for Simulation com_liferay_product_navigation_applications_menu_web_internal_portlet_ProductNavigationApplicationsMenuPortlet 
+2022-11-04 11:28:49.797 WARN  [http-nio-8080-exec-5][SecurityPortletContainerWrapper:470] User 0 is not allowed to serve resource for http://localhost:8080/home on com_liferay_layout_reports_web_internal_portlet_LayoutReportsPortlet: User 0 must have ACCESS permission for Page Audit com_liferay_layout_reports_web_internal_portlet_LayoutReportsPortlet 
+2022-11-04 11:31:16.999 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 11:31:27.859 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:31:27.860 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:31:27.861 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:31:33.627 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:31:33.628 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:31:33.628 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:31:47.178 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:52] LLAME A LA RESOURCE
+2022-11-04 11:31:47.180 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:63] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:31:47.180 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:71] devuelvo paises
+2022-11-04 11:31:58.676 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:31:58.678 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:31:58.679 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:31:58.684 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:31:58.685 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:31:58.685 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:33:13.880 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:33:13.881 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:33:13.881 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:33:13.889 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:33:13.889 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:33:13.890 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:48:05.610 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:48:05.611 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:48:05.611 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:48:05.617 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:48:05.618 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:48:05.619 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:48:07.007 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 11:48:07.150 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 11:48:11.617 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:48:11.618 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:48:11.618 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:48:11.627 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:48:11.627 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:48:11.628 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:59:10.577 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:59:10.578 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:59:10.578 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:59:10.621 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 11:59:10.621 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 11:59:10.622 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 11:59:13.854 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 11:59:13.986 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:00:44.536 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:00:44.537 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:00:44.538 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:00:44.544 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:00:44.544 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:00:44.545 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:05:17.260 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:52] LLAME A LA RESOURCE
+2022-11-04 12:05:17.261 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:63] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:05:17.262 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:71] devuelvo paises
+2022-11-04 12:05:17.291 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:05:17.292 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:05:17.293 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:05:35.406 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:52] LLAME A LA RESOURCE
+2022-11-04 12:05:35.407 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:63] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:05:35.408 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:71] devuelvo paises
+2022-11-04 12:05:44.937 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:05:44.938 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:05:44.939 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:05:44.945 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:05:44.946 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:05:44.947 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:13:27.636 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:13:27.773 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:13:43.457 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:13:43.458 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:13:43.458 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:13:43.464 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:13:43.465 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:13:43.465 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:15:48.115 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:15:48.116 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:15:48.118 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:15:48.124 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:15:48.124 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:15:48.124 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:17:38.080 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:17:38.081 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:17:38.081 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:17:38.086 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:17:38.087 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:17:38.087 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:19:37.692 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:19:37.692 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:19:37.693 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:19:37.697 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:19:37.697 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:19:37.698 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:38:07.918 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:38:08.044 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:38:25.671 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:38:25.672 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:38:25.673 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:38:25.680 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:38:25.683 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:38:25.684 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:40:31.146 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:40:31.147 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:40:31.148 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:40:31.152 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:40:31.154 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:40:31.154 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:40:49.766 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:40:49.890 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:40:55.078 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:40:55.079 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:40:55.080 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:40:55.086 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:40:55.087 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:40:55.088 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:43:17.355 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:57] ES
+2022-11-04 12:43:17.357 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:108] ES
+2022-11-04 12:43:17.358 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:111] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-04 12:43:18.680 INFO  [http-nio-8080-exec-9][SelecCiudadResourceCommand:55] Asturias
+2022-11-04 12:43:18.681 INFO  [http-nio-8080-exec-9][SelecCiudadResourceCommand:185] Asturias
+2022-11-04 12:43:18.681 INFO  [http-nio-8080-exec-9][SelecCiudadResourceCommand:195] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-04 12:44:23.544 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:44:23.545 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:44:23.546 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:44:23.551 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:44:23.552 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:44:23.552 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:44:27.355 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:44:27.565 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:44:27.566 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:44:27.566 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:44:27.567 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:44:27.572 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:44:27.573 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:44:27.574 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:44:31.243 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:44:31.243 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:44:31.244 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:44:31.250 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:44:31.250 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:44:31.251 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:45:13.028 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:45:13.151 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:45:15.549 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:45:15.550 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:45:15.551 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:45:15.554 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:45:15.555 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:45:15.556 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:50:24.914 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:50:24.915 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:50:24.916 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:50:24.922 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:50:24.922 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:50:24.923 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:50:36.405 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:57] FR
+2022-11-04 12:50:36.406 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:108] FR
+2022-11-04 12:50:36.407 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:114] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-04 12:50:37.740 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:55] Lemosin
+2022-11-04 12:50:37.741 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:185] Lemosin
+2022-11-04 12:50:37.742 INFO  [http-nio-8080-exec-7][SelecCiudadResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-04 12:50:55.740 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:50:55.741 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:50:55.742 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:50:55.747 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:50:55.748 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:50:55.749 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:50:56.805 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:50:56.939 INFO  [Refresh Thread: Equinox Container: dc1283ed-45bb-4926-b6b3-74e2c15bdc92][BundleStartStopLogger:77] STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 12:51:02.668 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:51:02.668 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:51:02.669 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:51:02.675 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:51:02.676 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:51:02.677 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:51:06.309 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:51:06.311 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:51:06.311 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 12:51:06.316 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 12:51:06.317 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 12:51:06.318 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:00:49.707 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:57] FR
+2022-11-04 13:00:49.708 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:108] FR
+2022-11-04 13:00:49.709 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:114] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-04 13:00:55.222 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:57] FR
+2022-11-04 13:00:55.223 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:108] FR
+2022-11-04 13:00:55.224 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:114] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-04 13:00:56.702 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:55] Bearne
+2022-11-04 13:00:56.702 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:185] Bearne
+2022-11-04 13:01:00.525 INFO  [http-nio-8080-exec-7][SelecProvinciaResourceCommand:57] ES
+2022-11-04 13:01:00.526 INFO  [http-nio-8080-exec-7][SelecProvinciaResourceCommand:108] ES
+2022-11-04 13:01:00.527 INFO  [http-nio-8080-exec-7][SelecProvinciaResourceCommand:111] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-04 13:01:01.985 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:55] Asturias
+2022-11-04 13:01:01.986 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:185] Asturias
+2022-11-04 13:01:01.987 INFO  [http-nio-8080-exec-1][SelecCiudadResourceCommand:195] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-04 13:01:03.934 INFO  [http-nio-8080-exec-4][SelecCiudadResourceCommand:55] Pais Vasco
+2022-11-04 13:01:03.935 INFO  [http-nio-8080-exec-4][SelecCiudadResourceCommand:185] Pais Vasco
+2022-11-04 13:01:03.935 INFO  [http-nio-8080-exec-4][SelecCiudadResourceCommand:199] [{"value":"Bilbao","option":"Bilbao"},{"value":"San Sebastian","option":"San Sebastian"},{"value":"Getxo","option":"Getxo"}]
+2022-11-04 13:01:09.653 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:01:09.653 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:01:09.654 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:01:09.658 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:01:09.659 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:01:09.659 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:10:14.125 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:10:14.126 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:10:14.127 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:10:14.133 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:10:14.134 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:10:14.134 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:12:41.025 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:12:41.026 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:12:41.026 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:12:41.031 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:12:41.031 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:12:41.032 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:12:49.463 INFO  [http-nio-8080-exec-5][SelecProvinciaResourceCommand:57] FR
+2022-11-04 13:12:49.464 INFO  [http-nio-8080-exec-5][SelecProvinciaResourceCommand:108] FR
+2022-11-04 13:12:49.465 INFO  [http-nio-8080-exec-5][SelecProvinciaResourceCommand:114] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-04 13:12:50.723 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:55] Lemosin
+2022-11-04 13:12:50.724 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:185] Lemosin
+2022-11-04 13:12:50.725 INFO  [http-nio-8080-exec-6][SelecCiudadResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-04 13:13:30.755 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-11-04 13:13:30.768 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-11-04 13:13:30.779 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-11-04 13:13:30.790 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-11-04 13:13:30.801 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered
+2022-11-04 13:17:00.598 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-04 13:17:02.966 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-04 13:17:04.794 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-04 13:17:05.089 INFO  [ModuleFramework-Static-Bundles-8][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-04 13:17:06.704 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-04 13:17:06.705 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-04 13:17:19.802 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-04 13:17:19.802 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-04 13:17:21.479 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-04 13:17:21.479 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-04 13:17:21.488 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-04 13:17:21.488 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-11-04 13:17:21.489 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-04 13:17:21.498 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 9 ms
+2022-11-04 13:17:21.499 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-04 13:17:21.499 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-11-04 13:17:21.819 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-04 13:17:21.865 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 45 ms
+2022-11-04 13:17:23.705 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-04 13:17:43.912 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-04 13:17:48.334 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-04 13:17:48.349 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-04 13:17:48.382 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 33 ms
+2022-11-04 13:17:48.850 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-04 13:17:54.975 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-04 13:17:55.107 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-04 13:17:55.333 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-04 13:17:55.484 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-04 13:17:55.598 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-04 13:18:12.688 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-04 13:18:12.689 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-04 13:18:12.690 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-04 13:18:12.691 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-04 13:18:13.907 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-04 13:18:13.908 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-04 13:18:29.884 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-04 13:18:29.885 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-04 13:18:29.887 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-11-04 13:43:46.448 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:43:46.450 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:43:46.451 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:43:46.465 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:43:46.466 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:43:46.469 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:43:51.343 INFO  [http-nio-8080-exec-1][SelecProvinciaResourceCommand:57] ES
+2022-11-04 13:43:51.344 INFO  [http-nio-8080-exec-1][SelecProvinciaResourceCommand:108] ES
+2022-11-04 13:43:51.344 INFO  [http-nio-8080-exec-1][SelecProvinciaResourceCommand:111] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-04 13:43:52.654 INFO  [http-nio-8080-exec-5][SelecCiudadResourceCommand:55] Pais Vasco
+2022-11-04 13:43:52.655 INFO  [http-nio-8080-exec-5][SelecCiudadResourceCommand:185] Pais Vasco
+2022-11-04 13:43:52.657 INFO  [http-nio-8080-exec-5][SelecCiudadResourceCommand:199] [{"value":"Bilbao","option":"Bilbao"},{"value":"San Sebastian","option":"San Sebastian"},{"value":"Getxo","option":"Getxo"}]
+2022-11-04 13:45:05.429 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 13:45:05.707 INFO  [Refresh Thread: Equinox Container: 63014087-9553-4270-b0d5-54198d963dcd][BundleStartStopLogger:77] STARTED es.capgemini.practicas.selecmunicipios.portlet_1.0.0 [1580]
+2022-11-04 13:45:07.796 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:45:07.798 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:45:07.798 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:45:07.807 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:45:07.808 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:45:07.808 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:45:11.983 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:57] ES
+2022-11-04 13:45:11.984 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:108] ES
+2022-11-04 13:45:11.984 INFO  [http-nio-8080-exec-10][SelecProvinciaResourceCommand:111] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-04 13:45:13.293 INFO  [http-nio-8080-exec-5][SelecCiudadResourceCommand:55] Pais Vasco
+2022-11-04 13:45:13.293 INFO  [http-nio-8080-exec-5][SelecCiudadResourceCommand:185] Pais Vasco
+2022-11-04 13:45:13.294 INFO  [http-nio-8080-exec-5][SelecCiudadResourceCommand:199] [{"value":"Bilbao","option":"Bilbao"},{"value":"San Sebastian","option":"San Sebastian"},{"value":"Getxo","option":"Getxo"}]
+2022-11-04 13:45:16.452 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:57] FR
+2022-11-04 13:45:16.452 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:108] FR
+2022-11-04 13:45:16.454 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:114] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-04 13:45:17.534 INFO  [http-nio-8080-exec-9][SelecCiudadResourceCommand:55] Normandia
+2022-11-04 13:45:17.535 INFO  [http-nio-8080-exec-9][SelecCiudadResourceCommand:185] Normandia
+2022-11-04 13:45:17.536 INFO  [http-nio-8080-exec-9][SelecCiudadResourceCommand:219] [{"value":"Caen","option":"Caen"},{"value":"Bayeux","option":"Bayeux"},{"value":"Ruan","option":"Ruan"}]
+2022-11-04 13:45:21.326 INFO  [http-nio-8080-exec-4][SelecProvinciaResourceCommand:57] 
+2022-11-04 13:45:21.326 INFO  [http-nio-8080-exec-4][SelecProvinciaResourceCommand:108] 
+2022-11-04 13:45:56.254 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 13:45:56.256 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:45:56.257 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:45:56.257 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:45:56.266 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-04 13:45:56.266 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-04 13:45:56.267 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-04 13:45:56.623 INFO  [Refresh Thread: Equinox Container: 63014087-9553-4270-b0d5-54198d963dcd][BundleStartStopLogger:77] STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-04 13:58:36.872 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-11-04 13:58:36.886 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-11-04 13:58:36.907 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-11-04 13:58:36.923 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-11-04 13:58:36.923 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered

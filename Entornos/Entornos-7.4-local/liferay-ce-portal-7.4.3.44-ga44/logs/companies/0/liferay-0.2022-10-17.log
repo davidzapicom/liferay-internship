@@ -1,0 +1,33 @@
+2022-10-17 05:51:29.576 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -Djava.util.logging.config.file=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56 -Dcatalina.home=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56 -Djava.io.tmpdir=C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp
+2022-10-17 05:51:36.467 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-10-17 05:51:40.645 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-10-17 05:51:41.265 INFO  [ModuleFramework-Static-Bundles-5][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-10-17 05:51:44.534 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-10-17 05:51:44.535 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-10-17 05:52:04.474 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-10-17 05:52:04.475 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-10-17 05:52:07.999 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-10-17 05:52:08.000 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-10-17 05:52:08.025 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-10-17 05:52:08.026 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 1 ms
+2022-10-17 05:52:08.028 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-10-17 05:52:08.055 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 27 ms
+2022-10-17 05:52:08.056 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-10-17 05:52:08.059 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 3 ms
+2022-10-17 05:52:08.716 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-10-17 05:52:08.797 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 81 ms
+2022-10-17 05:52:12.252 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-10-17 05:52:48.549 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-10-17 05:52:54.469 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-10-17 05:52:54.491 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-10-17 05:52:54.539 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 49 ms
+2022-10-17 05:52:55.500 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-10-17 05:53:24.296 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-10-17 05:53:24.449 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-10-17 05:53:24.622 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-10-17 05:53:24.806 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-10-17 05:53:26.505 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-10-17 10:33:54.726 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m898ms326µs700ns).
+2022-10-17 10:33:56.295 WARN  [HikariPool-2 housekeeper][HikariPool:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m884ms60µs600ns).
+2022-10-17 11:02:43.996 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m49s560ms427µs400ns).
+2022-10-17 11:02:45.557 WARN  [HikariPool-2 housekeeper][HikariPool:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=14m49s570ms673µs).

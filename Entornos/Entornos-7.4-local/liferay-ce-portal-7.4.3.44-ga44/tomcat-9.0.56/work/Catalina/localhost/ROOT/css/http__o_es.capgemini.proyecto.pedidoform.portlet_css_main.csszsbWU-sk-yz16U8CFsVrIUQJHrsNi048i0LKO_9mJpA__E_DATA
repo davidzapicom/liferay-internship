@@ -1,0 +1,13 @@
+.pedidoform-portlet span.required::after {
+  content: "*";
+  color: red;
+}
+.pedidoform-portlet button.pedido {
+  border-color: #9c6b5b;
+  background-color: transparent;
+  color: #123421;
+}
+.pedidoform-portlet button.pedido:hover {
+  background-color: #123421;
+  color: #9c6b5b;
+}

@@ -1,0 +1,1085 @@
+<log4j:event logger="com.liferay.portal.spring.context.PortalContextLoaderListener" timestamp="1668496179366" level="INFO" thread="main">
+<log4j:message><![CDATA[JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.spring.hibernate.DialectDetector" timestamp="1668496183414" level="INFO" thread="main">
+<log4j:message><![CDATA[Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.spring.hibernate.DialectDetector" method="getDialect" file="DialectDetector.java" line="153"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668496186747" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1279"/>
+</log4j:event>
+
+<log4j:event logger="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" timestamp="1668496187238" level="INFO" thread="ModuleFramework-Static-Bundles-8">
+<log4j:message><![CDATA[Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs]]></log4j:message>
+<log4j:locationInfo class="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" method="&lt;init&gt;" file="InterpolationConfigurationPlugin.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668496190021" level="INFO" thread="main">
+<log4j:message><![CDATA[Started initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1576"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668496190028" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1625"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668496211635" level="INFO" thread="main">
+<log4j:message><![CDATA[Started dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1647"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668496211636" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting web bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1654"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668496214582" level="INFO" thread="main">
+<log4j:message><![CDATA[Started web bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1708"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668496214591" level="INFO" thread="main">
+<log4j:message><![CDATA[Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="startFramework" file="ModuleFrameworkImpl.java" line="278"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668496214593" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668496214593" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="44"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668496214593" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668496214609" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 16 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="44"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668496214609" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668496214609" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="44"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668496215147" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668496215210" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 63 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="44"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.search.elasticsearch7.internal.sidecar.SidecarManager" timestamp="1668496219009" level="WARN" thread="main">
+<log4j:message><![CDATA[Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.search.elasticsearch7.internal.sidecar.SidecarManager" method="applyConfigurations" file="SidecarManager.java" line="103"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.search.elasticsearch7.internal.sidecar.Sidecar" timestamp="1668496246678" level="INFO" thread="main">
+<log4j:message><![CDATA[Sidecar Elasticsearch liferay started at 127.0.0.1:9201]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.search.elasticsearch7.internal.sidecar.Sidecar" method="start" file="Sidecar.java" line="119"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.events.StartupHelperUtil" timestamp="1668496253407" level="INFO" thread="main">
+<log4j:message><![CDATA[There are no patches installed]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.events.StartupHelperUtil" method="printPatchLevel" file="StartupHelperUtil.java" line="86"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668496253431" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668496253489" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 58 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="44"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1668496254310" level="INFO" thread="main">
+<log4j:message><![CDATA[Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="start" file="AutoDeployDir.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668496262665" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for speedwell-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668496262812" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for minium-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668496262953" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for dialect-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668496263094" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for classic-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668496263235" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for admin-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668496286376" level="INFO" thread="main">
+<log4j:message><![CDATA[System check is enabled. You can run a system check with the command "system:check" in Gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="activate" file="SystemCheckOSGiCommands.java" line="61"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668496286383" level="INFO" thread="main">
+<log4j:message><![CDATA[Running system check]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="activate" file="SystemCheckOSGiCommands.java" line="73"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668496286384" level="INFO" thread="main">
+<log4j:message><![CDATA[Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="95"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668496286385" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="111"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668496287834" level="INFO" thread="main">
+<log4j:message><![CDATA[Declarative Service Soft Circular Dependency Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668496287848" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="111"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668496307376" level="INFO" thread="main">
+<log4j:message><![CDATA[Declarative Service Unsatisfied Component Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668496307387" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="111"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668496307388" level="INFO" thread="main">
+<log4j:message><![CDATA[Spring Extender Unavailable Component Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1668497405885" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STOPPED es.capgemini.practicas.miprimervideoportlet_1.0.0 [1565]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1668497405926" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STOPPED es.capgemini.practicas.portlet.miprimerportlet_1.0.0 [1570]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1668497406154" level="INFO" thread="Refresh Thread: Equinox Container: 6a1133af-ed6b-4447-bad7-ba6dda05c26e">
+<log4j:message><![CDATA[STARTED es.capgemini.practicas.miprimervideoportlet_1.0.0 [1565]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1668497406185" level="INFO" thread="Refresh Thread: Equinox Container: 6a1133af-ed6b-4447-bad7-ba6dda05c26e">
+<log4j:message><![CDATA[STARTED es.capgemini.practicas.portlet.miprimerportlet_1.0.0 [1570]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1668497411271" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STOPPED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1668497411414" level="INFO" thread="Refresh Thread: Equinox Container: 6a1133af-ed6b-4447-bad7-ba6dda05c26e">
+<log4j:message><![CDATA[STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668497422416" level="INFO" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[Tamaño lista: 3]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668497422418" level="INFO" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[[{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="64"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668497424825" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[Tamaño lista: 3]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668497424826" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[[{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="64"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668497424827" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[id tienda: 3]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" method="render" file="DetalleTiendaRenderCommand.java" line="52"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668497427049" level="INFO" thread="http-nio-8080-exec-4">
+<log4j:message><![CDATA[Tamaño lista: 3]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668497427050" level="INFO" thread="http-nio-8080-exec-4">
+<log4j:message><![CDATA[[{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="64"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497430555" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[LLAME A LA RESOURCE]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="48"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497430555" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497430556" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[devuelvo paises]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="67"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497430569" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="56"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497430570" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="106"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497430571" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[[{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497430581" level="INFO" thread="http-nio-8080-exec-3">
+<log4j:message><![CDATA[Lugo]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="57"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497430582" level="INFO" thread="http-nio-8080-exec-3">
+<log4j:message><![CDATA[Lugo]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="187"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497430582" level="INFO" thread="http-nio-8080-exec-3">
+<log4j:message><![CDATA[[{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="193"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497623332" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[Asturias]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="57"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497623333" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[Asturias]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="187"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497623334" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[[{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="197"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497626083" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[Llama]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="54"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497626084" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[Lidl]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497626084" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[Carlos Suarez]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497626085" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[C. Gutiérrez Herrero, 27]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="67"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497626085" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[33402]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="71"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497626086" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="75"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497626086" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[Asturias]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="79"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497626086" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[Aviles]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497626577" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[LLAME A LA RESOURCE]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="48"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497626578" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497626579" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[devuelvo paises]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="67"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497626601" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="56"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497626601" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="106"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497626602" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[[{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497626625" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[Asturias]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="57"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497626626" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[Asturias]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="187"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497626627" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[[{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="197"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497771176" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[Llama]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="54"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497771177" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[Lidl]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497771177" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[Carlos Suarez]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497771178" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[C. Gutiérrez Herrero, 27]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="67"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497771178" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[33402]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="71"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497771178" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="75"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497771179" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[Asturias]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="79"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497771179" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[Oviedo]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497771595" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[LLAME A LA RESOURCE]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="48"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497771596" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497771596" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[devuelvo paises]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="67"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497771614" level="INFO" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="56"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497771615" level="INFO" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="106"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497771615" level="INFO" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[[{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497771633" level="INFO" thread="http-nio-8080-exec-9">
+<log4j:message><![CDATA[Asturias]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="57"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497771633" level="INFO" thread="http-nio-8080-exec-9">
+<log4j:message><![CDATA[Asturias]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="187"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497771634" level="INFO" thread="http-nio-8080-exec-9">
+<log4j:message><![CDATA[[{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="197"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497774928" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[Llama]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="54"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497774929" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[Lidl]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497774930" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[Carlos Suarez]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497774930" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[C. Gutiérrez Herrero, 27]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="67"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497774931" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[33402]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="71"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497774931" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="75"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497774932" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[Asturias]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="79"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" timestamp="1668497774932" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[Aviles]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.portlet.action.TiendasAltaActionCommand" method="processAction" file="TiendasAltaActionCommand.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497775343" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[LLAME A LA RESOURCE]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="48"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497775343" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668497775344" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[devuelvo paises]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="67"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497775361" level="INFO" thread="http-nio-8080-exec-4">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="56"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497775362" level="INFO" thread="http-nio-8080-exec-4">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="106"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668497775362" level="INFO" thread="http-nio-8080-exec-4">
+<log4j:message><![CDATA[[{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497775380" level="INFO" thread="http-nio-8080-exec-3">
+<log4j:message><![CDATA[Asturias]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="57"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497775381" level="INFO" thread="http-nio-8080-exec-3">
+<log4j:message><![CDATA[Asturias]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="187"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668497775381" level="INFO" thread="http-nio-8080-exec-3">
+<log4j:message><![CDATA[[{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="197"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668497785524" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[Tamaño lista: 4]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668497785525" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[[{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="64"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668500041369" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[LLAME A LA RESOURCE]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="48"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668500041369" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668500041370" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[devuelvo paises]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="67"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668500041380" level="INFO" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="56"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668500041381" level="INFO" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="106"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668500041381" level="INFO" thread="http-nio-8080-exec-1">
+<log4j:message><![CDATA[[{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668500041395" level="INFO" thread="http-nio-8080-exec-4">
+<log4j:message><![CDATA[Lugo]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="57"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668500041396" level="INFO" thread="http-nio-8080-exec-4">
+<log4j:message><![CDATA[Lugo]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="187"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668500041397" level="INFO" thread="http-nio-8080-exec-4">
+<log4j:message><![CDATA[[{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="193"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668500045485" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[Tamaño lista: 4]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668500045485" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[[{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="64"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668500068358" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[LLAME A LA RESOURCE]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="48"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668500068359" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668500068360" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[devuelvo paises]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="67"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668500068368" level="INFO" thread="http-nio-8080-exec-9">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="56"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668500068368" level="INFO" thread="http-nio-8080-exec-9">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="106"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668500068369" level="INFO" thread="http-nio-8080-exec-9">
+<log4j:message><![CDATA[[{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668500068377" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[Lugo]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="57"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668500068378" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[Lugo]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="187"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668500068378" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[[{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="193"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668500071046" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[Tamaño lista: 4]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668500071047" level="INFO" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[[{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="64"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668500073882" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[Tamaño lista: 4]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668500073883" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[[{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="64"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668500073884" level="INFO" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[id tienda: 3]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" method="render" file="DetalleTiendaRenderCommand.java" line="52"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668500086840" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[LLAME A LA RESOURCE]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="48"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668500086840" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668500086841" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[devuelvo paises]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="67"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668500086849" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="56"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668500086849" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="106"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668500086850" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[[{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668500086857" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[Lugo]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="57"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668500086857" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[Lugo]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="187"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668500086857" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[[{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="193"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portlet.SecurityPortletContainerWrapper" timestamp="1668502675801" level="WARN" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[User 42104 is not allowed to serve resource for http://localhost:8080/alta-tienda on com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet: User 42104 must have ACCESS permission for Personal Menu com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet ]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portlet.SecurityPortletContainerWrapper" method="processServeResourceException" file="SecurityPortletContainerWrapper.java" line="470"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668502682704" level="INFO" thread="http-nio-8080-exec-9">
+<log4j:message><![CDATA[LLAME A LA RESOURCE]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="48"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668502682704" level="INFO" thread="http-nio-8080-exec-9">
+<log4j:message><![CDATA[Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="59"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" timestamp="1668502682705" level="INFO" thread="http-nio-8080-exec-9">
+<log4j:message><![CDATA[devuelvo paises]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasPaisResourceCommand" method="serveResource" file="TiendasPaisResourceCommand.java" line="67"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668502682716" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="56"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668502682717" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[ES]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="106"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" timestamp="1668502682717" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[[{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasProvinciasResourceCommand" method="serveResource" file="TiendasProvinciasResourceCommand.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668502682727" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[Lugo]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="57"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668502682728" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[Lugo]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="187"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" timestamp="1668502682728" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[[{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.tiendas.portlet.resources.TiendasCiudadesResourceCommand" method="serveResource" file="TiendasCiudadesResourceCommand.java" line="193"/>
+</log4j:event>
+
+<log4j:event logger="portal_web.docroot.errors.code_jsp" timestamp="1668503364663" level="WARN" thread="http-nio-8080-exec-2">
+<log4j:message><![CDATA[{code="404", msg="ProxyServlet: /practicas", uri=/o/practicas}]]></log4j:message>
+<log4j:locationInfo class="org.apache.jsp.errors.code_jsp" method="_jspService" file="code_jsp.java" line="161"/>
+</log4j:event>
+
+<log4j:event logger="portal_web.docroot.errors.code_jsp" timestamp="1668503384303" level="WARN" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[{code="404", msg="ProxyServlet: /practicas", uri=/o/practicas}]]></log4j:message>
+<log4j:locationInfo class="org.apache.jsp.errors.code_jsp" method="_jspService" file="code_jsp.java" line="161"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1668503420887" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1668504936722" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1668504936863" level="INFO" thread="Refresh Thread: Equinox Container: 6a1133af-ed6b-4447-bad7-ba6dda05c26e">
+<log4j:message><![CDATA[STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.servlet.filters.autologin.AutoLoginFilter" timestamp="1668505199259" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[Current URL /web/davidzapico generates exception: com.liferay.portal.kernel.security.auth.PrincipalException$MustBeAuthenticated: User 42104 must be authenticated]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.servlet.filters.autologin.AutoLoginFilter" method="processFilter" file="AutoLoginFilter.java" line="256"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1668505310526" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="80"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.log.BundleStartStopLogger" timestamp="1668505310867" level="INFO" thread="Refresh Thread: Equinox Container: 6a1133af-ed6b-4447-bad7-ba6dda05c26e">
+<log4j:message><![CDATA[STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.log.BundleStartStopLogger" method="bundleChanged" file="BundleStartStopLogger.java" line="77"/>
+</log4j:event>
+
+<log4j:event logger="es.cagemini.practicas.tiendas.rest.application.TiendasRestApplication" timestamp="1668505338389" level="INFO" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[{5}]]></log4j:message>
+<log4j:locationInfo class="es.cagemini.practicas.tiendas.rest.application.TiendasRestApplication" method="findOfTienda" file="TiendasRestApplication.java" line="60"/>
+</log4j:event>
+
+<log4j:event logger="es.cagemini.practicas.tiendas.rest.application.TiendasRestApplication" timestamp="1668511879409" level="INFO" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[{5}]]></log4j:message>
+<log4j:locationInfo class="es.cagemini.practicas.tiendas.rest.application.TiendasRestApplication" method="findOfTienda" file="TiendasRestApplication.java" line="60"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668530729698" level="INFO" thread="main">
+<log4j:message><![CDATA[1 theme for admin-theme was unregistered]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeUndeploy" file="ThemeHotDeployListener.java" line="171"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668530729750" level="INFO" thread="main">
+<log4j:message><![CDATA[1 theme for classic-theme was unregistered]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeUndeploy" file="ThemeHotDeployListener.java" line="171"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668530729810" level="INFO" thread="main">
+<log4j:message><![CDATA[1 theme for dialect-theme was unregistered]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeUndeploy" file="ThemeHotDeployListener.java" line="171"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668530729838" level="INFO" thread="main">
+<log4j:message><![CDATA[1 theme for minium-theme was unregistered]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeUndeploy" file="ThemeHotDeployListener.java" line="171"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668530729861" level="INFO" thread="main">
+<log4j:message><![CDATA[1 theme for speedwell-theme was unregistered]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeUndeploy" file="ThemeHotDeployListener.java" line="171"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.spring.context.PortalContextLoaderListener" timestamp="1668532374714" level="INFO" thread="main">
+<log4j:message><![CDATA[JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.spring.hibernate.DialectDetector" timestamp="1668532377711" level="INFO" thread="main">
+<log4j:message><![CDATA[Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.spring.hibernate.DialectDetector" method="getDialect" file="DialectDetector.java" line="153"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668532380708" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1279"/>
+</log4j:event>
+
+<log4j:event logger="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" timestamp="1668532381196" level="INFO" thread="ModuleFramework-Static-Bundles-6">
+<log4j:message><![CDATA[Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs]]></log4j:message>
+<log4j:locationInfo class="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" method="&lt;init&gt;" file="InterpolationConfigurationPlugin.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668532383880" level="INFO" thread="main">
+<log4j:message><![CDATA[Started initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1576"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668532383882" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1625"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668532406008" level="INFO" thread="main">
+<log4j:message><![CDATA[Started dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1647"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668532406019" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting web bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1654"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668532409111" level="INFO" thread="main">
+<log4j:message><![CDATA[Started web bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1708"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1668532409123" level="INFO" thread="main">
+<log4j:message><![CDATA[Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="startFramework" file="ModuleFrameworkImpl.java" line="278"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668532409141" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668532409141" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="44"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668532409141" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668532409141" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 0 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="44"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668532409141" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668532409157" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 16 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="44"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668532409628" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668532409706" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 78 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="44"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.search.elasticsearch7.internal.sidecar.SidecarManager" timestamp="1668532412906" level="WARN" thread="main">
+<log4j:message><![CDATA[Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.search.elasticsearch7.internal.sidecar.SidecarManager" method="applyConfigurations" file="SidecarManager.java" line="103"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.search.elasticsearch7.internal.sidecar.Sidecar" timestamp="1668532446536" level="INFO" thread="main">
+<log4j:message><![CDATA[Sidecar Elasticsearch liferay started at 127.0.0.1:9201]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.search.elasticsearch7.internal.sidecar.Sidecar" method="start" file="Sidecar.java" line="119"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.events.StartupHelperUtil" timestamp="1668532452502" level="INFO" thread="main">
+<log4j:message><![CDATA[There are no patches installed]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.events.StartupHelperUtil" method="printPatchLevel" file="StartupHelperUtil.java" line="86"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668532452520" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="83"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1668532452566" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 46 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="44"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1668532453225" level="INFO" thread="main">
+<log4j:message><![CDATA[Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="start" file="AutoDeployDir.java" line="176"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668532487896" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for speedwell-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668532488194" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for minium-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668532488414" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for dialect-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668532488650" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for classic-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1668532488916" level="INFO" thread="com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener">
+<log4j:message><![CDATA[1 theme for admin-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668532494171" level="INFO" thread="main">
+<log4j:message><![CDATA[System check is enabled. You can run a system check with the command "system:check" in Gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="activate" file="SystemCheckOSGiCommands.java" line="61"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668532494178" level="INFO" thread="main">
+<log4j:message><![CDATA[Running system check]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="activate" file="SystemCheckOSGiCommands.java" line="73"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668532494179" level="INFO" thread="main">
+<log4j:message><![CDATA[Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="95"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668532494179" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="111"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668532495874" level="INFO" thread="main">
+<log4j:message><![CDATA[Declarative Service Soft Circular Dependency Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668532495876" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="111"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668532517578" level="INFO" thread="main">
+<log4j:message><![CDATA[Declarative Service Unsatisfied Component Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668532517579" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="111"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1668532517581" level="INFO" thread="main">
+<log4j:message><![CDATA[Spring Extender Unavailable Component Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668532597890" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[Tamaño lista: 4]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668532597895" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[[{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="64"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668532801223" level="INFO" thread="http-nio-8080-exec-3">
+<log4j:message><![CDATA[Tamaño lista: 4]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="63"/>
+</log4j:event>
+
+<log4j:event logger="es.capgemini.practicas.listadotiendas.portlet.render.DetalleTiendaRenderCommand" timestamp="1668532801224" level="INFO" thread="http-nio-8080-exec-3">
+<log4j:message><![CDATA[[{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]]]></log4j:message>
+<log4j:locationInfo class="es.capgemini.practicas.listadotiendas.portlet.portlet.ListadoTiendasPortlet" method="render" file="ListadoTiendasPortlet.java" line="64"/>
+</log4j:event>
+

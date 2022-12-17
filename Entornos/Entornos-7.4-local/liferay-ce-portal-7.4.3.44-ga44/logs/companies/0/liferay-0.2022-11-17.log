@@ -1,0 +1,310 @@
+2022-11-17 07:23:39.563 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-17 07:23:43.276 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-17 07:23:45.671 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-17 07:23:46.139 INFO  [ModuleFramework-Static-Bundles-4][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-17 07:23:48.306 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-17 07:23:48.314 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-17 07:24:05.643 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-17 07:24:05.652 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-17 07:24:07.762 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-17 07:24:07.764 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-17 07:24:07.766 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-17 07:24:07.766 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-11-17 07:24:07.766 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-17 07:24:07.782 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 16 ms
+2022-11-17 07:24:07.782 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-17 07:24:07.782 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-11-17 07:24:08.101 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-17 07:24:08.148 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 47 ms
+2022-11-17 07:24:10.467 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-17 07:24:39.203 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-17 07:24:43.688 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-17 07:24:43.690 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-17 07:24:43.725 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 35 ms
+2022-11-17 07:24:44.213 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-17 07:24:51.125 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-17 07:24:51.247 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-17 07:24:51.372 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-17 07:24:51.498 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-17 07:24:51.639 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-17 07:24:51.859 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 07:41:43.174 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 07:41:48.373 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 07:41:48.402 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 07:41:48.463 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117074148404IBGRYUQB\practicas-theme.war
+2022-11-17 07:41:56.283 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117074148404IBGRYUQB\practicas-theme.war copied successfully
+2022-11-17 07:42:01.501 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 07:42:01.535 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 07:44:22.342 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 07:44:28.000 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 07:44:28.020 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 07:44:28.036 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117074428021EDECOGBA\practicas-theme.war
+2022-11-17 07:44:35.319 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117074428021EDECOGBA\practicas-theme.war copied successfully
+2022-11-17 07:44:40.418 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 07:44:40.443 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 07:46:31.415 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 07:46:36.662 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 07:46:36.680 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 07:46:36.697 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117074636681NZMOLJLL\practicas-theme.war
+2022-11-17 07:46:43.417 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117074636681NZMOLJLL\practicas-theme.war copied successfully
+2022-11-17 07:46:48.089 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 07:46:48.117 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 07:51:52.747 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 07:52:01.234 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 07:52:01.254 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 07:52:01.272 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117075201255SDAZPARZ\practicas-theme.war
+2022-11-17 07:52:09.166 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117075201255SDAZPARZ\practicas-theme.war copied successfully
+2022-11-17 07:52:14.547 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 07:52:14.574 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 07:54:34.953 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 07:54:41.000 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 07:54:41.022 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 07:54:41.045 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117075441023CNHJXJUO\practicas-theme.war
+2022-11-17 07:54:48.032 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117075441023CNHJXJUO\practicas-theme.war copied successfully
+2022-11-17 07:54:52.752 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 07:54:52.779 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 07:57:17.136 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 07:57:24.238 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 07:57:24.257 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 07:57:24.274 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117075724258YWDWNBYN\practicas-theme.war
+2022-11-17 07:57:30.900 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117075724258YWDWNBYN\practicas-theme.war copied successfully
+2022-11-17 07:57:35.674 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 07:57:35.699 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 08:18:20.790 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 08:18:29.172 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 08:18:29.190 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 08:18:29.208 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117081829191XQVVAIKS\practicas-theme.war
+2022-11-17 08:18:36.291 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117081829191XQVVAIKS\practicas-theme.war copied successfully
+2022-11-17 08:18:41.420 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 08:18:41.496 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 08:50:24.974 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 08:50:30.455 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 08:50:30.478 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 08:50:30.499 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117085030479IPWKATZO\practicas-theme.war
+2022-11-17 08:50:37.469 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117085030479IPWKATZO\practicas-theme.war copied successfully
+2022-11-17 08:50:42.233 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 08:50:42.256 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 08:52:19.031 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 08:52:28.333 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 08:52:28.359 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 08:52:28.375 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117085228359HHIZWIZE\practicas-theme.war
+2022-11-17 08:52:35.361 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117085228359HHIZWIZE\practicas-theme.war copied successfully
+2022-11-17 08:52:40.473 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 08:52:40.498 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 08:54:46.169 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 08:54:52.039 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 08:54:52.057 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 08:54:52.075 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117085452058JDBIKRWK\practicas-theme.war
+2022-11-17 08:54:59.456 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117085452058JDBIKRWK\practicas-theme.war copied successfully
+2022-11-17 08:55:04.758 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 08:55:04.789 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 08:58:25.363 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 08:58:31.970 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 08:58:31.987 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 08:58:32.005 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117085831988SZINLXMF\practicas-theme.war
+2022-11-17 08:58:39.693 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117085831988SZINLXMF\practicas-theme.war copied successfully
+2022-11-17 08:58:44.361 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 08:58:44.387 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 09:00:55.407 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 09:01:00.753 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 09:01:00.770 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 09:01:00.787 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117090100771NZHKIYHX\practicas-theme.war
+2022-11-17 09:01:07.577 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117090100771NZHKIYHX\practicas-theme.war copied successfully
+2022-11-17 09:01:12.205 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 09:01:12.236 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 09:04:34.677 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 09:04:44.460 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 09:04:44.475 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 09:04:44.507 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117090444491KDBYRISM\practicas-theme.war
+2022-11-17 09:04:51.499 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117090444491KDBYRISM\practicas-theme.war copied successfully
+2022-11-17 09:04:56.322 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 09:04:56.353 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 09:06:34.968 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 09:06:42.425 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 09:06:42.443 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 09:06:42.462 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117090642444QQWDMOPC\practicas-theme.war
+2022-11-17 09:06:49.267 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117090642444QQWDMOPC\practicas-theme.war copied successfully
+2022-11-17 09:06:53.922 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 09:06:53.948 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 09:08:13.992 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 09:08:19.827 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 09:08:19.847 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 09:08:19.864 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117090819848OCEHMSXJ\practicas-theme.war
+2022-11-17 09:08:26.509 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117090819848OCEHMSXJ\practicas-theme.war copied successfully
+2022-11-17 09:08:31.205 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 09:08:31.229 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 09:53:48.686 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 09:53:57.420 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 09:53:57.453 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 09:53:57.468 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117095357453FJADOMYL\practicas-theme.war
+2022-11-17 09:54:04.350 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117095357453FJADOMYL\practicas-theme.war copied successfully
+2022-11-17 09:54:09.118 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 09:54:09.146 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 10:19:28.652 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 10:19:38.777 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 10:19:38.795 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 10:19:38.814 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117101938796YQEDYZQD\practicas-theme.war
+2022-11-17 10:19:46.096 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117101938796YQEDYZQD\practicas-theme.war copied successfully
+2022-11-17 10:19:50.985 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 10:19:51.007 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 10:38:55.542 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 10:39:01.047 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 10:39:01.072 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 10:39:01.088 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117103901072FLGRKWIX\practicas-theme.war
+2022-11-17 10:39:07.832 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117103901072FLGRKWIX\practicas-theme.war copied successfully
+2022-11-17 10:39:12.471 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 10:39:12.489 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 10:40:22.723 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 10:40:28.255 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 10:40:28.273 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 10:40:28.291 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117104028274MADOEXYV\practicas-theme.war
+2022-11-17 10:40:34.971 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117104028274MADOEXYV\practicas-theme.war copied successfully
+2022-11-17 10:40:39.560 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 10:40:39.583 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 10:44:35.263 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 10:44:41.953 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 10:44:41.982 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 10:44:41.998 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117104441982IXRKTMIG\practicas-theme.war
+2022-11-17 10:44:49.131 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117104441982IXRKTMIG\practicas-theme.war copied successfully
+2022-11-17 10:44:53.823 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 10:44:53.844 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 10:45:53.409 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 10:45:59.512 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 10:45:59.528 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 10:45:59.545 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117104559529DWRYYHZE\practicas-theme.war
+2022-11-17 10:46:06.250 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117104559529DWRYYHZE\practicas-theme.war copied successfully
+2022-11-17 10:46:10.839 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 10:46:10.862 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 11:04:38.212 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 11:04:45.932 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 11:04:45.952 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 11:04:45.973 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117110445953HRISDOMI\practicas-theme.war
+2022-11-17 11:04:52.976 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117110445953HRISDOMI\practicas-theme.war copied successfully
+2022-11-17 11:04:57.595 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 11:04:57.619 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 11:09:05.720 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 11:09:15.118 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 11:09:15.134 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 11:09:15.145 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117110915134RKGQDBGR\practicas-theme.war
+2022-11-17 11:09:21.904 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117110915134RKGQDBGR\practicas-theme.war copied successfully
+2022-11-17 11:09:26.665 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 11:09:26.690 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 11:10:48.057 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 11:10:57.544 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 11:10:57.575 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 11:10:57.591 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117111057575XJQIFNFG\practicas-theme.war
+2022-11-17 11:11:04.191 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117111057575XJQIFNFG\practicas-theme.war copied successfully
+2022-11-17 11:11:08.777 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 11:11:08.799 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 11:16:37.022 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 11:16:47.088 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 11:16:47.106 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 11:16:47.123 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117111647107HSPDBBDJ\practicas-theme.war
+2022-11-17 11:16:54.140 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117111647107HSPDBBDJ\practicas-theme.war copied successfully
+2022-11-17 11:16:58.781 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 11:16:58.801 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 11:23:31.437 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 11:23:37.529 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 11:23:37.556 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 11:23:37.571 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117112337556ZOITJZNU\practicas-theme.war
+2022-11-17 11:23:44.215 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117112337556ZOITJZNU\practicas-theme.war copied successfully
+2022-11-17 11:23:48.851 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 11:23:48.881 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 11:25:07.699 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 11:25:14.766 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 11:25:14.771 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 11:25:14.802 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117112514786DMZKTLFX\practicas-theme.war
+2022-11-17 11:25:21.487 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117112514786DMZKTLFX\practicas-theme.war copied successfully
+2022-11-17 11:25:26.157 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 11:25:26.186 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 11:28:23.022 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 11:28:33.022 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 11:28:33.040 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 11:28:33.056 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117112833040ECTCSEGN\practicas-theme.war
+2022-11-17 11:28:39.682 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117112833040ECTCSEGN\practicas-theme.war copied successfully
+2022-11-17 11:28:44.248 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 11:28:44.270 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 11:47:48.911 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 11:47:54.965 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 11:47:54.982 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 11:47:55.000 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117114754983DFLERVIK\practicas-theme.war
+2022-11-17 11:48:01.712 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117114754983DFLERVIK\practicas-theme.war copied successfully
+2022-11-17 11:48:06.384 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 11:48:06.409 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 11:50:24.948 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 11:50:32.771 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 11:50:32.788 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 11:50:32.806 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117115032789CDZVAFHR\practicas-theme.war
+2022-11-17 11:50:39.816 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117115032789CDZVAFHR\practicas-theme.war copied successfully
+2022-11-17 11:50:44.696 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 11:50:44.725 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 11:57:31.123 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 11:57:38.878 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 11:57:38.895 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 11:57:38.912 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117115738896RKWKTQIP\practicas-theme.war
+2022-11-17 11:57:45.734 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117115738896RKWKTQIP\practicas-theme.war copied successfully
+2022-11-17 11:57:50.323 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 11:57:50.343 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 12:05:07.369 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 12:05:14.633 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 12:05:14.652 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 12:05:14.671 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117120514653IENPRLMK\practicas-theme.war
+2022-11-17 12:05:21.775 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117120514653IENPRLMK\practicas-theme.war copied successfully
+2022-11-17 12:05:26.444 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 12:05:26.480 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 15:07:03.580 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 15:07:10.180 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 15:07:10.216 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 15:07:10.244 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117150710216XNTHFYBJ\practicas-theme.war
+2022-11-17 15:07:17.125 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117150710216XNTHFYBJ\practicas-theme.war copied successfully
+2022-11-17 15:07:21.869 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 15:07:21.900 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 15:10:03.902 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 15:10:13.878 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 15:10:13.905 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 15:10:13.921 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117151013905GERFIRAA\practicas-theme.war
+2022-11-17 15:10:20.738 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117151013905GERFIRAA\practicas-theme.war copied successfully
+2022-11-17 15:10:25.437 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 15:10:25.455 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 15:15:13.290 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 15:15:23.352 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 15:15:23.380 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 15:15:23.396 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117151523380DNWHLDLY\practicas-theme.war
+2022-11-17 15:15:30.042 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117151523380DNWHLDLY\practicas-theme.war copied successfully
+2022-11-17 15:15:34.644 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 15:15:34.675 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 15:17:25.445 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practicas-theme.war
+2022-11-17 15:17:30.871 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 15:17:30.903 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 15:17:30.923 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117151730904KWSFRMWU\practicas-theme.war
+2022-11-17 15:17:37.647 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117151730904KWSFRMWU\practicas-theme.war copied successfully
+2022-11-17 15:17:42.342 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practicas-theme is available for use
+2022-11-17 15:17:42.365 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practicas-theme_1.0.0 [1586]
+2022-11-17 15:20:59.185 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practicas-theme was unregistered
+2022-11-17 15:20:59.203 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practicas-theme_1.0.0 [1586]
+2022-11-17 15:28:38.497 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practica-theme.war
+2022-11-17 15:28:43.660 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117152843644IAUBYVPJ\practica-theme.war
+2022-11-17 15:28:50.435 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117152843644IAUBYVPJ\practica-theme.war copied successfully
+2022-11-17 15:28:55.095 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-11-17 15:28:55.115 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED practica-theme_1.0.0 [1587]
+2022-11-17 15:29:02.457 WARN  [http-nio-8080-exec-2][code_jsp:161] {code="404", msg="ProxyServlet: /practicas-theme/images/clay/icons.svg", uri=/o/practicas-theme/images/clay/icons.svg}
+2022-11-17 15:49:01.020 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-11-17 15:49:01.035 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practica-theme_1.0.0 [1587]
+2022-11-17 15:55:20.661 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practica-theme.war
+2022-11-17 15:55:30.426 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117155530409NSTULCBM\practica-theme.war
+2022-11-17 15:55:38.276 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117155530409NSTULCBM\practica-theme.war copied successfully
+2022-11-17 15:55:43.191 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-11-17 15:55:43.216 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED practica-theme_1.0.0 [1588]
+2022-11-17 16:07:18.188 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing practica-theme.war
+2022-11-17 16:07:25.914 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-11-17 16:07:25.928 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED practica-theme_1.0.0 [1588]
+2022-11-17 16:07:25.945 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117160725929HZTGNMSQ\practica-theme.war
+2022-11-17 16:07:33.045 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221117160725929HZTGNMSQ\practica-theme.war copied successfully
+2022-11-17 16:07:37.749 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-11-17 16:07:37.770 INFO  [Refresh Thread: Equinox Container: 122d89a9-ade5-4563-892a-697e83342578][BundleStartStopLogger:77] STARTED practica-theme_1.0.0 [1588]
+2022-11-17 17:25:48.437 INFO  [main][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-11-17 17:25:48.443 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-11-17 17:25:48.467 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-11-17 17:25:48.475 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-11-17 17:25:48.475 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-11-17 17:25:48.491 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered

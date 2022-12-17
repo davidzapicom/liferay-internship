@@ -1,0 +1,22 @@
+2022-10-24 06:07:10.037 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-10-24 06:07:10.052 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-10-24 06:07:10.053 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-10-24 06:07:10.054 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-10-24 06:07:12.140 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-10-24 06:07:12.142 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-10-24 06:07:33.007 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-10-24 06:07:33.007 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-10-24 06:07:33.009 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-10-24 07:01:33.604 WARN  [http-nio-8080-exec-3][SecurityPortletContainerWrapper:470] User 0 is not allowed to serve resource for http://localhost:8080/home on com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet: User 0 must have ACCESS permission for Personal Menu com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet 
+2022-10-24 10:11:12.975 WARN  [http-nio-8080-exec-3][SecurityPortletContainerWrapper:470] User 0 is not allowed to serve resource for http://localhost:8080/home on com_liferay_product_navigation_applications_menu_web_internal_portlet_ProductNavigationApplicationsMenuPortlet: User 0 must have ACCESS permission for Simulation com_liferay_product_navigation_applications_menu_web_internal_portlet_ProductNavigationApplicationsMenuPortlet 
+2022-10-24 10:11:12.982 WARN  [http-nio-8080-exec-5][SecurityPortletContainerWrapper:470] User 0 is not allowed to serve resource for http://localhost:8080/home on com_liferay_layout_reports_web_internal_portlet_LayoutReportsPortlet: User 0 must have ACCESS permission for Page Audit com_liferay_layout_reports_web_internal_portlet_LayoutReportsPortlet 
+2022-10-24 13:24:16.054 ERROR [http-nio-8080-exec-9][JSONWebServiceServiceAction:126] No JSON web service action with path /kaleo.kaleodefinition/get-kaleo-definitions and method GET for kaleo
+2022-10-24 15:23:14.425 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-10-24 15:23:14.437 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-10-24 15:23:14.439 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-10-24 15:23:14.439 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-10-24 15:23:15.660 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-10-24 15:23:15.660 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-10-24 15:23:30.578 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-10-24 15:23:30.584 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-10-24 15:23:30.586 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.

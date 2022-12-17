@@ -1,0 +1,34 @@
+04-Oct-2022 06:54:00.834 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1103] milliseconds
+04-Oct-2022 07:34:30.980 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [1047] milliseconds
+04-Oct-2022 07:41:09.506 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [398526] milliseconds
+04-Oct-2022 07:41:09.509 GRAVE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: JVM_Bind
+		at java.net.TwoStacksPlainSocketImpl.socketBind(Native Method)
+		at java.net.TwoStacksPlainSocketImpl.socketBind(Unknown Source)
+		at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+		at java.net.TwoStacksPlainSocketImpl.bind(Unknown Source)
+		at java.net.PlainSocketImpl.bind(Unknown Source)
+		at java.net.ServerSocket.bind(Unknown Source)
+		at java.net.ServerSocket.<init>(Unknown Source)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:577)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+04-Oct-2022 07:41:31.609 ADVERTENCIA [main] org.apache.tomcat.util.net.Acceptor.stop The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+04-Oct-2022 07:50:48.568 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [545] milliseconds
+04-Oct-2022 07:52:30.856 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [102283] milliseconds
+04-Oct-2022 07:56:22.247 ADVERTENCIA [main] org.apache.tomcat.util.net.Acceptor.stop The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+04-Oct-2022 07:56:33.842 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [543] milliseconds
+04-Oct-2022 07:58:34.504 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [120651] milliseconds
+04-Oct-2022 08:04:14.477 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [755] milliseconds
+04-Oct-2022 08:06:07.008 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [112523] milliseconds
+04-Oct-2022 11:24:49.489 ADVERTENCIA [main] org.apache.tomcat.util.net.Acceptor.stop The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+04-Oct-2022 13:36:44.491 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [987] milliseconds
+04-Oct-2022 13:39:39.799 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [175296] milliseconds
+04-Oct-2022 15:08:11.251 ADVERTENCIA [main] org.apache.tomcat.util.net.Acceptor.stop The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+04-Oct-2022 17:08:11.735 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:9005] (base port [9005] and offset [0]). Tomcat may not be running.

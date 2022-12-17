@@ -1,0 +1,4 @@
+.form-tiendas-portlet span.required::after {
+  content: "*";
+  color: red;
+}

@@ -1,0 +1,10 @@
+2022-10-05 06:00:39.556 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-10-05 06:00:39.571 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-10-05 06:00:39.575 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-10-05 06:00:39.577 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-10-05 06:00:42.247 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-10-05 06:00:42.248 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-10-05 06:01:28.699 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-10-05 06:01:28.704 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-10-05 06:01:28.709 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-10-05 08:26:45.508 WARN  [http-nio-8080-exec-5][SecurityPortletContainerWrapper:470] User 0 is not allowed to serve resource for http://localhost:8080/home on com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet: User 0 must have ACCESS permission for Personal Menu com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet 

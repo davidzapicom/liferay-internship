@@ -1,0 +1,3 @@
+.contenido-visualizacion-portlet a {
+  color: black;
+}

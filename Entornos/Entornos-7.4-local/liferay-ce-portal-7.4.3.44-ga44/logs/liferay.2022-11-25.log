@@ -1,0 +1,126 @@
+2022-11-25 07:16:26.342 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-25 07:16:29.336 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-25 07:16:31.339 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-25 07:16:31.781 INFO  [ModuleFramework-Static-Bundles-3][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-25 07:16:33.327 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-25 07:16:33.327 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-25 07:16:46.444 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-25 07:16:46.444 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-25 07:16:48.375 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-25 07:16:48.375 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-25 07:16:48.384 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-25 07:16:48.385 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 1 ms
+2022-11-25 07:16:48.385 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-25 07:16:48.395 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 9 ms
+2022-11-25 07:16:48.396 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-25 07:16:48.396 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 1 ms
+2022-11-25 07:16:48.739 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-25 07:16:48.792 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 53 ms
+2022-11-25 07:16:51.153 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-25 07:17:15.727 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-25 07:17:19.996 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-25 07:17:20.010 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-25 07:17:20.042 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 33 ms
+2022-11-25 07:17:20.515 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-25 07:17:45.164 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-25 07:17:45.278 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-25 07:17:45.402 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-25 07:17:45.519 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-25 07:17:45.628 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-25 07:17:45.747 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-11-25 07:17:45.856 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-25 07:17:49.002 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-25 07:17:49.006 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-25 07:17:49.007 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-25 07:17:49.007 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-25 07:17:50.189 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-25 07:17:50.189 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-25 07:18:05.892 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-25 07:18:05.893 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-25 07:18:05.894 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-11-25 08:49:29.465 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-25 08:49:29.888 INFO  [Refresh Thread: Equinox Container: cb582398-920a-40a2-9ba1-cf3c01f3ba0a][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-25 08:51:51.302 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-25 08:51:51.493 INFO  [Refresh Thread: Equinox Container: cb582398-920a-40a2-9ba1-cf3c01f3ba0a][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-25 08:53:47.733 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-25 08:53:47.918 INFO  [Refresh Thread: Equinox Container: cb582398-920a-40a2-9ba1-cf3c01f3ba0a][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-25 08:53:54.475 INFO  [http-nio-8080-exec-6][SelectViaResourceCommand:45] LLAMA VIAS
+2022-11-25 08:53:54.477 INFO  [http-nio-8080-exec-6][SelectViaResourceCommand:88] devuelvo vias
+2022-11-25 08:53:54.500 INFO  [http-nio-8080-exec-1][SelectPaisResourceCommand:45] LLAME A LA RESOURCE
+2022-11-25 08:53:54.502 INFO  [http-nio-8080-exec-1][SelectPaisResourceCommand:56] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-25 08:53:54.502 INFO  [http-nio-8080-exec-1][SelectPaisResourceCommand:61] devuelvo paises
+2022-11-25 08:53:54.522 INFO  [http-nio-8080-exec-4][SelectProvinciaResourceCommand:48] ES
+2022-11-25 08:53:54.523 INFO  [http-nio-8080-exec-4][SelectProvinciaResourceCommand:94] ES
+2022-11-25 08:53:54.525 INFO  [http-nio-8080-exec-4][SelectProvinciaResourceCommand:97] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-25 08:53:54.549 INFO  [http-nio-8080-exec-2][SelectCiudadResourceCommand:48] Lugo
+2022-11-25 08:53:54.550 INFO  [http-nio-8080-exec-2][SelectCiudadResourceCommand:172] Lugo
+2022-11-25 08:53:54.551 INFO  [http-nio-8080-exec-2][SelectCiudadResourceCommand:177] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-25 09:10:48.204 INFO  [http-nio-8080-exec-3][SelectViaResourceCommand:45] LLAMA VIAS
+2022-11-25 09:10:48.204 INFO  [http-nio-8080-exec-3][SelectViaResourceCommand:88] devuelvo vias
+2022-11-25 09:10:48.219 INFO  [http-nio-8080-exec-10][SelectPaisResourceCommand:45] LLAME A LA RESOURCE
+2022-11-25 09:10:48.219 INFO  [http-nio-8080-exec-10][SelectPaisResourceCommand:56] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-25 09:10:48.220 INFO  [http-nio-8080-exec-10][SelectPaisResourceCommand:61] devuelvo paises
+2022-11-25 09:10:48.233 INFO  [http-nio-8080-exec-1][SelectProvinciaResourceCommand:48] ES
+2022-11-25 09:10:48.234 INFO  [http-nio-8080-exec-1][SelectProvinciaResourceCommand:94] ES
+2022-11-25 09:10:48.235 INFO  [http-nio-8080-exec-1][SelectProvinciaResourceCommand:97] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-25 09:10:48.251 INFO  [http-nio-8080-exec-8][SelectCiudadResourceCommand:48] Lugo
+2022-11-25 09:10:48.252 INFO  [http-nio-8080-exec-8][SelectCiudadResourceCommand:172] Lugo
+2022-11-25 09:10:48.252 INFO  [http-nio-8080-exec-8][SelectCiudadResourceCommand:177] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-25 09:26:26.575 WARN  [http-nio-8080-exec-2][SecurityPortletContainerWrapper:470] User 0 is not allowed to serve resource for http://localhost:8080/web/wecanbs/w/annabis-handcann-q10-crema-de-manos-natural-de-c%C3%A1%C3%B1amo-hidratante-y-regeneradora on com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet: User 0 must have ACCESS permission for Personal Menu com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet 
+2022-11-25 09:36:03.862 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.datosproducto.sb.api_1.0.0 [1600]
+2022-11-25 09:36:03.867 ERROR [fileinstall-directory-watcher][DirectoryWatcher:1173] Unable to start bundle: file:/C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/modules/es.capgemini.proyecto.datosproducto.sb.service.jar
+com.liferay.portal.kernel.log.LogSanitizerException: org.osgi.framework.BundleException: Could not resolve module: es.capgemini.proyecto.datosproducto.sb.service [1601]_  Unresolved requirement: Import-Package: es.capgemini.proyecto.datosproducto.sb.pedidos.exception_ [Sanitized]
+	at org.eclipse.osgi.container.Module.start(Module.java:444) ~[org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428) ~[org.eclipse.osgi.jar:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher._startBundle(DirectoryWatcher.java:1156) [bundleFile:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher._startBundles(DirectoryWatcher.java:1189) [bundleFile:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher._process(DirectoryWatcher.java:1046) [bundleFile:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher.run(DirectoryWatcher.java:221) [bundleFile:?]
+2022-11-25 10:06:21.991 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.datosproducto.sb.api_1.0.0 [1600]
+2022-11-25 10:10:30.209 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-25 10:10:32.439 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-25 10:10:34.171 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-25 10:10:34.716 INFO  [ModuleFramework-Static-Bundles-2][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-25 10:10:36.229 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-25 10:10:36.230 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-25 10:10:48.694 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-25 10:10:48.694 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-25 10:10:50.510 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-25 10:10:50.510 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-25 10:10:50.518 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-25 10:10:50.519 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-11-25 10:10:50.519 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-25 10:10:50.528 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 9 ms
+2022-11-25 10:10:50.529 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-25 10:10:50.529 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-11-25 10:10:50.832 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-25 10:10:50.874 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 42 ms
+2022-11-25 10:10:52.680 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-25 10:11:15.688 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-25 10:11:19.526 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-25 10:11:19.542 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-25 10:11:19.573 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 31 ms
+2022-11-25 10:11:20.100 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-25 10:11:45.452 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-25 10:11:45.576 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-25 10:11:45.681 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-25 10:11:45.804 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-25 10:11:45.904 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-25 10:11:46.004 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-11-25 10:11:46.114 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-25 10:11:49.321 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-25 10:11:49.323 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-25 10:11:49.324 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-25 10:11:49.324 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-25 10:11:50.502 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-25 10:11:50.503 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-25 10:12:06.519 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-25 10:12:06.520 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-25 10:12:06.522 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-11-25 10:41:59.306 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.procesopedidos.sb.api_1.0.0 [1602]
+2022-11-25 10:42:00.151 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.procesopedidos.sb.service_1.0.0 [1603]
+2022-11-25 12:14:23.370 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.procesopedidos.sb.api_1.0.0 [1602]
+2022-11-25 12:14:23.406 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.procesopedidos.sb.service_1.0.0 [1603]
+2022-11-25 12:14:59.006 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.procesopedidos.sb.api_1.0.0 [1604]
+2022-11-25 12:14:59.219 WARN  [fileinstall-directory-watcher][ServiceComponentLocalServiceImpl:550] Auto upgrading PROYECTO_pedidos database to build number 2 is not supported for a production environment. Write an UpgradeStep to ensure data is upgraded correctly.
+2022-11-25 12:14:59.260 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.procesopedidos.sb.service_1.0.0 [1605]

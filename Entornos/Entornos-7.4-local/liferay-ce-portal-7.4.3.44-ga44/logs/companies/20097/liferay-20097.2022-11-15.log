@@ -1,0 +1,141 @@
+2022-11-15 07:11:26.376 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-15 07:11:26.383 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-15 07:11:26.384 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-15 07:11:26.385 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-15 07:11:27.834 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-15 07:11:27.848 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-15 07:11:47.376 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-15 07:11:47.387 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-15 07:11:47.388 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-11-15 07:30:22.416 INFO  [http-nio-8080-exec-1][DetalleTiendaRenderCommand:63] Tamaño lista: 3
+2022-11-15 07:30:22.418 INFO  [http-nio-8080-exec-1][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 07:30:24.825 INFO  [http-nio-8080-exec-10][DetalleTiendaRenderCommand:63] Tamaño lista: 3
+2022-11-15 07:30:24.826 INFO  [http-nio-8080-exec-10][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 07:30:24.827 INFO  [http-nio-8080-exec-10][DetalleTiendaRenderCommand:52] id tienda: 3
+2022-11-15 07:30:27.049 INFO  [http-nio-8080-exec-4][DetalleTiendaRenderCommand:63] Tamaño lista: 3
+2022-11-15 07:30:27.050 INFO  [http-nio-8080-exec-4][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 07:30:30.555 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 07:30:30.555 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 07:30:30.556 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 07:30:30.569 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 07:30:30.570 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 07:30:30.571 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 07:30:30.581 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:57] Lugo
+2022-11-15 07:30:30.582 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:187] Lugo
+2022-11-15 07:30:30.582 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:193] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-15 07:33:43.332 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-15 07:33:43.333 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-15 07:33:43.334 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-15 07:33:46.083 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:54] Llama
+2022-11-15 07:33:46.084 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:59] Lidl
+2022-11-15 07:33:46.084 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:63] Carlos Suarez
+2022-11-15 07:33:46.085 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:67] C. Gutiérrez Herrero, 27
+2022-11-15 07:33:46.085 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:71] 33402
+2022-11-15 07:33:46.086 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:75] ES
+2022-11-15 07:33:46.086 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:79] Asturias
+2022-11-15 07:33:46.086 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:83] Aviles
+2022-11-15 07:33:46.577 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 07:33:46.578 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 07:33:46.579 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 07:33:46.601 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 07:33:46.601 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 07:33:46.602 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 07:33:46.625 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-15 07:33:46.626 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-15 07:33:46.627 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-15 07:36:11.176 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:54] Llama
+2022-11-15 07:36:11.177 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:59] Lidl
+2022-11-15 07:36:11.177 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:63] Carlos Suarez
+2022-11-15 07:36:11.178 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:67] C. Gutiérrez Herrero, 27
+2022-11-15 07:36:11.178 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:71] 33402
+2022-11-15 07:36:11.178 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:75] ES
+2022-11-15 07:36:11.179 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:79] Asturias
+2022-11-15 07:36:11.179 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:83] Oviedo
+2022-11-15 07:36:11.595 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 07:36:11.596 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 07:36:11.596 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 07:36:11.614 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 07:36:11.615 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 07:36:11.615 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 07:36:11.633 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-15 07:36:11.633 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-15 07:36:11.634 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-15 07:36:14.928 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:54] Llama
+2022-11-15 07:36:14.929 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:59] Lidl
+2022-11-15 07:36:14.930 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:63] Carlos Suarez
+2022-11-15 07:36:14.930 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:67] C. Gutiérrez Herrero, 27
+2022-11-15 07:36:14.931 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:71] 33402
+2022-11-15 07:36:14.931 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:75] ES
+2022-11-15 07:36:14.932 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:79] Asturias
+2022-11-15 07:36:14.932 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:83] Aviles
+2022-11-15 07:36:15.343 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 07:36:15.343 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 07:36:15.344 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 07:36:15.361 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 07:36:15.362 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 07:36:15.362 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 07:36:15.380 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-15 07:36:15.381 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-15 07:36:15.381 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-15 07:36:25.524 INFO  [http-nio-8080-exec-5][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 07:36:25.525 INFO  [http-nio-8080-exec-5][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 08:14:01.369 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 08:14:01.369 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 08:14:01.370 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 08:14:01.380 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 08:14:01.381 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 08:14:01.381 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 08:14:01.395 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:57] Lugo
+2022-11-15 08:14:01.396 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:187] Lugo
+2022-11-15 08:14:01.397 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:193] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-15 08:14:05.485 INFO  [http-nio-8080-exec-2][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 08:14:05.485 INFO  [http-nio-8080-exec-2][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 08:14:28.358 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 08:14:28.359 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 08:14:28.360 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 08:14:28.368 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 08:14:28.368 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 08:14:28.369 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 08:14:28.377 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:57] Lugo
+2022-11-15 08:14:28.378 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:187] Lugo
+2022-11-15 08:14:28.378 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:193] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-15 08:14:31.046 INFO  [http-nio-8080-exec-6][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 08:14:31.047 INFO  [http-nio-8080-exec-6][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 08:14:33.882 INFO  [http-nio-8080-exec-2][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 08:14:33.883 INFO  [http-nio-8080-exec-2][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 08:14:33.884 INFO  [http-nio-8080-exec-2][DetalleTiendaRenderCommand:52] id tienda: 3
+2022-11-15 08:14:46.840 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 08:14:46.840 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 08:14:46.841 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 08:14:46.849 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 08:14:46.849 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 08:14:46.850 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 08:14:46.857 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:57] Lugo
+2022-11-15 08:14:46.857 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:187] Lugo
+2022-11-15 08:14:46.857 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:193] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-15 08:57:55.801 WARN  [http-nio-8080-exec-5][SecurityPortletContainerWrapper:470] User 42104 is not allowed to serve resource for http://localhost:8080/alta-tienda on com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet: User 42104 must have ACCESS permission for Personal Menu com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet 
+2022-11-15 08:58:02.704 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 08:58:02.704 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 08:58:02.705 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 08:58:02.716 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 08:58:02.717 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 08:58:02.717 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 08:58:02.727 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:57] Lugo
+2022-11-15 08:58:02.728 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:187] Lugo
+2022-11-15 08:58:02.728 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:193] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-15 09:39:59.259 ERROR [http-nio-8080-exec-10][AutoLoginFilter:256] Current URL /web/davidzapico generates exception: com.liferay.portal.kernel.security.auth.PrincipalException$MustBeAuthenticated: User 42104 must be authenticated
+2022-11-15 09:42:18.389 INFO  [http-nio-8080-exec-5][TiendasRestApplication:60] {5}
+2022-11-15 11:31:19.409 INFO  [http-nio-8080-exec-8][TiendasRestApplication:60] {5}
+2022-11-15 17:14:54.171 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-15 17:14:54.178 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-15 17:14:54.179 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-15 17:14:54.179 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-15 17:14:55.874 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-15 17:14:55.876 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-15 17:15:17.578 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-15 17:15:17.579 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-15 17:15:17.581 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-11-15 17:16:37.890 INFO  [http-nio-8080-exec-10][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 17:16:37.895 INFO  [http-nio-8080-exec-10][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 17:20:01.223 INFO  [http-nio-8080-exec-3][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 17:20:01.224 INFO  [http-nio-8080-exec-3][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]

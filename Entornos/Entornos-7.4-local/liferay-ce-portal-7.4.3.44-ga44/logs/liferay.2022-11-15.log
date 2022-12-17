@@ -1,0 +1,217 @@
+2022-11-15 07:09:39.366 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-15 07:09:43.414 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-15 07:09:46.747 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-15 07:09:47.238 INFO  [ModuleFramework-Static-Bundles-8][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-15 07:09:50.021 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-15 07:09:50.028 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-15 07:10:11.635 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-15 07:10:11.636 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-15 07:10:14.582 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-15 07:10:14.591 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-15 07:10:14.593 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-15 07:10:14.593 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-11-15 07:10:14.593 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-15 07:10:14.609 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 16 ms
+2022-11-15 07:10:14.609 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-15 07:10:14.609 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-11-15 07:10:15.147 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-15 07:10:15.210 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 63 ms
+2022-11-15 07:10:19.009 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-15 07:10:46.678 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-15 07:10:53.407 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-15 07:10:53.431 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-15 07:10:53.489 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 58 ms
+2022-11-15 07:10:54.310 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-15 07:11:02.665 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-15 07:11:02.812 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-15 07:11:02.953 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-15 07:11:03.094 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-15 07:11:03.235 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-15 07:11:26.376 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-15 07:11:26.383 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-15 07:11:26.384 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-15 07:11:26.385 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-15 07:11:27.834 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-15 07:11:27.848 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-15 07:11:47.376 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-15 07:11:47.387 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-15 07:11:47.388 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-11-15 07:30:05.885 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.miprimervideoportlet_1.0.0 [1565]
+2022-11-15 07:30:05.926 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.portlet.miprimerportlet_1.0.0 [1570]
+2022-11-15 07:30:06.154 INFO  [Refresh Thread: Equinox Container: 6a1133af-ed6b-4447-bad7-ba6dda05c26e][BundleStartStopLogger:77] STARTED es.capgemini.practicas.miprimervideoportlet_1.0.0 [1565]
+2022-11-15 07:30:06.185 INFO  [Refresh Thread: Equinox Container: 6a1133af-ed6b-4447-bad7-ba6dda05c26e][BundleStartStopLogger:77] STARTED es.capgemini.practicas.portlet.miprimerportlet_1.0.0 [1570]
+2022-11-15 07:30:11.271 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-15 07:30:11.414 INFO  [Refresh Thread: Equinox Container: 6a1133af-ed6b-4447-bad7-ba6dda05c26e][BundleStartStopLogger:77] STARTED es.capgemini.practicas.tiendas.portlet_1.0.0 [1583]
+2022-11-15 07:30:22.416 INFO  [http-nio-8080-exec-1][DetalleTiendaRenderCommand:63] Tamaño lista: 3
+2022-11-15 07:30:22.418 INFO  [http-nio-8080-exec-1][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 07:30:24.825 INFO  [http-nio-8080-exec-10][DetalleTiendaRenderCommand:63] Tamaño lista: 3
+2022-11-15 07:30:24.826 INFO  [http-nio-8080-exec-10][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 07:30:24.827 INFO  [http-nio-8080-exec-10][DetalleTiendaRenderCommand:52] id tienda: 3
+2022-11-15 07:30:27.049 INFO  [http-nio-8080-exec-4][DetalleTiendaRenderCommand:63] Tamaño lista: 3
+2022-11-15 07:30:27.050 INFO  [http-nio-8080-exec-4][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 07:30:30.555 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 07:30:30.555 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 07:30:30.556 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 07:30:30.569 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 07:30:30.570 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 07:30:30.571 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 07:30:30.581 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:57] Lugo
+2022-11-15 07:30:30.582 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:187] Lugo
+2022-11-15 07:30:30.582 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:193] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-15 07:33:43.332 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-15 07:33:43.333 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-15 07:33:43.334 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-15 07:33:46.083 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:54] Llama
+2022-11-15 07:33:46.084 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:59] Lidl
+2022-11-15 07:33:46.084 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:63] Carlos Suarez
+2022-11-15 07:33:46.085 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:67] C. Gutiérrez Herrero, 27
+2022-11-15 07:33:46.085 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:71] 33402
+2022-11-15 07:33:46.086 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:75] ES
+2022-11-15 07:33:46.086 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:79] Asturias
+2022-11-15 07:33:46.086 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:83] Aviles
+2022-11-15 07:33:46.577 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 07:33:46.578 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 07:33:46.579 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 07:33:46.601 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 07:33:46.601 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 07:33:46.602 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 07:33:46.625 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-15 07:33:46.626 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-15 07:33:46.627 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-15 07:36:11.176 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:54] Llama
+2022-11-15 07:36:11.177 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:59] Lidl
+2022-11-15 07:36:11.177 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:63] Carlos Suarez
+2022-11-15 07:36:11.178 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:67] C. Gutiérrez Herrero, 27
+2022-11-15 07:36:11.178 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:71] 33402
+2022-11-15 07:36:11.178 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:75] ES
+2022-11-15 07:36:11.179 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:79] Asturias
+2022-11-15 07:36:11.179 INFO  [http-nio-8080-exec-6][TiendasAltaActionCommand:83] Oviedo
+2022-11-15 07:36:11.595 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 07:36:11.596 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 07:36:11.596 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 07:36:11.614 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 07:36:11.615 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 07:36:11.615 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 07:36:11.633 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-15 07:36:11.633 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-15 07:36:11.634 INFO  [http-nio-8080-exec-9][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-15 07:36:14.928 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:54] Llama
+2022-11-15 07:36:14.929 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:59] Lidl
+2022-11-15 07:36:14.930 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:63] Carlos Suarez
+2022-11-15 07:36:14.930 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:67] C. Gutiérrez Herrero, 27
+2022-11-15 07:36:14.931 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:71] 33402
+2022-11-15 07:36:14.931 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:75] ES
+2022-11-15 07:36:14.932 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:79] Asturias
+2022-11-15 07:36:14.932 INFO  [http-nio-8080-exec-10][TiendasAltaActionCommand:83] Aviles
+2022-11-15 07:36:15.343 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 07:36:15.343 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 07:36:15.344 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 07:36:15.361 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 07:36:15.362 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 07:36:15.362 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 07:36:15.380 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:57] Asturias
+2022-11-15 07:36:15.381 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:187] Asturias
+2022-11-15 07:36:15.381 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:197] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-15 07:36:25.524 INFO  [http-nio-8080-exec-5][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 07:36:25.525 INFO  [http-nio-8080-exec-5][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 08:14:01.369 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 08:14:01.369 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 08:14:01.370 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 08:14:01.380 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 08:14:01.381 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 08:14:01.381 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 08:14:01.395 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:57] Lugo
+2022-11-15 08:14:01.396 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:187] Lugo
+2022-11-15 08:14:01.397 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:193] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-15 08:14:05.485 INFO  [http-nio-8080-exec-2][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 08:14:05.485 INFO  [http-nio-8080-exec-2][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 08:14:28.358 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 08:14:28.359 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 08:14:28.360 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 08:14:28.368 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 08:14:28.368 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 08:14:28.369 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 08:14:28.377 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:57] Lugo
+2022-11-15 08:14:28.378 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:187] Lugo
+2022-11-15 08:14:28.378 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:193] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-15 08:14:31.046 INFO  [http-nio-8080-exec-6][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 08:14:31.047 INFO  [http-nio-8080-exec-6][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 08:14:33.882 INFO  [http-nio-8080-exec-2][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 08:14:33.883 INFO  [http-nio-8080-exec-2][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 08:14:33.884 INFO  [http-nio-8080-exec-2][DetalleTiendaRenderCommand:52] id tienda: 3
+2022-11-15 08:14:46.840 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 08:14:46.840 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 08:14:46.841 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 08:14:46.849 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 08:14:46.849 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 08:14:46.850 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 08:14:46.857 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:57] Lugo
+2022-11-15 08:14:46.857 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:187] Lugo
+2022-11-15 08:14:46.857 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:193] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-15 08:57:55.801 WARN  [http-nio-8080-exec-5][SecurityPortletContainerWrapper:470] User 42104 is not allowed to serve resource for http://localhost:8080/alta-tienda on com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet: User 42104 must have ACCESS permission for Personal Menu com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet 
+2022-11-15 08:58:02.704 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-15 08:58:02.704 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-15 08:58:02.705 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-15 08:58:02.716 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:56] ES
+2022-11-15 08:58:02.717 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:106] ES
+2022-11-15 08:58:02.717 INFO  [http-nio-8080-exec-7][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-15 08:58:02.727 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:57] Lugo
+2022-11-15 08:58:02.728 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:187] Lugo
+2022-11-15 08:58:02.728 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:193] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-15 09:09:24.663 WARN  [http-nio-8080-exec-2][code_jsp:161] {code="404", msg="ProxyServlet: /practicas", uri=/o/practicas}
+2022-11-15 09:09:44.303 WARN  [http-nio-8080-exec-10][code_jsp:161] {code="404", msg="ProxyServlet: /practicas", uri=/o/practicas}
+2022-11-15 09:10:20.887 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-15 09:35:36.722 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-15 09:35:36.863 INFO  [Refresh Thread: Equinox Container: 6a1133af-ed6b-4447-bad7-ba6dda05c26e][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-15 09:39:59.259 ERROR [http-nio-8080-exec-10][AutoLoginFilter:256] Current URL /web/davidzapico generates exception: com.liferay.portal.kernel.security.auth.PrincipalException$MustBeAuthenticated: User 42104 must be authenticated
+2022-11-15 09:41:50.526 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-15 09:41:50.867 INFO  [Refresh Thread: Equinox Container: 6a1133af-ed6b-4447-bad7-ba6dda05c26e][BundleStartStopLogger:77] STARTED es.cagemini.practicas.tiendas.rest_1.0.0 [1585]
+2022-11-15 09:42:18.389 INFO  [http-nio-8080-exec-5][TiendasRestApplication:60] {5}
+2022-11-15 11:31:19.409 INFO  [http-nio-8080-exec-8][TiendasRestApplication:60] {5}
+2022-11-15 16:45:29.698 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-11-15 16:45:29.750 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-11-15 16:45:29.810 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-11-15 16:45:29.838 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-11-15 16:45:29.861 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered
+2022-11-15 17:12:54.714 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-15 17:12:57.711 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-15 17:13:00.708 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-15 17:13:01.196 INFO  [ModuleFramework-Static-Bundles-6][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-15 17:13:03.880 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-15 17:13:03.882 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-15 17:13:26.008 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-15 17:13:26.019 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-15 17:13:29.111 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-15 17:13:29.123 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-15 17:13:29.141 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-15 17:13:29.141 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-11-15 17:13:29.141 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-15 17:13:29.141 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 0 ms
+2022-11-15 17:13:29.141 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-15 17:13:29.157 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 16 ms
+2022-11-15 17:13:29.628 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-15 17:13:29.706 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 78 ms
+2022-11-15 17:13:32.906 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-15 17:14:06.536 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-15 17:14:12.502 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-15 17:14:12.520 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-15 17:14:12.566 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 46 ms
+2022-11-15 17:14:13.225 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-15 17:14:47.896 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-15 17:14:48.194 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-15 17:14:48.414 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-15 17:14:48.650 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-15 17:14:48.916 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-15 17:14:54.171 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-15 17:14:54.178 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-15 17:14:54.179 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-15 17:14:54.179 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-15 17:14:55.874 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-15 17:14:55.876 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-15 17:15:17.578 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-15 17:15:17.579 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-15 17:15:17.581 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-11-15 17:16:37.890 INFO  [http-nio-8080-exec-10][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 17:16:37.895 INFO  [http-nio-8080-exec-10][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]
+2022-11-15 17:20:01.223 INFO  [http-nio-8080-exec-3][DetalleTiendaRenderCommand:63] Tamaño lista: 4
+2022-11-15 17:20:01.224 INFO  [http-nio-8080-exec-3][DetalleTiendaRenderCommand:64] [{"uuid": "9989469b-4cfc-b918-5166-14f4b42d6ded", "id": 201, "nombre": "Corte Inglés", "direccion": "Gran Vía de Don Diego López de Haro, 7, 9", "pais": "ES", "provincia": "Pais Vasco", "ciudad": "Bilbao", "codipoPostal": "48001", "gerente": "Sergio Menéndez"}, {"uuid": "89690cb6-0ef8-db78-ee25-adce3defef83", "id": 301, "nombre": "Lidl", "direccion": "C. Gutiérrez Herrero, 27", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33402", "gerente": "Carlos Suarez"}, {"uuid": "72b39c94-5e64-43f8-8a35-ceeeaf68147f", "id": 3, "nombre": "Porsche", "direccion": "c/García de marcos", "pais": "ES", "provincia": "Cantabria", "ciudad": "Torrelavega", "codipoPostal": "33401", "gerente": "Carlos Martinez"}, {"uuid": "a23c66da-b3d8-2cb3-f7e0-495f8f86a4a0", "id": 2, "nombre": "Zara", "direccion": "c/Gonzalez Abarca", "pais": "ES", "provincia": "Asturias", "ciudad": "Aviles", "codipoPostal": "33401", "gerente": "David Zapico"}]

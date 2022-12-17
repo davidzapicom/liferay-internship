@@ -1,0 +1,139 @@
+2022-11-24 07:25:19.591 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-24 07:25:22.811 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-24 07:25:24.827 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-24 07:25:25.141 INFO  [ModuleFramework-Static-Bundles-7][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-24 07:25:26.840 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-24 07:25:26.840 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-24 07:25:40.400 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-24 07:25:40.400 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-24 07:25:43.525 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-24 07:25:43.525 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-24 07:25:43.535 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-24 07:25:43.535 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-11-24 07:25:43.536 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-24 07:25:43.545 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 9 ms
+2022-11-24 07:25:43.545 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-24 07:25:43.546 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 1 ms
+2022-11-24 07:25:43.903 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-24 07:25:43.950 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 47 ms
+2022-11-24 07:25:46.446 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-24 07:26:10.773 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-24 07:26:15.691 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-24 07:26:15.704 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-24 07:26:15.735 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 31 ms
+2022-11-24 07:26:16.233 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-24 07:26:23.196 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-24 07:26:23.339 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-24 07:26:23.585 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-24 07:26:23.728 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-24 07:26:23.850 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-24 07:26:23.988 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-11-24 07:26:24.115 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-24 12:52:08.869 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.consultapedidos.portlet_1.0.0 [1599]
+2022-11-24 12:52:44.366 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.consultapedidos.portlet_1.0.0 [1599]
+2022-11-24 12:52:44.492 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.consultapedidos.portlet_1.0.0 [1599]
+2022-11-24 13:03:10.845 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:03:10.956 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:04:41.955 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:04:42.074 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:06:38.295 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:06:38.408 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:07:08.729 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:07:08.833 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:08:29.678 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:08:29.782 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:10:16.004 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:10:16.108 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:16:55.044 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:16:55.150 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:18:00.843 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:18:00.947 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:19:06.654 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:19:06.768 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:50:24.267 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 13:50:24.368 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:10:35.953 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:10:36.058 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:11:56.868 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:11:56.977 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:38:27.000 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:38:27.103 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:39:07.580 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:39:07.690 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:39:53.187 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:39:53.287 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:42:24.824 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:42:24.936 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:43:10.454 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:43:10.560 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:44:21.300 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:44:21.401 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:45:37.226 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:45:37.327 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:46:17.764 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:46:17.867 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:47:23.573 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:47:23.674 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:48:14.229 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:48:14.335 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:49:25.165 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:49:25.266 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:49:55.662 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:49:55.761 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:50:26.119 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:50:26.263 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:50:56.642 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:50:56.741 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:51:22.046 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:51:22.143 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:52:02.563 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:52:02.711 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:52:48.281 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:52:48.378 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:53:43.897 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:53:44.006 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:54:19.408 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:54:19.520 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:54:54.924 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:54:55.022 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:55:25.415 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:55:25.522 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:56:16.053 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:56:16.150 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:56:46.530 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 14:56:46.627 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:04:30.964 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:04:31.066 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:07:07.705 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:07:07.837 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:08:08.550 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:08:08.650 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:08:54.190 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:08:54.289 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:09:39.849 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:09:39.955 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:12:36.696 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:12:36.796 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:14:02.682 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:14:02.780 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:14:43.248 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:14:43.346 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:36:46.355 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:36:46.561 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:38:23.477 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:38:23.650 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:41:06.581 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 15:41:06.725 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 16:24:34.543 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 16:24:34.690 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 16:29:50.041 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 16:29:50.220 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 17:00:53.324 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 17:00:53.514 INFO  [Refresh Thread: Equinox Container: 31394683-8f29-4604-b5d2-83b2f5ec0687][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-11-24 17:02:21.215 INFO  [main][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-24 17:02:21.266 INFO  [main][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-11-24 17:02:21.285 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-11-24 17:02:21.300 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-11-24 17:02:21.314 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-11-24 17:02:21.332 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-11-24 17:02:21.351 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered

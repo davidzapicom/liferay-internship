@@ -1,0 +1,269 @@
+2022-12-02 07:32:05.720 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-12-02 07:32:11.192 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-12-02 07:32:15.557 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-12-02 07:32:16.229 INFO  [ModuleFramework-Static-Bundles-7][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-12-02 07:32:19.075 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-12-02 07:32:19.076 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-12-02 07:32:43.333 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-12-02 07:32:43.334 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-12-02 07:32:46.852 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-12-02 07:32:46.853 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-12-02 07:32:46.861 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-12-02 07:32:46.861 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-12-02 07:32:46.874 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-12-02 07:32:46.890 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 16 ms
+2022-12-02 07:32:46.891 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-12-02 07:32:46.891 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-12-02 07:32:47.534 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-12-02 07:32:47.616 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 81 ms
+2022-12-02 07:32:51.176 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-12-02 07:33:43.096 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-12-02 07:33:49.131 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-12-02 07:33:49.144 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-12-02 07:33:49.186 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 42 ms
+2022-12-02 07:33:49.950 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-12-02 07:33:58.155 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-12-02 07:33:58.332 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-12-02 07:33:58.493 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-12-02 07:33:58.657 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-12-02 07:33:58.957 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-12-02 07:33:59.113 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-12-02 07:33:59.273 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-12-02 08:05:22.813 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-12-02 08:05:23.247 INFO  [Refresh Thread: Equinox Container: 9e231258-aadb-41fe-b0ca-8ab351b64c39][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-12-02 08:11:51.666 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-12-02 08:11:51.916 INFO  [Refresh Thread: Equinox Container: 9e231258-aadb-41fe-b0ca-8ab351b64c39][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-12-02 08:33:36.630 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-12-02 08:33:36.862 INFO  [Refresh Thread: Equinox Container: 9e231258-aadb-41fe-b0ca-8ab351b64c39][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-12-02 08:41:15.136 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-12-02 08:41:15.359 INFO  [Refresh Thread: Equinox Container: 9e231258-aadb-41fe-b0ca-8ab351b64c39][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-12-02 08:45:04.455 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-12-02 08:45:04.644 INFO  [Refresh Thread: Equinox Container: 9e231258-aadb-41fe-b0ca-8ab351b64c39][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-12-02 08:57:11.765 INFO  [main][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-12-02 08:57:11.800 INFO  [main][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-12-02 08:57:11.818 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-12-02 08:57:11.835 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-12-02 08:57:11.848 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-12-02 08:57:11.859 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-12-02 08:57:11.872 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered
+2022-12-02 08:57:38.622 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:50611 -javaagent:C:\Users\dzapicom\.eclipse\org.eclipse.platform_4.12.0_585031556_win32_win32_x86_64\configuration\org.eclipse.osgi\448\0\.cp\lib\javaagent-shaded.jar -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-12-02 08:57:42.754 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-12-02 08:57:46.496 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-12-02 08:57:47.435 INFO  [ModuleFramework-Static-Bundles-5][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-12-02 08:57:50.819 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-12-02 08:57:50.820 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-12-02 08:58:13.544 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-12-02 08:58:13.545 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-12-02 08:58:16.566 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-12-02 08:58:16.568 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-12-02 08:58:16.589 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-12-02 08:58:16.590 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 1 ms
+2022-12-02 08:58:16.591 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-12-02 08:58:16.607 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 16 ms
+2022-12-02 08:58:16.610 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-12-02 08:58:16.611 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-12-02 08:58:17.455 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-12-02 08:58:17.567 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 112 ms
+2022-12-02 08:58:21.602 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-12-02 08:58:57.178 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-12-02 08:59:03.705 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-12-02 08:59:03.715 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-12-02 08:59:03.766 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 51 ms
+2022-12-02 08:59:04.677 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-12-02 08:59:14.643 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-12-02 08:59:14.851 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-12-02 08:59:15.016 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-12-02 08:59:15.169 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-12-02 08:59:15.323 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-12-02 08:59:15.467 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-12-02 08:59:15.632 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-12-02 09:24:21.785 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1598]
+2022-12-02 09:25:32.796 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 09:29:45.315 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 09:29:45.462 INFO  [Refresh Thread: Equinox Container: b239aa3d-cdd9-427e-a887-15fe042996c2][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 09:29:49.072 WARN  [http-nio-8080-exec-7][code_jsp:161] {code="404", msg="El recurso requerido [/api/axis] no se encuentra disponible", uri=/api/axis}
+2022-12-02 09:37:30.621 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 09:37:30.765 INFO  [Refresh Thread: Equinox Container: b239aa3d-cdd9-427e-a887-15fe042996c2][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 09:41:28.348 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 09:41:28.490 INFO  [Refresh Thread: Equinox Container: b239aa3d-cdd9-427e-a887-15fe042996c2][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 09:44:40.542 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 09:44:40.683 INFO  [Refresh Thread: Equinox Container: b239aa3d-cdd9-427e-a887-15fe042996c2][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:34:41.495 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:34:41.647 INFO  [Refresh Thread: Equinox Container: b239aa3d-cdd9-427e-a887-15fe042996c2][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:35:51.463 INFO  [main][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-12-02 10:35:51.491 INFO  [main][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-12-02 10:35:51.507 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-12-02 10:35:51.526 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-12-02 10:35:51.526 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-12-02 10:35:51.539 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-12-02 10:35:51.539 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered
+2022-12-02 10:36:19.367 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-12-02 10:36:21.615 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-12-02 10:36:23.363 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-12-02 10:36:23.676 INFO  [ModuleFramework-Static-Bundles-4][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-12-02 10:36:25.107 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-12-02 10:36:25.114 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-12-02 10:36:37.273 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-12-02 10:36:37.277 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-12-02 10:36:39.121 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-12-02 10:36:39.130 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-12-02 10:36:39.139 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-12-02 10:36:39.139 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-12-02 10:36:39.139 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-12-02 10:36:39.149 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 10 ms
+2022-12-02 10:36:39.149 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-12-02 10:36:39.149 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-12-02 10:36:39.446 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-12-02 10:36:39.493 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 47 ms
+2022-12-02 10:36:43.723 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-12-02 10:37:06.362 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-12-02 10:37:10.143 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-12-02 10:37:10.145 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-12-02 10:37:10.176 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 31 ms
+2022-12-02 10:37:10.663 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-12-02 10:37:16.270 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-12-02 10:37:16.384 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-12-02 10:37:16.510 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-12-02 10:37:16.729 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-12-02 10:37:16.823 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-12-02 10:37:16.933 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-12-02 10:37:17.059 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-12-02 10:39:06.038 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:39:06.225 INFO  [Refresh Thread: Equinox Container: d37e1c52-08d0-4d42-8b36-8c508bff65f4][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:40:17.073 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:40:17.264 INFO  [Refresh Thread: Equinox Container: d37e1c52-08d0-4d42-8b36-8c508bff65f4][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:45:20.138 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:45:20.248 INFO  [Refresh Thread: Equinox Container: d37e1c52-08d0-4d42-8b36-8c508bff65f4][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:48:06.945 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:48:07.050 INFO  [Refresh Thread: Equinox Container: d37e1c52-08d0-4d42-8b36-8c508bff65f4][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:49:32.932 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:49:33.042 INFO  [Refresh Thread: Equinox Container: d37e1c52-08d0-4d42-8b36-8c508bff65f4][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:53:42.944 INFO  [main][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-12-02 10:53:42.950 INFO  [main][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-12-02 10:53:42.966 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-12-02 10:53:43.029 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-12-02 10:53:43.029 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-12-02 10:53:43.045 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-12-02 10:53:43.060 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered
+2022-12-02 10:53:57.021 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:50250 -javaagent:C:\Users\dzapicom\.eclipse\org.eclipse.platform_4.12.0_585031556_win32_win32_x86_64\configuration\org.eclipse.osgi\448\0\.cp\lib\javaagent-shaded.jar -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-12-02 10:53:59.642 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-12-02 10:54:02.028 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-12-02 10:54:02.373 INFO  [ModuleFramework-Static-Bundles-2][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-12-02 10:54:04.442 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-12-02 10:54:04.454 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-12-02 10:54:18.511 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-12-02 10:54:18.524 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-12-02 10:54:20.612 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-12-02 10:54:20.621 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-12-02 10:54:20.623 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-12-02 10:54:20.623 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-12-02 10:54:20.623 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-12-02 10:54:20.639 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 16 ms
+2022-12-02 10:54:20.639 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-12-02 10:54:20.639 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-12-02 10:54:20.993 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-12-02 10:54:21.047 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 54 ms
+2022-12-02 10:54:23.621 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-12-02 10:54:49.256 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-12-02 10:54:55.427 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-12-02 10:54:55.445 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-12-02 10:54:55.477 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 32 ms
+2022-12-02 10:54:56.217 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-12-02 10:55:19.253 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-12-02 10:55:19.388 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-12-02 10:55:19.549 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-12-02 10:55:19.682 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-12-02 10:55:19.809 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-12-02 10:55:20.250 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-12-02 10:55:20.385 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-12-02 10:59:16.493 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 10:59:16.712 INFO  [Refresh Thread: Equinox Container: 6588b2c4-2160-43ed-a39e-58a986074eab][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 11:03:39.596 INFO  [main][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-12-02 11:03:39.607 INFO  [main][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-12-02 11:03:39.619 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-12-02 11:03:39.629 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-12-02 11:03:39.640 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-12-02 11:03:39.654 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-12-02 11:03:39.666 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered
+2022-12-02 11:42:33.367 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-12-02 11:42:35.548 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-12-02 11:42:37.306 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-12-02 11:42:37.658 INFO  [ModuleFramework-Static-Bundles-1][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-12-02 11:42:39.086 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-12-02 11:42:39.087 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-12-02 11:42:51.091 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-12-02 11:42:51.092 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-12-02 11:42:53.055 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-12-02 11:42:53.066 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-12-02 11:42:53.068 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-12-02 11:42:53.068 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-12-02 11:42:53.068 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-12-02 11:42:53.084 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 16 ms
+2022-12-02 11:42:53.084 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-12-02 11:42:53.084 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-12-02 11:42:53.382 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-12-02 11:42:53.429 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 47 ms
+2022-12-02 11:42:57.179 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-12-02 11:43:20.134 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-12-02 11:43:23.776 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-12-02 11:43:23.778 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-12-02 11:43:23.810 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 32 ms
+2022-12-02 11:43:24.358 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-12-02 11:43:45.849 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-12-02 11:43:45.949 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-12-02 11:43:46.043 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-12-02 11:43:46.150 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-12-02 11:43:46.250 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-12-02 11:43:46.341 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-12-02 11:43:46.450 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-12-02 11:46:25.363 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 11:46:25.532 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 11:47:46.465 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 11:47:46.621 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 11:50:18.361 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 11:50:18.535 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 11:50:53.903 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 11:50:54.066 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:07:07.759 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:07:07.916 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:36:45.014 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:36:45.170 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:40:07.380 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:40:07.529 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:45:00.569 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:45:00.732 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:47:12.166 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:47:12.305 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:49:28.692 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:49:28.833 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:50:19.415 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:50:19.556 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:52:20.927 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:52:21.069 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:52:56.495 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 12:52:56.625 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:01:56.718 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:01:56.885 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:06:44.744 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:06:44.950 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:07:45.633 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:07:45.774 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:08:51.488 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:08:51.632 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:16:26.181 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:16:26.329 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:16:36.422 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:16:36.569 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:17:22.070 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:17:22.198 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:19:08.308 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:19:08.470 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:25:57.947 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:25:58.095 INFO  [Refresh Thread: Equinox Container: 7859f000-58aa-4ce0-9790-b1ecdb0672bd][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.pedidoform.portlet_1.0.0 [1608]
+2022-12-02 13:56:54.248 INFO  [main][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-12-02 13:56:54.265 INFO  [main][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-12-02 13:56:54.280 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-12-02 13:56:54.280 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-12-02 13:56:54.296 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-12-02 13:56:54.311 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-12-02 13:56:54.311 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered

@@ -1,0 +1,510 @@
+2022-11-07 07:16:41.768 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-07 07:16:41.772 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-07 07:16:41.772 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-07 07:16:41.773 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-07 07:16:43.094 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-07 07:16:43.095 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-07 07:16:59.085 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-07 07:16:59.086 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-07 07:16:59.087 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-11-07 07:17:17.209 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:17:17.220 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:17:17.221 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:17:17.235 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:17:17.237 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:17:17.238 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:17:22.871 INFO  [http-nio-8080-exec-4][SelecProvinciaResourceCommand:57] ES
+2022-11-07 07:17:22.872 INFO  [http-nio-8080-exec-4][SelecProvinciaResourceCommand:108] ES
+2022-11-07 07:17:22.872 INFO  [http-nio-8080-exec-4][SelecProvinciaResourceCommand:111] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-07 07:17:23.942 INFO  [http-nio-8080-exec-2][SelecCiudadResourceCommand:55] Pais Vasco
+2022-11-07 07:17:23.943 INFO  [http-nio-8080-exec-2][SelecCiudadResourceCommand:185] Pais Vasco
+2022-11-07 07:17:23.944 INFO  [http-nio-8080-exec-2][SelecCiudadResourceCommand:199] [{"value":"Bilbao","option":"Bilbao"},{"value":"San Sebastian","option":"San Sebastian"},{"value":"Getxo","option":"Getxo"}]
+2022-11-07 07:17:27.236 INFO  [http-nio-8080-exec-5][SelecProvinciaResourceCommand:57] FR
+2022-11-07 07:17:27.236 INFO  [http-nio-8080-exec-5][SelecProvinciaResourceCommand:108] FR
+2022-11-07 07:17:27.237 INFO  [http-nio-8080-exec-5][SelecProvinciaResourceCommand:114] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 07:18:33.108 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:57] ES
+2022-11-07 07:18:33.109 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:108] ES
+2022-11-07 07:18:33.109 INFO  [http-nio-8080-exec-8][SelecProvinciaResourceCommand:111] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-07 07:18:36.919 INFO  [http-nio-8080-exec-10][SelecCiudadResourceCommand:55] Asturias
+2022-11-07 07:18:36.920 INFO  [http-nio-8080-exec-10][SelecCiudadResourceCommand:185] Asturias
+2022-11-07 07:18:36.920 INFO  [http-nio-8080-exec-10][SelecCiudadResourceCommand:195] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-07 07:21:38.009 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:21:38.011 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:21:38.012 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:21:38.064 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:21:38.065 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:21:38.066 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:21:41.868 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:21:41.869 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:21:41.870 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:21:41.883 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:21:41.883 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:21:41.884 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:21:46.409 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:21:46.410 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:21:46.411 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:21:46.422 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:21:46.423 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:21:46.424 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:27:32.048 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:27:32.049 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:27:32.051 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:27:32.065 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:27:32.066 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:27:32.067 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:27:36.587 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:27:36.588 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:27:36.589 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:27:36.598 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:27:36.599 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:27:36.600 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:27:40.748 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:27:40.749 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:27:40.749 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:27:40.760 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:27:40.761 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:27:40.762 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:27:43.936 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:27:43.940 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:27:43.941 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:27:43.961 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:27:43.962 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:27:43.962 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:28:00.882 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:28:00.883 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:28:00.884 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:28:00.893 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:28:00.894 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:28:00.895 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:28:16.620 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:28:16.620 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:28:16.621 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:28:27.320 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:28:27.321 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:28:27.322 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 07:28:27.330 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 07:28:27.331 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 07:28:27.332 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:16:22.294 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:16:22.295 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:16:22.297 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:16:22.309 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:16:22.310 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:16:22.310 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:16:29.061 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:16:29.062 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:16:29.063 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:16:29.070 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:16:29.071 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:16:29.072 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:20:44.899 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:20:44.900 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:20:44.901 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:20:44.911 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:20:44.912 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:20:44.913 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:20:49.482 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:20:49.483 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:20:49.484 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:20:49.492 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:20:49.493 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:20:49.494 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:22:09.733 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:22:09.734 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:22:09.736 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:22:09.753 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:22:09.754 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:22:09.755 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:22:20.062 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:22:20.063 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:22:20.064 INFO  [http-nio-8080-exec-7][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:22:20.076 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:22:20.077 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:22:20.078 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:22:25.978 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:22:25.980 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:22:25.981 INFO  [http-nio-8080-exec-8][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:22:25.986 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:22:25.987 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:22:25.988 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:23:56.373 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:23:56.374 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:23:56.375 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:23:56.385 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:23:56.386 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:23:56.387 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:24:02.374 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:24:02.374 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:24:02.375 INFO  [http-nio-8080-exec-9][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:24:02.383 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:24:02.384 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:24:02.384 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:24:06.964 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:24:06.965 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:24:06.966 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:24:06.981 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:24:06.982 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:24:06.983 INFO  [http-nio-8080-exec-10][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:38:22.133 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:38:22.134 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:38:22.135 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:38:22.147 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:38:22.148 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:38:22.148 INFO  [http-nio-8080-exec-3][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:38:38.693 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:38:38.695 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:38:38.696 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:38:39.040 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:38:39.041 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:38:39.042 INFO  [http-nio-8080-exec-5][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:38:58.275 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:38:58.276 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:38:58.278 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:39:14.040 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:39:14.040 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:39:14.041 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:43:25.302 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:43:25.303 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:43:25.304 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:43:27.510 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 08:43:27.511 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:107] FR
+2022-11-07 08:43:27.512 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:113] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 08:43:28.726 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:55] Lemosin
+2022-11-07 08:43:28.727 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:185] Lemosin
+2022-11-07 08:43:28.728 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-07 08:43:33.560 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:43:33.561 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:43:33.562 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:43:42.401 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:43:42.402 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:43:42.402 INFO  [http-nio-8080-exec-1][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:43:51.266 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:43:51.266 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:43:51.267 INFO  [http-nio-8080-exec-6][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:43:51.279 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:43:51.280 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:43:51.281 INFO  [http-nio-8080-exec-4][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:43:58.616 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:43:58.617 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:43:58.618 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:43:58.644 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:43:58.645 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:43:58.645 INFO  [http-nio-8080-exec-2][SelecPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:53:14.692 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:53:14.694 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:53:14.694 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:53:19.326 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 08:53:19.326 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:107] FR
+2022-11-07 08:53:19.327 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:113] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 08:53:34.071 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:53:34.072 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:53:34.072 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:54:00.299 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:54:00.300 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:54:00.301 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:54:05.050 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:54:05.052 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:54:05.053 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:54:08.343 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:54:08.345 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:54:08.347 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:55:31.488 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:55:31.489 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:55:31.491 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:55:43.088 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:55:43.088 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:55:43.090 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:55:46.251 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:55:46.252 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:55:46.253 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:55:48.761 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:55:48.763 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:55:48.765 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:55:52.610 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:55:52.611 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:55:52.611 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:56:02.220 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:56:02.221 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:56:02.222 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:56:05.936 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:56:05.937 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:56:05.938 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:58:05.373 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:58:05.374 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:58:05.375 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:58:18.115 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:58:18.116 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:58:18.117 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:58:21.081 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:58:21.085 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:58:21.086 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:58:23.964 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 08:58:23.965 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 08:58:23.966 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 08:58:29.352 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 08:58:29.353 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 08:58:29.354 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 09:20:16.584 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:20:16.585 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:20:16.586 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:21:28.929 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 09:21:28.930 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 09:21:28.930 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 09:21:31.593 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:55] Normandia
+2022-11-07 09:21:31.594 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:185] Normandia
+2022-11-07 09:21:31.595 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:219] [{"value":"Caen","option":"Caen"},{"value":"Bayeux","option":"Bayeux"},{"value":"Ruan","option":"Ruan"}]
+2022-11-07 09:22:12.152 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:22:12.153 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:22:12.154 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:22:18.339 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:22:18.340 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:22:18.341 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:22:21.763 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:22:21.764 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:22:21.765 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:22:28.722 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:22:28.723 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:22:28.724 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:23:03.462 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:23:03.464 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:23:03.466 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:24:18.849 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:24:18.850 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:24:18.850 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:25:12.018 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:25:12.019 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:25:12.020 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:25:51.548 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 09:25:51.549 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 09:25:51.550 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 09:25:52.842 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:55] Lemosin
+2022-11-07 09:25:52.843 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:185] Lemosin
+2022-11-07 09:25:52.844 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-07 09:26:28.574 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:26:28.575 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:26:28.576 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:26:33.455 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:26:33.457 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:26:33.458 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:26:36.773 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:26:36.774 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:26:36.775 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:26:41.351 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 09:26:41.351 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 09:26:41.352 INFO  [http-nio-8080-exec-8][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 09:26:43.370 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:55] Lemosin
+2022-11-07 09:26:43.373 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:185] Lemosin
+2022-11-07 09:26:43.374 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-07 09:43:55.592 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:43:55.593 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:43:55.594 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:44:48.014 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:44:48.015 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:44:48.016 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:44:53.893 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:44:53.894 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:44:53.895 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:44:56.397 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:44:56.398 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:44:56.399 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:45:34.929 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:45:34.931 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:45:34.932 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:45:43.054 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 09:45:43.056 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 09:45:43.057 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 09:45:45.984 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 09:45:45.985 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 09:45:45.986 INFO  [http-nio-8080-exec-1][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 10:04:34.042 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:04:34.044 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:04:34.045 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:07:06.146 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:07:06.147 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:07:06.148 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:07:32.181 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:07:32.181 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:07:32.182 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:07:37.381 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:07:37.383 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:07:37.383 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:07:39.113 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 10:07:39.114 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 10:07:39.114 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 10:07:42.958 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:55] Bearne
+2022-11-07 10:07:42.959 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:185] Bearne
+2022-11-07 10:07:44.285 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:55] Berry
+2022-11-07 10:07:44.286 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:185] Berry
+2022-11-07 10:07:44.286 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:207] [{"value":"Bourges","option":"Bourges"},{"value":"Sancerre","option":"Sancerre"},{"value":"Vierzon","option":"Vierzon"}]
+2022-11-07 10:08:51.174 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:08:51.174 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:08:51.175 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:08:55.475 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:08:55.476 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:08:55.477 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:08:59.014 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:08:59.015 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:08:59.016 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:10:15.114 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:10:15.116 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:10:15.117 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:11:03.808 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:11:03.809 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:11:03.810 INFO  [http-nio-8080-exec-2][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:11:07.891 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:11:07.892 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:11:07.893 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:11:12.101 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:11:12.102 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:11:12.102 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:11:20.955 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:11:20.956 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:11:20.957 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:11:26.726 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:11:26.726 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:11:26.727 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:11:30.975 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:11:30.976 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:11:30.977 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:12:56.865 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:12:56.865 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:12:56.866 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:13:23.531 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:13:23.531 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:13:23.532 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:13:28.901 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:13:28.901 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:13:28.902 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:13:43.563 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:13:43.564 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:13:43.564 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:14:00.524 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 10:14:00.525 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 10:14:00.526 INFO  [http-nio-8080-exec-6][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 10:14:01.869 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:55] Bearne
+2022-11-07 10:14:01.869 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:185] Bearne
+2022-11-07 10:14:51.956 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:56] ES
+2022-11-07 10:14:51.957 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:106] ES
+2022-11-07 10:14:51.957 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:109] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-07 10:14:53.664 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:55] Asturias
+2022-11-07 10:14:53.665 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:185] Asturias
+2022-11-07 10:14:53.666 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:195] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-07 10:14:55.086 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:55] Lugo
+2022-11-07 10:14:55.087 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:185] Lugo
+2022-11-07 10:14:55.087 INFO  [http-nio-8080-exec-1][TiendasCiudadesResourceCommand:191] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-07 10:14:58.064 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:55] Asturias
+2022-11-07 10:14:58.065 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:185] Asturias
+2022-11-07 10:14:58.067 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:195] [{"value":"Oviedo","option":"Oviedo"},{"value":"Gijon","option":"Gijon"},{"value":"Aviles","option":"Aviles"}]
+2022-11-07 10:15:07.666 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:55] Pais Vasco
+2022-11-07 10:15:07.667 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:185] Pais Vasco
+2022-11-07 10:15:07.667 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:199] [{"value":"Bilbao","option":"Bilbao"},{"value":"San Sebastian","option":"San Sebastian"},{"value":"Getxo","option":"Getxo"}]
+2022-11-07 10:15:11.045 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:55] Cantabria
+2022-11-07 10:15:11.045 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:185] Cantabria
+2022-11-07 10:15:11.046 INFO  [http-nio-8080-exec-4][TiendasCiudadesResourceCommand:203] [{"value":"Santander","option":"Santander"},{"value":"Torrelavega","option":"Torrelavega"},{"value":"Luena","option":"Luena"}]
+2022-11-07 10:15:15.129 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 10:15:15.130 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 10:15:15.130 INFO  [http-nio-8080-exec-2][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 10:15:16.213 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:55] Lemosin
+2022-11-07 10:15:16.214 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:185] Lemosin
+2022-11-07 10:15:16.215 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-07 10:15:18.446 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:55] Berry
+2022-11-07 10:15:18.447 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:185] Berry
+2022-11-07 10:15:18.447 INFO  [http-nio-8080-exec-7][TiendasCiudadesResourceCommand:207] [{"value":"Bourges","option":"Bourges"},{"value":"Sancerre","option":"Sancerre"},{"value":"Vierzon","option":"Vierzon"}]
+2022-11-07 10:15:20.726 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:55] Bearne
+2022-11-07 10:15:20.727 INFO  [http-nio-8080-exec-10][TiendasCiudadesResourceCommand:185] Bearne
+2022-11-07 10:15:24.315 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:55] Normandia
+2022-11-07 10:15:24.316 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:185] Normandia
+2022-11-07 10:15:24.316 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:219] [{"value":"Caen","option":"Caen"},{"value":"Bayeux","option":"Bayeux"},{"value":"Ruan","option":"Ruan"}]
+2022-11-07 10:48:31.485 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 10:48:31.486 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 10:48:31.487 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 10:50:25.496 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 10:50:25.496 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 10:50:25.497 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 10:50:26.555 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:55] Lemosin
+2022-11-07 10:50:26.556 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:185] Lemosin
+2022-11-07 10:50:26.556 INFO  [http-nio-8080-exec-5][TiendasCiudadesResourceCommand:211] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-07 11:48:31.352 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:48:31.354 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:48:31.355 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:53:45.313 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:53:45.314 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:53:45.314 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:53:48.308 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:53:48.309 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:53:48.310 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:53:50.496 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:53:50.497 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:53:50.498 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:54:33.416 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 11:54:33.417 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 11:54:33.417 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 11:55:45.514 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:55:45.515 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:55:45.515 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:56:31.436 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:56:31.437 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:56:31.438 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:56:34.861 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:56:34.861 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:56:34.862 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:57:12.992 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:57:12.993 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:57:12.994 INFO  [http-nio-8080-exec-7][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:57:20.388 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:57:20.389 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:57:20.389 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:57:23.916 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:57:23.916 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:57:23.917 INFO  [http-nio-8080-exec-1][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:57:26.891 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:57:26.891 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:57:26.892 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:58:22.252 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:58:22.252 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:58:22.254 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 11:58:25.081 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 11:58:25.082 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 11:58:25.083 INFO  [http-nio-8080-exec-8][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 12:14:15.033 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 12:14:15.035 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 12:14:15.036 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 14:56:30.671 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 14:56:30.673 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 14:56:30.674 INFO  [http-nio-8080-exec-6][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 14:57:24.021 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 14:57:24.022 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 14:57:24.023 INFO  [http-nio-8080-exec-9][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 14:57:24.559 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:57] Lemosin
+2022-11-07 14:57:24.560 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:187] Lemosin
+2022-11-07 14:57:24.560 INFO  [http-nio-8080-exec-6][TiendasCiudadesResourceCommand:213] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-07 14:57:26.332 INFO  [http-nio-8080-exec-2][TiendasAltaActionCommand:70] Llama
+2022-11-07 14:59:45.417 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 14:59:45.418 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 14:59:45.419 INFO  [http-nio-8080-exec-5][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 15:02:36.137 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 15:02:36.138 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 15:02:36.139 INFO  [http-nio-8080-exec-9][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 15:02:43.269 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 15:02:43.269 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 15:02:43.270 INFO  [http-nio-8080-exec-10][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 15:02:44.292 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:57] Lemosin
+2022-11-07 15:02:44.293 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:187] Lemosin
+2022-11-07 15:02:44.293 INFO  [http-nio-8080-exec-8][TiendasCiudadesResourceCommand:213] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-07 15:03:00.265 INFO  [http-nio-8080-exec-4][TiendasAltaActionCommand:70] Llama
+2022-11-07 15:03:08.870 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 15:03:08.871 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 15:03:08.872 INFO  [http-nio-8080-exec-3][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 15:07:03.240 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 15:07:03.240 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 15:07:03.241 INFO  [http-nio-8080-exec-4][TiendasPaisResourceCommand:67] devuelvo paises
+2022-11-07 15:07:11.309 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:56] FR
+2022-11-07 15:07:11.309 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:106] FR
+2022-11-07 15:07:11.309 INFO  [http-nio-8080-exec-4][TiendasProvinciasResourceCommand:112] [{"value":"Berry","option":"Berry"},{"value":"Lemosin","option":"Lemosin"},{"value":"Bearne","option":"Bearne"},{"value":"Normandia","option":"Normandia"}]
+2022-11-07 15:07:12.366 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:57] Lemosin
+2022-11-07 15:07:12.367 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:187] Lemosin
+2022-11-07 15:07:12.367 INFO  [http-nio-8080-exec-3][TiendasCiudadesResourceCommand:213] [{"value":"Limoges","option":"Limoges"},{"value":"Curemonte","option":"Curemonte"},{"value":"Turenne","option":"Turenne"}]
+2022-11-07 15:07:25.907 INFO  [http-nio-8080-exec-8][TiendasAltaActionCommand:70] Llama
+2022-11-07 15:07:43.692 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:48] LLAME A LA RESOURCE
+2022-11-07 15:07:43.693 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:59] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-07 15:07:43.694 INFO  [http-nio-8080-exec-10][TiendasPaisResourceCommand:67] devuelvo paises

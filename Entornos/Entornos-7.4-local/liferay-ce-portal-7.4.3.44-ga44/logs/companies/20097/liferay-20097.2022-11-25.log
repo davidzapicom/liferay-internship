@@ -1,0 +1,41 @@
+2022-11-25 07:17:49.002 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-25 07:17:49.006 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-25 07:17:49.007 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-25 07:17:49.007 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-25 07:17:50.189 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-25 07:17:50.189 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-25 07:18:05.892 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-25 07:18:05.893 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-25 07:18:05.894 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-11-25 08:53:54.475 INFO  [http-nio-8080-exec-6][SelectViaResourceCommand:45] LLAMA VIAS
+2022-11-25 08:53:54.477 INFO  [http-nio-8080-exec-6][SelectViaResourceCommand:88] devuelvo vias
+2022-11-25 08:53:54.500 INFO  [http-nio-8080-exec-1][SelectPaisResourceCommand:45] LLAME A LA RESOURCE
+2022-11-25 08:53:54.502 INFO  [http-nio-8080-exec-1][SelectPaisResourceCommand:56] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-25 08:53:54.502 INFO  [http-nio-8080-exec-1][SelectPaisResourceCommand:61] devuelvo paises
+2022-11-25 08:53:54.522 INFO  [http-nio-8080-exec-4][SelectProvinciaResourceCommand:48] ES
+2022-11-25 08:53:54.523 INFO  [http-nio-8080-exec-4][SelectProvinciaResourceCommand:94] ES
+2022-11-25 08:53:54.525 INFO  [http-nio-8080-exec-4][SelectProvinciaResourceCommand:97] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-25 08:53:54.549 INFO  [http-nio-8080-exec-2][SelectCiudadResourceCommand:48] Lugo
+2022-11-25 08:53:54.550 INFO  [http-nio-8080-exec-2][SelectCiudadResourceCommand:172] Lugo
+2022-11-25 08:53:54.551 INFO  [http-nio-8080-exec-2][SelectCiudadResourceCommand:177] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-25 09:10:48.204 INFO  [http-nio-8080-exec-3][SelectViaResourceCommand:45] LLAMA VIAS
+2022-11-25 09:10:48.204 INFO  [http-nio-8080-exec-3][SelectViaResourceCommand:88] devuelvo vias
+2022-11-25 09:10:48.219 INFO  [http-nio-8080-exec-10][SelectPaisResourceCommand:45] LLAME A LA RESOURCE
+2022-11-25 09:10:48.219 INFO  [http-nio-8080-exec-10][SelectPaisResourceCommand:56] Array paises   [{"value":"ES","option":"España"},{"value":"FR","option":"Francia"}]
+2022-11-25 09:10:48.220 INFO  [http-nio-8080-exec-10][SelectPaisResourceCommand:61] devuelvo paises
+2022-11-25 09:10:48.233 INFO  [http-nio-8080-exec-1][SelectProvinciaResourceCommand:48] ES
+2022-11-25 09:10:48.234 INFO  [http-nio-8080-exec-1][SelectProvinciaResourceCommand:94] ES
+2022-11-25 09:10:48.235 INFO  [http-nio-8080-exec-1][SelectProvinciaResourceCommand:97] [{"value":"Lugo","option":"Lugo"},{"value":"Asturias","option":"Asturias"},{"value":"Pais Vasco","option":"Pais Vasco"},{"value":"Cantabria","option":"Cantabria"}]
+2022-11-25 09:10:48.251 INFO  [http-nio-8080-exec-8][SelectCiudadResourceCommand:48] Lugo
+2022-11-25 09:10:48.252 INFO  [http-nio-8080-exec-8][SelectCiudadResourceCommand:172] Lugo
+2022-11-25 09:10:48.252 INFO  [http-nio-8080-exec-8][SelectCiudadResourceCommand:177] [{"value":"Foz","option":"Foz"},{"value":"Cervantes","option":"Cervantes"},{"value":"Pol","option":"Pol"}]
+2022-11-25 09:26:26.575 WARN  [http-nio-8080-exec-2][SecurityPortletContainerWrapper:470] User 0 is not allowed to serve resource for http://localhost:8080/web/wecanbs/w/annabis-handcann-q10-crema-de-manos-natural-de-c%C3%A1%C3%B1amo-hidratante-y-regeneradora on com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet: User 0 must have ACCESS permission for Personal Menu com_liferay_product_navigation_personal_menu_web_internal_portlet_PersonalMenuPortlet 
+2022-11-25 10:11:49.321 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-11-25 10:11:49.323 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-11-25 10:11:49.324 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-11-25 10:11:49.324 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-11-25 10:11:50.502 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-11-25 10:11:50.503 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-11-25 10:12:06.519 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-11-25 10:12:06.520 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-11-25 10:12:06.522 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.

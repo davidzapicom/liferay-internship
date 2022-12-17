@@ -1,0 +1,453 @@
+2022-10-03 16:22:27.452 INFO  [main][VerifyProcess:76] Verifying com.liferay.portal.scheduler.internal.verify.SchedulerHelperPropertiesVerifyProcess
+2022-10-03 16:22:27.456 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.scheduler.internal.verify.SchedulerHelperPropertiesVerifyProcess#_upgradeConfiguration
+2022-10-03 16:22:27.458 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.scheduler.internal.verify.SchedulerHelperPropertiesVerifyProcess#_upgradeConfiguration in 3 ms
+2022-10-03 16:22:27.459 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.portal.scheduler.internal.verify.SchedulerHelperPropertiesVerifyProcess in 8 ms
+2022-10-03 16:22:27.470 INFO  [main][VerifyProcess:76] Verifying com.liferay.portal.security.sso.opensso.internal.verify.OpenSSOCompanySettingsVerifyProcess
+2022-10-03 16:22:27.471 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties
+2022-10-03 16:22:27.477 INFO  [main][BaseCompanySettingsVerifyProcess:124] Removing preference keys [open.sso.last.name.attr, open.sso.auth.enabled, open.sso.ldap.import.enabled, open.sso.email.address.attr, open.sso.service.url, open.sso.first.name.attr, open.sso.login.url, open.sso.logout.url, open.sso.screen.name.attr, open.sso.logout.on.session.expiration] for company 20097
+2022-10-03 16:22:27.482 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties in 11 ms
+2022-10-03 16:22:27.484 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.portal.security.sso.opensso.internal.verify.OpenSSOCompanySettingsVerifyProcess in 14 ms
+2022-10-03 16:22:27.490 INFO  [main][VerifyProcess:76] Verifying com.liferay.portal.security.sso.facebook.connect.internal.verify.FacebookConnectCompanySettingsVerifyProcess
+2022-10-03 16:22:27.491 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties
+2022-10-03 16:22:27.492 INFO  [main][BaseCompanySettingsVerifyProcess:124] Removing preference keys [facebook.connect.app.secret, facebook.connect.graph.url, facebook.connect.oauth.auth.url, facebook.connect.app.id, facebook.connect.oauth.redirect.url, facebook.connect.oauth.token.url, facebook.auth.enabled, facebook.connect.verified.account.required] for company 20097
+2022-10-03 16:22:27.493 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties in 3 ms
+2022-10-03 16:22:27.494 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.portal.security.sso.facebook.connect.internal.verify.FacebookConnectCompanySettingsVerifyProcess in 5 ms
+2022-10-03 16:22:27.499 INFO  [main][VerifyProcess:76] Verifying com.liferay.exportimport.internal.verify.system.event.SystemEventVerifyProcess
+2022-10-03 16:22:27.538 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.exportimport.internal.verify.system.event.SystemEventVerifyProcess in 39 ms
+2022-10-03 16:22:27.543 INFO  [main][VerifyProcess:76] Verifying com.liferay.portal.security.ldap.internal.verify.LDAPPropertiesVerifyProcess
+2022-10-03 16:22:27.544 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.security.ldap.internal.verify.LDAPPropertiesVerifyProcess#_verifyLDAPProperties
+2022-10-03 16:22:27.545 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.security.ldap.internal.verify.LDAPPropertiesVerifyProcess#_verifyLDAPProperties in 1 ms
+2022-10-03 16:22:27.546 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.portal.security.ldap.internal.verify.LDAPPropertiesVerifyProcess in 3 ms
+2022-10-03 16:22:30.445 INFO  [main][VerifyProcess:76] Verifying com.liferay.organizations.internal.verify.OrganizationServiceVerifyProcess
+2022-10-03 16:22:30.446 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.organizations.internal.verify.OrganizationServiceVerifyProcess in 1 ms
+2022-10-03 16:22:32.080 INFO  [main][UpgradeProcess:127] Upgrading com.liferay.content.dashboard.document.library.internal.upgrade.registry.v_1_17.AssetVocabularyUpgradeProcess
+2022-10-03 16:22:32.178 INFO  [main][UpgradeProcess:145] Completed upgrade process com.liferay.content.dashboard.document.library.internal.upgrade.registry.v_1_17.AssetVocabularyUpgradeProcess in 99 ms
+2022-10-03 16:22:46.178 INFO  [main][VerifyProcess:76] Verifying com.liferay.commerce.account.internal.verify.CommerceAccountServiceVerifyProcess
+2022-10-03 16:22:46.180 INFO  [main][LoggingTimer:83] Starting com.liferay.commerce.account.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountRoles
+2022-10-03 16:22:46.420 INFO  [main][LoggingTimer:44] Completed com.liferay.commerce.account.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountRoles in 239 ms
+2022-10-03 16:22:46.422 INFO  [main][LoggingTimer:83] Starting com.liferay.commerce.account.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountGroup
+2022-10-03 16:22:46.427 INFO  [main][LoggingTimer:44] Completed com.liferay.commerce.account.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountGroup in 6 ms
+2022-10-03 16:22:46.429 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.commerce.account.internal.verify.CommerceAccountServiceVerifyProcess in 250 ms
+2022-10-03 16:22:57.797 INFO  [main][UpgradeProcess:127] Upgrading com.liferay.portal.security.service.access.policy.internal.upgrade.registry.SAPServiceInitialDeploymentUpgradeStepRegistrator$1
+2022-10-03 16:22:57.799 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess#verifyDefaultSAPEntry
+2022-10-03 16:22:57.830 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess#verifyDefaultSAPEntry in 31 ms
+2022-10-03 16:22:57.832 INFO  [main][UpgradeProcess:145] Completed upgrade process com.liferay.portal.security.service.access.policy.internal.upgrade.registry.SAPServiceInitialDeploymentUpgradeStepRegistrator$1 in 34 ms
+2022-10-03 16:22:57.835 INFO  [main][VerifyProcess:76] Verifying com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess
+2022-10-03 16:22:57.837 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess#verifyDefaultSAPEntry
+2022-10-03 16:22:57.841 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess#verifyDefaultSAPEntry in 4 ms
+2022-10-03 16:22:57.842 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess in 7 ms
+2022-10-03 16:23:03.108 INFO  [main][VerifyProcess:76] Verifying com.liferay.wiki.internal.verify.WikiServiceVerifyProcess
+2022-10-03 16:23:03.109 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.wiki.internal.verify.WikiServiceVerifyProcess in 1 ms
+2022-10-03 16:23:03.235 INFO  [main][VerifyProcess:76] Verifying com.liferay.blogs.internal.verify.BlogsServiceVerifyProcess
+2022-10-03 16:23:03.236 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.blogs.internal.verify.BlogsServiceVerifyProcess in 1 ms
+2022-10-03 16:23:53.512 INFO  [main][VerifyProcess:76] Verifying com.liferay.message.boards.internal.verify.MessageBoardsServiceVerifyProcess
+2022-10-03 16:23:53.513 INFO  [main][LoggingTimer:83] Starting com.liferay.message.boards.internal.verify.MessageBoardsServiceVerifyProcess#verifyGroupedModels
+2022-10-03 16:23:53.529 INFO  [ForkJoinPool-1-worker-2][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyGroupedModel#verifyGroupedModel#MBThreadFlag
+2022-10-03 16:23:53.530 INFO  [ForkJoinPool-1-worker-1][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyGroupedModel#verifyGroupedModel#MBDiscussion
+2022-10-03 16:23:53.542 INFO  [ForkJoinPool-1-worker-1][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyGroupedModel#verifyGroupedModel#MBDiscussion in 12 ms
+2022-10-03 16:23:53.542 INFO  [ForkJoinPool-1-worker-2][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyGroupedModel#verifyGroupedModel#MBThreadFlag in 13 ms
+2022-10-03 16:23:53.544 INFO  [main][LoggingTimer:44] Completed com.liferay.message.boards.internal.verify.MessageBoardsServiceVerifyProcess#verifyGroupedModels in 31 ms
+2022-10-03 16:23:53.547 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.message.boards.internal.verify.MessageBoardsServiceVerifyProcess in 36 ms
+2022-10-03 16:23:55.505 INFO  [main][VerifyProcess:76] Verifying com.liferay.bookmarks.internal.verify.BookmarksServiceVerifyProcess
+2022-10-03 16:23:55.507 INFO  [main][LoggingTimer:83] Starting com.liferay.bookmarks.internal.verify.BookmarksServiceVerifyProcess#_updateFolderAssets
+2022-10-03 16:23:55.514 INFO  [main][LoggingTimer:44] Completed com.liferay.bookmarks.internal.verify.BookmarksServiceVerifyProcess#_updateFolderAssets in 7 ms
+2022-10-03 16:23:55.516 INFO  [main][LoggingTimer:83] Starting com.liferay.bookmarks.internal.verify.BookmarksServiceVerifyProcess#_verifyTree
+2022-10-03 16:23:55.529 INFO  [main][LoggingTimer:44] Completed com.liferay.bookmarks.internal.verify.BookmarksServiceVerifyProcess#_verifyTree in 13 ms
+2022-10-03 16:23:55.530 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.bookmarks.internal.verify.BookmarksServiceVerifyProcess in 24 ms
+2022-10-03 16:23:58.033 INFO  [main][UpgradeProcess:127] Upgrading com.liferay.commerce.account.internal.upgrade.registry.CommerceAccountServiceInitialDeploymentUpgradeStepRegistrator$1
+2022-10-03 16:23:58.035 INFO  [main][LoggingTimer:83] Starting com.liferay.commerce.account.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountRoles
+2022-10-03 16:23:58.055 INFO  [main][LoggingTimer:44] Completed com.liferay.commerce.account.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountRoles in 20 ms
+2022-10-03 16:23:58.056 INFO  [main][LoggingTimer:83] Starting com.liferay.commerce.account.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountGroup
+2022-10-03 16:23:58.059 INFO  [main][LoggingTimer:44] Completed com.liferay.commerce.account.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountGroup in 3 ms
+2022-10-03 16:23:58.060 INFO  [main][UpgradeProcess:145] Completed upgrade process com.liferay.commerce.account.internal.upgrade.registry.CommerceAccountServiceInitialDeploymentUpgradeStepRegistrator$1 in 28 ms
+2022-10-03 16:24:05.717 INFO  [main][UpgradeProcess:127] Upgrading com.liferay.commerce.price.list.internal.upgrade.registry.CommercePriceListServiceInitialDeploymentUpgradeStepRegistrator$1
+2022-10-03 16:24:05.719 INFO  [main][LoggingTimer:83] Starting com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess#verifyBasePriceLists
+2022-10-03 16:24:05.757 INFO  [main][LoggingTimer:44] Completed com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess#verifyBasePriceLists in 38 ms
+2022-10-03 16:24:05.758 INFO  [main][UpgradeProcess:145] Completed upgrade process com.liferay.commerce.price.list.internal.upgrade.registry.CommercePriceListServiceInitialDeploymentUpgradeStepRegistrator$1 in 41 ms
+2022-10-03 16:24:05.761 INFO  [main][VerifyProcess:76] Verifying com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess
+2022-10-03 16:24:05.764 INFO  [main][LoggingTimer:83] Starting com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess#verifyBasePriceLists
+2022-10-03 16:24:05.766 INFO  [main][LoggingTimer:44] Completed com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess#verifyBasePriceLists in 2 ms
+2022-10-03 16:24:05.767 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess in 6 ms
+2022-10-03 16:24:06.227 INFO  [main][UpgradeProcess:127] Upgrading com.liferay.commerce.product.internal.upgrade.registry.CommerceProductServiceInitialDeploymentUpgradeStepRegistrator$1
+2022-10-03 16:24:06.229 INFO  [main][LoggingTimer:83] Starting com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess#verifyCPMeasurementUnits
+2022-10-03 16:24:06.273 INFO  [main][LoggingTimer:44] Completed com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess#verifyCPMeasurementUnits in 43 ms
+2022-10-03 16:24:06.275 INFO  [main][UpgradeProcess:145] Completed upgrade process com.liferay.commerce.product.internal.upgrade.registry.CommerceProductServiceInitialDeploymentUpgradeStepRegistrator$1 in 47 ms
+2022-10-03 16:24:06.278 INFO  [main][VerifyProcess:76] Verifying com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess
+2022-10-03 16:24:06.281 INFO  [main][LoggingTimer:83] Starting com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess#verifyCPMeasurementUnits
+2022-10-03 16:24:06.290 INFO  [main][LoggingTimer:44] Completed com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess#verifyCPMeasurementUnits in 9 ms
+2022-10-03 16:24:06.291 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess in 13 ms
+2022-10-03 16:24:06.660 INFO  [main][VerifyProcess:76] Verifying com.liferay.document.library.internal.verify.DLServiceVerifyProcess
+2022-10-03 16:24:06.661 INFO  [main][LoggingTimer:83] Starting com.liferay.document.library.internal.verify.DLServiceVerifyProcess#_checkDLFileEntryMetadata
+2022-10-03 16:24:06.669 INFO  [main][LoggingTimer:44] Completed com.liferay.document.library.internal.verify.DLServiceVerifyProcess#_checkDLFileEntryMetadata in 8 ms
+2022-10-03 16:24:06.670 INFO  [main][LoggingTimer:83] Starting com.liferay.document.library.internal.verify.DLServiceVerifyProcess#_checkMimeTypes
+2022-10-03 16:24:06.675 INFO  [main][LoggingTimer:44] Completed com.liferay.document.library.internal.verify.DLServiceVerifyProcess#_checkMimeTypes in 4 ms
+2022-10-03 16:24:06.676 INFO  [main][LoggingTimer:83] Starting com.liferay.document.library.internal.verify.DLServiceVerifyProcess#_updateClassNameId
+2022-10-03 16:24:06.678 INFO  [main][LoggingTimer:44] Completed com.liferay.document.library.internal.verify.DLServiceVerifyProcess#_updateClassNameId in 1 ms
+2022-10-03 16:24:06.679 INFO  [main][LoggingTimer:83] Starting com.liferay.document.library.internal.verify.DLServiceVerifyProcess#_updateFileEntryAssets
+2022-10-03 16:24:06.683 INFO  [main][LoggingTimer:44] Completed com.liferay.document.library.internal.verify.DLServiceVerifyProcess#_updateFileEntryAssets in 5 ms
+2022-10-03 16:24:06.685 INFO  [main][LoggingTimer:83] Starting com.liferay.document.library.internal.verify.DLServiceVerifyProcess#_updateFolderAssets
+2022-10-03 16:24:06.700 INFO  [main][LoggingTimer:44] Completed com.liferay.document.library.internal.verify.DLServiceVerifyProcess#_updateFolderAssets in 15 ms
+2022-10-03 16:24:06.702 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.document.library.internal.verify.DLServiceVerifyProcess in 42 ms
+2022-10-03 16:24:08.154 INFO  [main][VerifyProcess:76] Verifying com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess
+2022-10-03 16:24:08.156 INFO  [main][LoggingTimer:83] Starting com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyStructureLinks
+2022-10-03 16:24:08.158 INFO  [main][LoggingTimer:44] Completed com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyStructureLinks in 2 ms
+2022-10-03 16:24:08.159 INFO  [main][LoggingTimer:83] Starting com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyTemplateLinks
+2022-10-03 16:24:08.162 INFO  [main][LoggingTimer:44] Completed com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyTemplateLinks in 3 ms
+2022-10-03 16:24:08.163 INFO  [main][VerifyProcess:89] Completed verification process com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess in 9 ms
+2022-10-03 16:24:10.996 INFO  [main][UpgradeProcess:127] Upgrading com.liferay.adaptive.media.document.library.thumbnails.internal.upgrade.v1_0_0.DocumentLibraryThumbnailsConfigurationUpgradeProcess
+2022-10-03 16:24:10.998 INFO  [main][LoggingTimer:83] Starting com.liferay.adaptive.media.document.library.thumbnails.internal.upgrade.v1_0_0.DocumentLibraryThumbnailsConfigurationUpgradeProcess#doUpgrade
+2022-10-03 16:24:11.034 INFO  [main][LoggingTimer:44] Completed com.liferay.adaptive.media.document.library.thumbnails.internal.upgrade.v1_0_0.DocumentLibraryThumbnailsConfigurationUpgradeProcess#doUpgrade in 37 ms
+2022-10-03 16:24:11.035 INFO  [main][UpgradeProcess:145] Completed upgrade process com.liferay.adaptive.media.document.library.thumbnails.internal.upgrade.v1_0_0.DocumentLibraryThumbnailsConfigurationUpgradeProcess in 39 ms
+2022-10-03 16:24:22.599 INFO  [main][BundleSiteInitializer:384] Initializing com.liferay.site.initializer.welcome for group 20121
+2022-10-03 16:24:22.602 INFO  [main][BundleSiteInitializer:3923] Invoking line 410 took 1 ms
+2022-10-03 16:24:22.604 INFO  [main][BundleSiteInitializer:3942] Invoking line 413 in 1 ms
+2022-10-03 16:24:22.606 INFO  [main][BundleSiteInitializer:3923] Invoking line 415 took 1 ms
+2022-10-03 16:24:22.608 INFO  [main][BundleSiteInitializer:3942] Invoking line 418 in 0 ms
+2022-10-03 16:24:22.701 ERROR [main][BundleSiteInitializer:522] null
+java.lang.NullPointerException: null
+	at com.liferay.portal.vulcan.util.SearchUtil.search(SearchUtil.java:114) ~[?:?]
+	at com.liferay.headless.delivery.internal.resource.v1_0.DocumentResourceImpl._getDocumentsPage(DocumentResourceImpl.java:721) ~[?:?]
+	at com.liferay.headless.delivery.internal.resource.v1_0.DocumentResourceImpl.getSiteDocumentsPage(DocumentResourceImpl.java:303) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at com.liferay.headless.delivery.internal.resource.v1_0.factory.DocumentResourceFactoryImpl._invoke(DocumentResourceFactoryImpl.java:221) ~[?:?]
+	at com.liferay.headless.delivery.internal.resource.v1_0.factory.DocumentResourceFactoryImpl.access$100(DocumentResourceFactoryImpl.java:67) ~[?:?]
+	at com.liferay.headless.delivery.internal.resource.v1_0.factory.DocumentResourceFactoryImpl$1.lambda$build$0(DocumentResourceFactoryImpl.java:80) ~[?:?]
+	at com.sun.proxy.$Proxy1332.getSiteDocumentsPage(Unknown Source) ~[?:?]
+	at com.liferay.site.initializer.extender.internal.BundleSiteInitializer._addDocuments(BundleSiteInitializer.java:1009) ~[?:?]
+	at com.liferay.site.initializer.extender.internal.BundleSiteInitializer._addDocuments(BundleSiteInitializer.java:1111) ~[?:?]
+	at com.liferay.site.initializer.extender.internal.BundleSiteInitializer.lambda$initialize$4(BundleSiteInitializer.java:422) ~[?:?]
+	at com.liferay.site.initializer.extender.internal.BundleSiteInitializer._invoke(BundleSiteInitializer.java:3935) ~[?:?]
+	at com.liferay.site.initializer.extender.internal.BundleSiteInitializer.initialize(BundleSiteInitializer.java:421) ~[?:?]
+	at com.liferay.site.welcome.site.initializer.internal.instance.lifecycle.AddDefaultLayoutPortalInstanceLifecycleListener.portalInstanceRegistered(AddDefaultLayoutPortalInstanceLifecycleListener.java:85) ~[?:?]
+	at com.liferay.portal.instance.lifecycle.internal.PortalInstanceLifecycleListenerManagerImpl.registerCompany(PortalInstanceLifecycleListenerManagerImpl.java:227) ~[?:?]
+	at com.liferay.portal.instance.lifecycle.internal.PortalInstanceLifecycleListenerManagerImpl.lambda$null$1(PortalInstanceLifecycleListenerManagerImpl.java:137) ~[?:?]
+	at com.liferay.portal.spring.transaction.BaseTransactionExecutor.execute(BaseTransactionExecutor.java:37) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.transaction.TransactionInvokerImpl.invoke(TransactionInvokerImpl.java:39) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.transaction.TransactionInvokerUtil.invoke(TransactionInvokerUtil.java:28) ~[portal-kernel.jar:?]
+	at com.liferay.portal.instance.lifecycle.internal.PortalInstanceLifecycleListenerManagerImpl.lambda$addPortalInstanceLifecycleListener$2(PortalInstanceLifecycleListenerManagerImpl.java:131) ~[?:?]
+	at com.liferay.portal.service.impl.CompanyLocalServiceImpl.forEachCompany(CompanyLocalServiceImpl.java:506) [portal-impl.jar:?]
+	at sun.reflect.GeneratedMethodAccessor217.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:50) [portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:49) [portal-impl.jar:?]
+	at com.sun.proxy.$Proxy88.forEachCompany(Unknown Source) [?:?]
+	at com.liferay.portal.instance.lifecycle.internal.PortalInstanceLifecycleListenerManagerImpl.addPortalInstanceLifecycleListener(PortalInstanceLifecycleListenerManagerImpl.java:128) [bundleFile:?]
+	at sun.reflect.GeneratedMethodAccessor204.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invokeMethod(BaseMethod.java:228) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.access$500(BaseMethod.java:41) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod$Resolved.invoke(BaseMethod.java:664) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invoke(BaseMethod.java:510) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BindMethod.invoke(BindMethod.java:42) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager.doInvokeBindMethod(DependencyManager.java:1813) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager.invokeBindMethod(DependencyManager.java:1788) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.invokeBindMethod(SingleComponentManager.java:436) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:333) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:302) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1216) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1137) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:944) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:880) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1168) [bundleFile:?]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:125) [bundleFile:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:891) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:469) [org.eclipse.osgi.jar:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:906) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:892) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:128) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:959) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:732) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1053) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1007) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1216) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1137) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:944) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:880) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1168) [bundleFile:?]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:125) [bundleFile:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:891) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:469) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:487) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:1004) [org.eclipse.osgi.jar:?]
+	at com.liferay.portal.search.internal.indexer.ModelSearchConfiguratorServiceTrackerCustomizer.addingService(ModelSearchConfiguratorServiceTrackerCustomizer.java:131) [bundleFile:?]
+	at com.liferay.portal.search.internal.indexer.ModelSearchConfiguratorServiceTrackerCustomizer.addingService(ModelSearchConfiguratorServiceTrackerCustomizer.java:80) [bundleFile:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264) [org.eclipse.osgi.jar:?]
+	at com.liferay.osgi.util.ServiceTrackerFactory.open(ServiceTrackerFactory.java:104) [bundleFile:?]
+	at com.liferay.portal.search.internal.indexer.ModelSearchConfiguratorServiceTrackerCustomizer.activate(ModelSearchConfiguratorServiceTrackerCustomizer.java:189) [bundleFile:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invokeMethod(BaseMethod.java:228) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.access$500(BaseMethod.java:41) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod$Resolved.invoke(BaseMethod.java:664) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invoke(BaseMethod.java:510) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.ActivateMethod.invoke(ActivateMethod.java:310) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.ActivateMethod.invoke(ActivateMethod.java:300) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:341) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:114) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:983) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:956) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:756) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1053) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1007) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1216) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1137) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:944) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:880) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1168) [bundleFile:?]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:125) [bundleFile:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:891) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:469) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:487) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:1004) [org.eclipse.osgi.jar:?]
+	at com.liferay.portal.tools.DBUpgrader._registerModuleServiceLifecycle(DBUpgrader.java:338) [portal-impl.jar:?]
+	at com.liferay.portal.tools.DBUpgrader.upgradeModules(DBUpgrader.java:180) [portal-impl.jar:?]
+	at com.liferay.portal.internal.servlet.MainServlet.init(MainServlet.java:395) [portal-impl.jar:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) [servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.init(ServletWrapper.java:92) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1164) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1013) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4957) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5264) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889) [catalina.jar:9.0.56]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-util.jar:9.0.56]
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source) [?:1.8.0_341]
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) [catalina.jar:9.0.56]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-util.jar:9.0.56]
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source) [?:1.8.0_341]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772) [catalina.jar:9.0.56]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345) [bootstrap.jar:9.0.56]
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476) [bootstrap.jar:9.0.56]
+2022-10-03 16:24:22.738 WARN  [main][PortalInstanceLifecycleListenerManagerImpl:231] Unable to register portal instance {"mvccVersion": 1, "companyId": 20097, "userId": 0, "userName": "", "createDate": "Mon Oct 03 16:22:25 GMT 2022", "modifiedDate": "Mon Oct 03 16:22:25 GMT 2022", "webId": "liferay.com", "mx": "liferay.com", "homeURL": "", "logoId": 0, "maxUsers": 0, "active": true, "name": "Liferay", "legalName": "", "legalId": "", "legalType": "", "sicCode": "", "tickerSymbol": "", "industry": "", "type": "", "size": ""}
+com.liferay.site.exception.InitializationException: java.lang.NullPointerException
+	at com.liferay.site.initializer.extender.internal.BundleSiteInitializer.initialize(BundleSiteInitializer.java:524) ~[?:?]
+	at com.liferay.site.welcome.site.initializer.internal.instance.lifecycle.AddDefaultLayoutPortalInstanceLifecycleListener.portalInstanceRegistered(AddDefaultLayoutPortalInstanceLifecycleListener.java:85) ~[?:?]
+	at com.liferay.portal.instance.lifecycle.internal.PortalInstanceLifecycleListenerManagerImpl.registerCompany(PortalInstanceLifecycleListenerManagerImpl.java:227) ~[?:?]
+	at com.liferay.portal.instance.lifecycle.internal.PortalInstanceLifecycleListenerManagerImpl.lambda$null$1(PortalInstanceLifecycleListenerManagerImpl.java:137) ~[?:?]
+	at com.liferay.portal.spring.transaction.BaseTransactionExecutor.execute(BaseTransactionExecutor.java:37) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.transaction.TransactionInvokerImpl.invoke(TransactionInvokerImpl.java:39) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.transaction.TransactionInvokerUtil.invoke(TransactionInvokerUtil.java:28) ~[portal-kernel.jar:?]
+	at com.liferay.portal.instance.lifecycle.internal.PortalInstanceLifecycleListenerManagerImpl.lambda$addPortalInstanceLifecycleListener$2(PortalInstanceLifecycleListenerManagerImpl.java:131) ~[?:?]
+	at com.liferay.portal.service.impl.CompanyLocalServiceImpl.forEachCompany(CompanyLocalServiceImpl.java:506) [portal-impl.jar:?]
+	at sun.reflect.GeneratedMethodAccessor217.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:50) [portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:49) [portal-impl.jar:?]
+	at com.sun.proxy.$Proxy88.forEachCompany(Unknown Source) [?:?]
+	at com.liferay.portal.instance.lifecycle.internal.PortalInstanceLifecycleListenerManagerImpl.addPortalInstanceLifecycleListener(PortalInstanceLifecycleListenerManagerImpl.java:128) [bundleFile:?]
+	at sun.reflect.GeneratedMethodAccessor204.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invokeMethod(BaseMethod.java:228) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.access$500(BaseMethod.java:41) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod$Resolved.invoke(BaseMethod.java:664) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invoke(BaseMethod.java:510) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BindMethod.invoke(BindMethod.java:42) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager.doInvokeBindMethod(DependencyManager.java:1813) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager.invokeBindMethod(DependencyManager.java:1788) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.invokeBindMethod(SingleComponentManager.java:436) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:333) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:302) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1216) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1137) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:944) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:880) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1168) [bundleFile:?]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:125) [bundleFile:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:891) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:469) [org.eclipse.osgi.jar:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:906) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:892) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:128) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:959) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:732) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1053) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1007) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1216) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1137) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:944) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:880) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1168) [bundleFile:?]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:125) [bundleFile:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:891) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:469) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:487) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:1004) [org.eclipse.osgi.jar:?]
+	at com.liferay.portal.search.internal.indexer.ModelSearchConfiguratorServiceTrackerCustomizer.addingService(ModelSearchConfiguratorServiceTrackerCustomizer.java:131) [bundleFile:?]
+	at com.liferay.portal.search.internal.indexer.ModelSearchConfiguratorServiceTrackerCustomizer.addingService(ModelSearchConfiguratorServiceTrackerCustomizer.java:80) [bundleFile:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264) [org.eclipse.osgi.jar:?]
+	at com.liferay.osgi.util.ServiceTrackerFactory.open(ServiceTrackerFactory.java:104) [bundleFile:?]
+	at com.liferay.portal.search.internal.indexer.ModelSearchConfiguratorServiceTrackerCustomizer.activate(ModelSearchConfiguratorServiceTrackerCustomizer.java:189) [bundleFile:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invokeMethod(BaseMethod.java:228) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.access$500(BaseMethod.java:41) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod$Resolved.invoke(BaseMethod.java:664) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invoke(BaseMethod.java:510) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.ActivateMethod.invoke(ActivateMethod.java:310) [bundleFile:?]
+	at org.apache.felix.scr.impl.inject.methods.ActivateMethod.invoke(ActivateMethod.java:300) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:341) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:114) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:983) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:956) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:756) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1053) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1007) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1216) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1137) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:944) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:880) [bundleFile:?]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1168) [bundleFile:?]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:125) [bundleFile:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:891) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:469) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:487) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:1004) [org.eclipse.osgi.jar:?]
+	at com.liferay.portal.tools.DBUpgrader._registerModuleServiceLifecycle(DBUpgrader.java:338) [portal-impl.jar:?]
+	at com.liferay.portal.tools.DBUpgrader.upgradeModules(DBUpgrader.java:180) [portal-impl.jar:?]
+	at com.liferay.portal.internal.servlet.MainServlet.init(MainServlet.java:395) [portal-impl.jar:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) [servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.init(ServletWrapper.java:92) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1164) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1013) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4957) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5264) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:690) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889) [catalina.jar:9.0.56]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-util.jar:9.0.56]
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source) [?:1.8.0_341]
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:583) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:473) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) [catalina.jar:9.0.56]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-util.jar:9.0.56]
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source) [?:1.8.0_341]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [catalina.jar:9.0.56]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) [catalina.jar:9.0.56]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [catalina.jar:9.0.56]
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772) [catalina.jar:9.0.56]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345) [bootstrap.jar:9.0.56]
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476) [bootstrap.jar:9.0.56]
+Caused by: java.lang.NullPointerException
+	at com.liferay.portal.vulcan.util.SearchUtil.search(SearchUtil.java:114) ~[?:?]
+	at com.liferay.headless.delivery.internal.resource.v1_0.DocumentResourceImpl._getDocumentsPage(DocumentResourceImpl.java:721) ~[?:?]
+	at com.liferay.headless.delivery.internal.resource.v1_0.DocumentResourceImpl.getSiteDocumentsPage(DocumentResourceImpl.java:303) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at com.liferay.headless.delivery.internal.resource.v1_0.factory.DocumentResourceFactoryImpl._invoke(DocumentResourceFactoryImpl.java:221) ~[?:?]
+	at com.liferay.headless.delivery.internal.resource.v1_0.factory.DocumentResourceFactoryImpl.access$100(DocumentResourceFactoryImpl.java:67) ~[?:?]
+	at com.liferay.headless.delivery.internal.resource.v1_0.factory.DocumentResourceFactoryImpl$1.lambda$build$0(DocumentResourceFactoryImpl.java:80) ~[?:?]
+	at com.sun.proxy.$Proxy1332.getSiteDocumentsPage(Unknown Source) ~[?:?]
+	at com.liferay.site.initializer.extender.internal.BundleSiteInitializer._addDocuments(BundleSiteInitializer.java:1009) ~[?:?]
+	at com.liferay.site.initializer.extender.internal.BundleSiteInitializer._addDocuments(BundleSiteInitializer.java:1111) ~[?:?]
+	at com.liferay.site.initializer.extender.internal.BundleSiteInitializer.lambda$initialize$4(BundleSiteInitializer.java:422) ~[?:?]
+	at com.liferay.site.initializer.extender.internal.BundleSiteInitializer._invoke(BundleSiteInitializer.java:3935) ~[?:?]
+	at com.liferay.site.initializer.extender.internal.BundleSiteInitializer.initialize(BundleSiteInitializer.java:421) ~[?:?]
+	... 150 more
+2022-10-03 16:24:23.835 INFO  [main][SystemCheckOSGiCommands:61] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-10-03 16:24:23.836 INFO  [main][SystemCheckOSGiCommands:73] Running system check
+2022-10-03 16:24:23.837 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-10-03 16:24:23.839 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-10-03 16:24:25.101 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-10-03 16:24:25.102 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-10-03 16:24:45.696 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-10-03 16:24:45.697 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-10-03 16:24:45.700 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.

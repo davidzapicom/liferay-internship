@@ -1,0 +1,5 @@
+10-Oct-2022 06:26:18.331 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [871] milliseconds
+10-Oct-2022 06:28:15.557 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [117219] milliseconds
+10-Oct-2022 19:20:02.190 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [923] milliseconds
+10-Oct-2022 21:21:37.142 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:9005] (base port [9005] and offset [0]). Tomcat may not be running.
+10-Oct-2022 19:23:02.537 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [179879] milliseconds

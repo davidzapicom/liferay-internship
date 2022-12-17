@@ -1,0 +1,1 @@
+2022-12-08 03:10:46.048 WARN  [liferay/scheduler_dispatch-1449][PoolBase:184] HikariPool-1 - Failed to validate connection org.mariadb.jdbc.MariaDbConnection@c74fff3 ((conn=159) Connection.setNetworkTimeout cannot be called on a closed connection). Possibly consider using a shorter maxLifetime value.

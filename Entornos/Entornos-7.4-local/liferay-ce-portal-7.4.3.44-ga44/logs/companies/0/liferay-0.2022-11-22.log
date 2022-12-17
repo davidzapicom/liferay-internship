@@ -1,0 +1,394 @@
+2022-11-22 07:09:26.559 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-22 07:09:35.171 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-22 07:09:43.135 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-22 07:09:43.931 INFO  [ModuleFramework-Static-Bundles-6][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-22 07:09:47.591 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-22 07:09:47.591 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-22 07:10:18.820 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-22 07:10:18.835 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-22 07:10:25.631 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-22 07:10:25.637 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-22 07:10:25.652 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-22 07:10:25.652 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-11-22 07:10:25.652 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-22 07:10:25.688 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 35 ms
+2022-11-22 07:10:25.690 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-22 07:10:25.690 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 1 ms
+2022-11-22 07:10:26.596 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-22 07:10:26.694 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 98 ms
+2022-11-22 07:10:31.622 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-22 07:11:32.947 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-22 07:11:42.455 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-22 07:11:42.488 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-22 07:11:42.555 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 68 ms
+2022-11-22 07:11:43.789 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-22 07:12:26.269 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-22 07:12:26.496 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-22 07:12:26.697 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-22 07:12:26.898 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-22 07:12:27.088 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-22 07:12:27.269 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-11-22 07:12:27.425 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 07:33:18.153 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 07:33:25.757 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 07:33:25.822 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1592]
+2022-11-22 07:33:25.942 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122073325828VZUFJZRU\wecanbs-theme.war
+2022-11-22 07:33:38.706 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122073325828VZUFJZRU\wecanbs-theme.war copied successfully
+2022-11-22 07:33:46.513 INFO  [Refresh Thread: Equinox Container: 817619f8-be6b-427b-ad57-5d6feb897a67][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 07:33:46.567 INFO  [Refresh Thread: Equinox Container: 817619f8-be6b-427b-ad57-5d6feb897a67][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1592]
+2022-11-22 07:35:33.217 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 07:35:38.649 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 07:35:38.677 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1592]
+2022-11-22 07:35:38.699 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122073538678ABOQFTTZ\wecanbs-theme.war
+2022-11-22 07:35:51.759 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122073538678ABOQFTTZ\wecanbs-theme.war copied successfully
+2022-11-22 07:36:00.553 INFO  [Refresh Thread: Equinox Container: 817619f8-be6b-427b-ad57-5d6feb897a67][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 07:36:00.617 INFO  [Refresh Thread: Equinox Container: 817619f8-be6b-427b-ad57-5d6feb897a67][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1592]
+2022-11-22 07:37:45.297 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 07:37:52.627 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 07:37:52.659 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1592]
+2022-11-22 07:37:52.688 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122073752661EUZTXWCF\wecanbs-theme.war
+2022-11-22 07:38:04.941 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122073752661EUZTXWCF\wecanbs-theme.war copied successfully
+2022-11-22 07:38:11.892 INFO  [Refresh Thread: Equinox Container: 817619f8-be6b-427b-ad57-5d6feb897a67][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 07:38:11.932 INFO  [Refresh Thread: Equinox Container: 817619f8-be6b-427b-ad57-5d6feb897a67][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1592]
+2022-11-22 08:10:29.081 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 08:10:32.094 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 08:10:42.035 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 08:10:42.073 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1592]
+2022-11-22 08:10:42.102 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122081042075ROFYRZDP\wecanbs-theme.war
+2022-11-22 08:10:56.079 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122081042075ROFYRZDP\wecanbs-theme.war copied successfully
+2022-11-22 08:11:06.729 INFO  [Refresh Thread: Equinox Container: 817619f8-be6b-427b-ad57-5d6feb897a67][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 08:11:06.791 INFO  [Refresh Thread: Equinox Container: 817619f8-be6b-427b-ad57-5d6feb897a67][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1592]
+2022-11-22 08:53:31.372 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -Xmx2560m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT
+2022-11-22 08:53:33.797 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-22 08:53:35.646 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-22 08:53:35.931 INFO  [ModuleFramework-Static-Bundles-7][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-22 08:53:37.537 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-22 08:53:37.539 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-22 08:53:51.211 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-22 08:53:51.217 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-22 08:53:52.953 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-22 08:53:52.958 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-22 08:53:52.960 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-22 08:53:52.960 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-11-22 08:53:52.960 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-22 08:53:52.975 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 15 ms
+2022-11-22 08:53:52.975 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-22 08:53:52.975 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-11-22 08:53:53.321 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-22 08:53:53.384 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 63 ms
+2022-11-22 08:53:55.235 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-22 08:54:19.020 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-22 08:54:22.910 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-22 08:54:22.911 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-22 08:54:22.942 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 31 ms
+2022-11-22 08:54:23.444 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-22 08:54:44.680 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-22 08:54:44.772 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-22 08:54:44.977 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-22 08:54:45.087 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-22 08:54:45.165 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-22 08:54:45.244 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-11-22 08:54:45.338 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 09:19:14.537 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 09:19:14.616 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1592]
+2022-11-22 09:20:52.808 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 09:21:01.855 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122092101752ODGHPTYI\wecanbs-theme.war
+2022-11-22 09:21:13.973 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122092101752ODGHPTYI\wecanbs-theme.war copied successfully
+2022-11-22 09:21:22.063 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 09:21:22.108 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 09:26:41.309 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 09:26:48.182 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 09:26:48.210 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 09:26:48.235 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122092648212VORWUBBO\wecanbs-theme.war
+2022-11-22 09:27:01.485 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122092648212VORWUBBO\wecanbs-theme.war copied successfully
+2022-11-22 09:27:09.573 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 09:27:09.617 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 09:30:41.571 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 09:30:49.312 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 09:30:49.346 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 09:30:49.371 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122093049348HWCTAYAB\wecanbs-theme.war
+2022-11-22 09:31:01.867 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122093049348HWCTAYAB\wecanbs-theme.war copied successfully
+2022-11-22 09:31:08.939 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 09:31:08.969 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 09:47:31.463 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 09:47:39.822 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 09:47:39.852 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 09:47:39.881 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122094739853BWGIIFKW\wecanbs-theme.war
+2022-11-22 09:47:52.628 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122094739853BWGIIFKW\wecanbs-theme.war copied successfully
+2022-11-22 09:48:01.280 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 09:48:01.311 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 09:53:37.767 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 09:53:47.030 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 09:53:47.055 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 09:53:47.082 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122095347056DCCOXZPK\wecanbs-theme.war
+2022-11-22 09:53:59.419 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122095347056DCCOXZPK\wecanbs-theme.war copied successfully
+2022-11-22 09:54:06.800 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 09:54:06.835 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:00:14.163 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 10:00:23.922 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 10:00:23.962 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:00:24.002 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122100023964CAKCKPXQ\wecanbs-theme.war
+2022-11-22 10:00:36.898 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122100023964CAKCKPXQ\wecanbs-theme.war copied successfully
+2022-11-22 10:00:43.992 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 10:00:44.022 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:06:29.452 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 10:06:36.062 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 10:06:36.111 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:06:36.168 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122100636113YJNVDGYO\wecanbs-theme.war
+2022-11-22 10:06:50.306 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122100636113YJNVDGYO\wecanbs-theme.war copied successfully
+2022-11-22 10:06:57.577 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 10:06:57.610 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:41:47.526 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 10:41:53.470 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 10:41:53.500 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:41:53.526 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122104153502ASWIALTS\wecanbs-theme.war
+2022-11-22 10:42:05.916 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122104153502ASWIALTS\wecanbs-theme.war copied successfully
+2022-11-22 10:42:12.583 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 10:42:12.611 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:45:47.633 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 10:45:56.368 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 10:45:56.394 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:45:56.420 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122104556395THJLEXED\wecanbs-theme.war
+2022-11-22 10:46:08.629 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122104556395THJLEXED\wecanbs-theme.war copied successfully
+2022-11-22 10:46:16.515 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 10:46:16.541 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:53:09.447 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 10:53:19.494 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 10:53:19.517 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:53:19.540 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122105319519CSIREWCE\wecanbs-theme.war
+2022-11-22 10:53:30.748 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122105319519CSIREWCE\wecanbs-theme.war copied successfully
+2022-11-22 10:53:37.984 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 10:53:38.012 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:56:39.535 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 10:56:46.379 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 10:56:46.433 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:56:46.492 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122105646436FWWGVAYE\wecanbs-theme.war
+2022-11-22 10:56:58.336 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122105646436FWWGVAYE\wecanbs-theme.war copied successfully
+2022-11-22 10:57:03.133 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 10:57:03.154 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:59:12.607 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 10:59:19.493 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 10:59:19.511 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 10:59:19.528 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122105919512YOJZIOKO\wecanbs-theme.war
+2022-11-22 10:59:26.804 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122105919512YOJZIOKO\wecanbs-theme.war copied successfully
+2022-11-22 10:59:31.449 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 10:59:31.468 INFO  [Refresh Thread: Equinox Container: a9837fb2-c757-4ac1-ba70-d6edfee24e50][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 11:02:20.315 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -Xmx2560m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT
+2022-11-22 11:02:22.720 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-22 11:02:24.574 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-22 11:02:24.904 INFO  [ModuleFramework-Static-Bundles-4][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-22 11:02:26.527 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-22 11:02:26.527 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-22 11:02:44.604 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-22 11:02:44.605 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-22 11:02:47.828 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-22 11:02:47.828 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-22 11:02:47.839 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-22 11:02:47.839 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 1 ms
+2022-11-22 11:02:47.839 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-22 11:02:47.850 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 11 ms
+2022-11-22 11:02:47.851 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-22 11:02:47.851 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-11-22 11:02:48.175 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-22 11:02:48.220 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 45 ms
+2022-11-22 11:02:50.155 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-22 11:03:14.259 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-22 11:03:18.000 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-22 11:03:18.012 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-22 11:03:18.045 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 33 ms
+2022-11-22 11:03:18.539 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-22 11:03:25.904 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-22 11:03:26.027 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-22 11:03:26.167 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-22 11:03:26.629 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-22 11:03:26.922 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-22 11:03:27.140 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-11-22 11:03:27.287 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 11:16:30.388 INFO  [main][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 11:16:30.402 INFO  [main][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-11-22 11:16:30.412 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-11-22 11:16:30.422 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-11-22 11:16:30.431 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-11-22 11:16:30.440 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-11-22 11:16:30.450 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered
+2022-11-22 11:21:02.438 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-22 11:21:04.657 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-22 11:21:06.674 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-22 11:21:07.125 INFO  [ModuleFramework-Static-Bundles-2][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-22 11:21:08.761 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-22 11:21:08.761 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-22 11:21:21.244 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-22 11:21:21.245 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-22 11:21:22.922 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-22 11:21:22.922 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-22 11:21:22.930 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-22 11:21:22.931 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 1 ms
+2022-11-22 11:21:22.931 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-22 11:21:22.940 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 9 ms
+2022-11-22 11:21:22.941 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-22 11:21:22.941 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 0 ms
+2022-11-22 11:21:23.244 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-22 11:21:23.287 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 43 ms
+2022-11-22 11:21:25.164 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-22 11:21:48.803 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-22 11:21:52.839 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-22 11:21:52.852 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-22 11:21:52.885 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 32 ms
+2022-11-22 11:21:53.324 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-22 11:21:58.929 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-22 11:21:59.050 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-22 11:21:59.166 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-22 11:21:59.280 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-22 11:21:59.391 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-22 11:21:59.514 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-11-22 11:21:59.631 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 12:32:33.824 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 12:32:41.935 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 12:32:41.965 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 12:32:42.020 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122123241968HENDUCXD\wecanbs-theme.war
+2022-11-22 12:32:49.254 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122123241968HENDUCXD\wecanbs-theme.war copied successfully
+2022-11-22 12:32:54.341 INFO  [Refresh Thread: Equinox Container: 56416d3d-7d21-4241-a19f-27b38859d3dc][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 12:32:54.379 INFO  [Refresh Thread: Equinox Container: 56416d3d-7d21-4241-a19f-27b38859d3dc][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 12:34:30.985 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 12:34:40.487 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 12:34:40.507 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 12:34:40.524 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122123440508DODHBGXX\wecanbs-theme.war
+2022-11-22 12:34:47.855 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122123440508DODHBGXX\wecanbs-theme.war copied successfully
+2022-11-22 12:34:52.813 INFO  [Refresh Thread: Equinox Container: 56416d3d-7d21-4241-a19f-27b38859d3dc][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 12:34:52.842 INFO  [Refresh Thread: Equinox Container: 56416d3d-7d21-4241-a19f-27b38859d3dc][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 12:39:16.062 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 12:39:25.419 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 12:39:25.441 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 12:39:25.458 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122123925442CCKSGVKP\wecanbs-theme.war
+2022-11-22 12:39:32.495 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122123925442CCKSGVKP\wecanbs-theme.war copied successfully
+2022-11-22 12:39:37.131 INFO  [Refresh Thread: Equinox Container: 56416d3d-7d21-4241-a19f-27b38859d3dc][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 12:39:37.156 INFO  [Refresh Thread: Equinox Container: 56416d3d-7d21-4241-a19f-27b38859d3dc][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 12:41:10.095 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:238] Processing wecanbs-theme.war
+2022-11-22 12:41:18.124 INFO  [fileinstall-directory-watcher][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 12:41:18.144 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED wecanbs-theme_1.0.0 [1593]
+2022-11-22 12:41:18.161 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:43] Copying themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122124118145UKMKOFYZ\wecanbs-theme.war
+2022-11-22 12:41:25.271 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:50] Themes for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\tomcat-9.0.56\temp\20221122124118145UKMKOFYZ\wecanbs-theme.war copied successfully
+2022-11-22 12:41:29.888 INFO  [Refresh Thread: Equinox Container: 56416d3d-7d21-4241-a19f-27b38859d3dc][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 12:41:29.912 INFO  [Refresh Thread: Equinox Container: 56416d3d-7d21-4241-a19f-27b38859d3dc][BundleStartStopLogger:77] STARTED wecanbs-theme_1.0.0 [1593]
+2022-11-22 13:29:54.301 INFO  [main][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 13:29:54.310 INFO  [main][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-11-22 13:29:54.318 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-11-22 13:29:54.326 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-11-22 13:29:54.335 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-11-22 13:29:54.343 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-11-22 13:29:54.356 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered
+2022-11-22 13:42:53.536 INFO  [main][PortalContextLoaderListener:123] JVM arguments: -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -Dcatalina.base=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Dcatalina.home=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false -Dfile.encoding=UTF8 -Djava.endorsed.dirs=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/endorsed -Djava.io.tmpdir=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/tomcat-9.0.56/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m
+2022-11-22 13:42:56.016 INFO  [main][DialectDetector:153] Using dialect com.liferay.portal.dao.orm.hibernate.MariaDBDialect for MariaDB 10.11
+2022-11-22 13:42:57.795 INFO  [main][ModuleFrameworkImpl:1279] Starting initial bundles
+2022-11-22 13:42:58.101 INFO  [ModuleFramework-Static-Bundles-7][InterpolationConfigurationPlugin:109] Configured directory for secrets: C:/Entornos/Entornos-7.4-local/liferay-ce-portal-7.4.3.44-ga44/osgi/configs
+2022-11-22 13:42:59.635 INFO  [main][ModuleFrameworkImpl:1576] Started initial bundles
+2022-11-22 13:42:59.636 INFO  [main][ModuleFrameworkImpl:1625] Starting dynamic bundles
+2022-11-22 13:43:13.164 INFO  [main][ModuleFrameworkImpl:1647] Started dynamic bundles
+2022-11-22 13:43:13.165 INFO  [main][ModuleFrameworkImpl:1654] Starting web bundles
+2022-11-22 13:43:15.001 INFO  [main][ModuleFrameworkImpl:1708] Started web bundles
+2022-11-22 13:43:15.002 INFO  [main][ModuleFrameworkImpl:278] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-11-22 13:43:15.011 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+2022-11-22 13:43:15.011 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 0 ms
+2022-11-22 13:43:15.011 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+2022-11-22 13:43:15.022 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 11 ms
+2022-11-22 13:43:15.022 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+2022-11-22 13:43:15.023 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 1 ms
+2022-11-22 13:43:15.364 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-22 13:43:15.411 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 47 ms
+2022-11-22 13:43:17.415 WARN  [main][SidecarManager:103] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-11-22 13:43:43.622 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-11-22 13:43:47.941 INFO  [main][StartupHelperUtil:86] There are no patches installed
+2022-11-22 13:43:47.955 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-11-22 13:43:47.986 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 31 ms
+2022-11-22 13:43:48.483 INFO  [main][AutoDeployDir:176] Auto deploy scanner started for C:\Entornos\Entornos-7.4-local\liferay-ce-portal-7.4.3.44-ga44\deploy
+2022-11-22 13:44:14.927 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-11-22 13:44:15.058 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-11-22 13:44:15.164 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for dialect-theme is available for use
+2022-11-22 13:44:15.294 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-11-22 13:44:15.419 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-11-22 13:44:15.537 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for practica-theme is available for use
+2022-11-22 13:44:15.674 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for wecanbs-theme is available for use
+2022-11-22 13:53:14.131 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1594]
+2022-11-22 13:53:19.267 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1594]
+2022-11-22 13:55:15.492 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 13:56:07.494 WARN  [http-nio-8080-exec-6][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:56:07.499 WARN  [http-nio-8080-exec-1][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 13:56:07.503 WARN  [http-nio-8080-exec-4][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 13:56:08.818 WARN  [http-nio-8080-exec-10][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:56:08.818 WARN  [http-nio-8080-exec-7][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 13:56:08.818 WARN  [http-nio-8080-exec-2][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 13:56:10.768 WARN  [http-nio-8080-exec-8][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:56:10.768 WARN  [http-nio-8080-exec-3][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 13:56:10.768 WARN  [http-nio-8080-exec-9][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 13:56:13.920 WARN  [http-nio-8080-exec-2][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 13:56:13.920 WARN  [http-nio-8080-exec-4][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:56:13.920 WARN  [http-nio-8080-exec-5][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 13:56:13.984 WARN  [http-nio-8080-exec-7][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:56:13.984 WARN  [http-nio-8080-exec-3][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 13:56:13.984 WARN  [http-nio-8080-exec-10][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 13:56:17.324 WARN  [http-nio-8080-exec-6][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 13:56:17.324 WARN  [http-nio-8080-exec-8][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 13:56:17.324 WARN  [http-nio-8080-exec-9][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:56:21.026 WARN  [http-nio-8080-exec-8][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:56:21.048 WARN  [http-nio-8080-exec-2][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 13:56:21.063 WARN  [http-nio-8080-exec-5][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 13:56:41.851 WARN  [http-nio-8080-exec-4][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:56:42.556 WARN  [http-nio-8080-exec-2][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 13:56:42.556 WARN  [http-nio-8080-exec-1][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 13:56:42.556 WARN  [http-nio-8080-exec-8][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:57:07.465 WARN  [http-nio-8080-exec-3][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:57:07.953 WARN  [http-nio-8080-exec-4][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:57:07.953 WARN  [http-nio-8080-exec-2][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 13:57:07.957 WARN  [http-nio-8080-exec-10][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 13:57:37.127 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 13:57:37.240 INFO  [Refresh Thread: Equinox Container: cc210dec-290d-4fd5-8519-bb6e1ea16a09][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 13:58:10.181 WARN  [http-nio-8080-exec-8][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:58:10.288 WARN  [http-nio-8080-exec-4][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 13:58:10.345 WARN  [http-nio-8080-exec-3][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 13:58:10.401 WARN  [http-nio-8080-exec-7][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:59:13.291 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 13:59:13.395 INFO  [Refresh Thread: Equinox Container: cc210dec-290d-4fd5-8519-bb6e1ea16a09][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 13:59:18.570 WARN  [http-nio-8080-exec-10][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 13:59:18.635 WARN  [http-nio-8080-exec-5][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 13:59:18.635 WARN  [http-nio-8080-exec-9][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 13:59:18.721 WARN  [http-nio-8080-exec-10][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 14:01:19.669 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 14:01:19.768 INFO  [Refresh Thread: Equinox Container: cc210dec-290d-4fd5-8519-bb6e1ea16a09][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 14:01:26.992 WARN  [http-nio-8080-exec-10][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 14:01:27.053 WARN  [http-nio-8080-exec-7][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 14:01:27.058 WARN  [http-nio-8080-exec-4][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 14:06:47.782 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 14:06:47.907 INFO  [Refresh Thread: Equinox Container: cc210dec-290d-4fd5-8519-bb6e1ea16a09][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 14:07:58.597 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 14:07:58.698 INFO  [Refresh Thread: Equinox Container: cc210dec-290d-4fd5-8519-bb6e1ea16a09][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 14:09:54.851 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 14:09:54.965 INFO  [Refresh Thread: Equinox Container: cc210dec-290d-4fd5-8519-bb6e1ea16a09][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 14:10:50.604 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 14:10:50.706 INFO  [Refresh Thread: Equinox Container: cc210dec-290d-4fd5-8519-bb6e1ea16a09][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 14:58:41.054 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 14:58:41.150 INFO  [Refresh Thread: Equinox Container: cc210dec-290d-4fd5-8519-bb6e1ea16a09][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 15:00:22.237 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 15:00:22.364 INFO  [Refresh Thread: Equinox Container: cc210dec-290d-4fd5-8519-bb6e1ea16a09][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 15:00:28.893 WARN  [http-nio-8080-exec-3][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 15:00:28.893 WARN  [http-nio-8080-exec-2][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 15:00:28.895 WARN  [http-nio-8080-exec-6][code_jsp:161] {code="404", msg="ProxyServlet: /o/es.capgemini.proyecto.homecarousel.portlet/images/home-slider-1.jpg", uri=/o/es.capgemini.proyecto.homecarousel.portlet/images/home-slider-1.jpg}
+2022-11-22 15:02:48.838 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 15:02:48.935 INFO  [Refresh Thread: Equinox Container: cc210dec-290d-4fd5-8519-bb6e1ea16a09][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 15:03:01.308 WARN  [http-nio-8080-exec-7][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 15:03:01.310 WARN  [http-nio-8080-exec-7][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 15:03:01.318 WARN  [http-nio-8080-exec-8][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-1.jpg", uri=/o/wecanbs-theme/images/home-slider-1.jpg}
+2022-11-22 15:18:27.561 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:80] STOPPED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 15:18:27.656 INFO  [Refresh Thread: Equinox Container: cc210dec-290d-4fd5-8519-bb6e1ea16a09][BundleStartStopLogger:77] STARTED es.capgemini.proyecto.homecarousel.portlet_1.0.0 [1595]
+2022-11-22 15:19:39.278 WARN  [http-nio-8080-exec-2][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 15:19:39.286 WARN  [http-nio-8080-exec-5][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 15:37:03.340 WARN  [http-nio-8080-exec-6][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 15:37:03.340 WARN  [http-nio-8080-exec-8][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 15:39:55.619 WARN  [http-nio-8080-exec-6][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-2.jpg", uri=/o/wecanbs-theme/images/home-slider-2.jpg}
+2022-11-22 15:39:55.619 WARN  [http-nio-8080-exec-5][code_jsp:161] {code="404", msg="ProxyServlet: /o/wecanbs-theme/images/home-slider-3.jpg", uri=/o/wecanbs-theme/images/home-slider-3.jpg}
+2022-11-22 16:26:02.167 INFO  [main][ThemeHotDeployListener:171] 1 theme for wecanbs-theme was unregistered
+2022-11-22 16:26:02.205 INFO  [main][ThemeHotDeployListener:171] 1 theme for practica-theme was unregistered
+2022-11-22 16:26:02.223 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-11-22 16:26:02.245 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-11-22 16:26:02.268 INFO  [main][ThemeHotDeployListener:171] 1 theme for dialect-theme was unregistered
+2022-11-22 16:26:02.285 INFO  [main][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-11-22 16:26:02.302 INFO  [main][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered
